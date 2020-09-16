@@ -2,7 +2,7 @@
 544 = {	# 544 - Korsun
 	
 	# Misc
-	culture = russian
+	culture = polansian
 	religion = slavic_pagan
 	
 	#holding = castle_holding #Ahistorical? added to give the county a castle
@@ -23,7 +23,7 @@
 547 = {	# 547 - Kiev
 	
 	# Misc
-	culture = russian
+	culture = polansian
 	religion = slavic_pagan
 	
 	#holding = castle_holding
@@ -33,6 +33,7 @@
 	# History
 	989.9.15 = {
 		religion = orthodox
+		culture = russian
 	}
 
 }
@@ -41,7 +42,7 @@
 552 = {	# 552 - Turov
 	
 	# Misc
-	culture = russian
+	culture = polansian
 	religion = slavic_pagan
 	
 	#holding = castle_holding
@@ -51,6 +52,7 @@
 	# History
 	989.9.15 = {
 		religion = orthodox
+		culture = russian
 	}
 
 }
@@ -59,7 +61,7 @@
 553 = {	# 553 - Lyubech
 	
 	# Misc
-	culture = russian
+	culture = severian
 	religion = slavic_pagan
 	
 	#holding = castle_holding
@@ -67,6 +69,7 @@
 	# History
 	989.9.15 = {
 		religion = orthodox
+		culture = russian
 	}
 }
 
@@ -74,7 +77,7 @@
 554 = {	# 554 - Chernigov
 	
 	# Misc
-	culture = russian
+	culture = severian
 	religion = slavic_pagan
 	
 	#holding = castle_holding
@@ -82,6 +85,7 @@
 	# History
 	989.9.15 = {
 		religion = orthodox
+		culture = russian
 	}
 }
 
@@ -89,7 +93,7 @@
 555 = {	# 555 - Pereyaslavl
 	
 	# Misc
-	culture = russian
+	culture = severian
 	religion = slavic_pagan
 	
 	#holding = castle_holding
@@ -97,6 +101,7 @@
 	# History
 	989.9.15 = {
 		religion = orthodox
+		culture = russian
 	}
 }
 
@@ -104,7 +109,7 @@
 567 = {	# 567 - Novgorod Seversky
 	
 	# Misc
-	culture = russian
+	culture = severian
 	religion = slavic_pagan
 	
 	#holding = castle_holding
@@ -112,6 +117,7 @@
 	# History
 	989.9.15 = {
 		religion = orthodox
+		culture = russian
 	}
 }
 
@@ -119,7 +125,7 @@
 576 = {	# 576 - Debryansk (Bryansk)
 	
 	# Misc
-	culture = russian
+	culture = severian
 	religion = slavic_pagan
 	
 	holding = none
@@ -127,6 +133,7 @@
 	# History
 	989.9.15 = {
 		religion = orthodox
+		culture = russian
 	}
 	1146.1.1 = {
 		holding = city_holding
@@ -137,7 +144,7 @@
 5082 = {	# 5082 - Vyshgorod
 	
 	# Misc
-	culture = russian
+	culture = polansian
 	religion = slavic_pagan
 	
 	holding = city_holding
@@ -147,6 +154,7 @@
 	# History
 	989.9.15 = {
 		religion = orthodox
+		culture = russian
 	}
 
 }
@@ -155,7 +163,7 @@
 5083 = {	# 5083 - Bilhorod
 	
 	# Misc
-	culture = russian
+	culture = polansian
 	religion = slavic_pagan
 	
 	holding = none
@@ -168,6 +176,7 @@
 	}
 	989.9.15 = {
 		religion = orthodox
+		culture = russian
 	}
 
 }
@@ -176,7 +185,7 @@
 5084 = {	# 5084 - Yuriev
 	
 	# Misc
-	culture = russian
+	culture = polansian
 	religion = slavic_pagan
 	
 	holding = none
@@ -186,6 +195,7 @@
 	# History
 	989.9.15 = {
 		religion = orthodox
+		culture = russian
 	}
 	1032.1.1 = {
 		holding = church_holding
@@ -196,7 +206,7 @@
 5085 = {	# 5085 - Kaniv
 	
 	# Misc
-	culture = russian
+	culture = polansian
 	religion = slavic_pagan
 	
 	holding = none
@@ -206,6 +216,7 @@
 	# History
 	989.9.15 = {
 		religion = orthodox
+		culture = russian
 	}
 	1078.1.1 = {
 		holding = city_holding
@@ -217,7 +228,7 @@
 5086 = {	# 5086 - Zdvyzhen
 	
 	# Misc
-	culture = russian
+	culture = polansian
 	religion = slavic_pagan
 	
 	holding = none
@@ -227,6 +238,7 @@
 	# History
 	989.9.15 = {
 		religion = orthodox
+		culture = russian
 	}
 
 }
@@ -235,7 +247,7 @@
 5087 = {	# 5087 - Zhytomyr
 	
 	# Misc
-	culture = russian
+	culture = polansian
 	religion = slavic_pagan
 	
 	#holding = castle_holding
@@ -245,6 +257,7 @@
 	# History
 	989.9.15 = {
 		religion = orthodox
+		culture = russian
 	}
 
 }
@@ -253,7 +266,7 @@
 5088 = {	# 5088 - Mezhybozhe
 	
 	# Misc
-	culture = russian
+	culture = polansian
 	religion = slavic_pagan
 	
 	holding = none
@@ -273,7 +286,7 @@
 5089 = {	# 5089 - Rastovets
 	
 	# Misc
-	culture = russian
+	culture = polansian
 	religion = slavic_pagan
 	
 	holding = none
@@ -291,7 +304,7 @@
 5090 = {	# 5090 - Malaia Skivrka
 	
 	# Misc
-	culture = russian
+	culture = polansian
 	religion = slavic_pagan
 	
 	holding = none
@@ -309,7 +322,7 @@
 5091 = {	# 5091 - Zvyahel
 	
 	# Misc
-	culture = russian
+	culture = polansian
 	religion = slavic_pagan
 	
 	#holding = castle_holding
@@ -327,7 +340,7 @@
 5092 = {	# 5092 - Kolodiazhen
 	
 	# Misc
-	culture = russian
+	culture = polansian
 	religion = slavic_pagan
 	
 	holding = none
@@ -347,7 +360,7 @@
 5093 = {	# 5093 - Chortolisy
 	
 	# Misc
-	culture = russian
+	culture = polansian
 	religion = slavic_pagan
 	
 	holding = none
@@ -368,7 +381,7 @@
 5094 = {	# 5094 - Horodnytsia
 	
 	# Misc
-	culture = russian
+	culture = polansian
 	religion = slavic_pagan
 	
 	holding = none
@@ -386,7 +399,7 @@
 5095 = {	# 5095 - Chornobyl
 	
 	# Misc
-	culture = russian
+	culture = polansian
 	religion = slavic_pagan
 	
 	#holding = castle_holding
@@ -404,7 +417,7 @@
 5096 = {	# 5096 - Ivankiv
 	
 	# Misc
-	culture = russian
+	culture = polansian
 	religion = slavic_pagan
 	
 	holding = none
@@ -422,7 +435,7 @@
 5097 = {	# 5097 - Radynka
 	
 	# Misc
-	culture = russian
+	culture = polansian
 	religion = slavic_pagan
 	
 	holding = none
@@ -440,7 +453,7 @@
 5098 = {	# 5098 - Ushytsia
 	
 	# Misc
-	culture = russian
+	culture = volhynian
 	religion = slavic_pagan
 	
 	#holding = castle_holding
@@ -458,7 +471,7 @@
 5099 = {	# 5099 - Vinnytsia
 	
 	# Misc
-	culture = russian
+	culture = volhynian
 	religion = slavic_pagan
 	
 	holding = none
@@ -476,7 +489,7 @@
 5100 = {	# 5100 - Yampil
 	
 	# Misc
-	culture = russian
+	culture = volhynian
 	religion = slavic_pagan
 	
 	holding = none
@@ -494,7 +507,7 @@
 5101 = {	# 5101 - Haisyn
 	
 	# Misc
-	culture = russian
+	culture = polansian
 	religion = slavic_pagan
 	
 	holding = none
@@ -512,7 +525,7 @@
 5102 = {	# 5102 - Sarny
 	
 	# Misc
-	culture = russian
+	culture = polansian
 	religion = slavic_pagan
 	
 	holding = none
@@ -530,7 +543,7 @@
 5103 = {	# 5103 - Selo
 	
 	# Misc
-	culture = russian
+	culture = polansian
 	religion = slavic_pagan
 	
 	holding = none
@@ -548,7 +561,7 @@
 5104 = {	# 5104 - Korosten
 	
 	# Misc
-	culture = russian
+	culture = polansian
 	religion = slavic_pagan
 	
 	#holding = castle_holding
@@ -566,7 +579,7 @@
 5105 = {	# 5105 - Ovruch
 	
 	# Misc
-	culture = russian
+	culture = polansian
 	religion = slavic_pagan
 	
 	holding = none
@@ -587,7 +600,7 @@
 5106 = {	# 5106 - Mazyr
 	
 	# Misc
-	culture = russian
+	culture = polansian
 	religion = slavic_pagan
 	
 	holding = none
@@ -608,7 +621,7 @@
 5107 = {	# 5107 - Naroulia
 	
 	# Misc
-	culture = russian
+	culture = polansian
 	religion = slavic_pagan
 	
 	holding = none
@@ -626,7 +639,7 @@
 5108 = {	# 5108 - Lelchytsy
 	
 	# Misc
-	culture = russian
+	culture = polansian
 	religion = slavic_pagan
 	
 	holding = none
@@ -644,7 +657,7 @@
 5109 = {	# 5109 - Dubrovytsia
 	
 	# Misc
-	culture = russian
+	culture = polansian
 	religion = slavic_pagan
 	
 	#holding = castle_holding
@@ -662,7 +675,7 @@
 5110 = {	# 5110 - Stepan'
 	
 	# Misc
-	culture = russian
+	culture = polansian
 	religion = slavic_pagan
 	
 	holding = none
@@ -680,7 +693,7 @@
 5111 = {	# 5111 - Liubeshiv
 	
 	# Misc
-	culture = russian
+	culture = polansian
 	religion = slavic_pagan
 	
 	holding = none
@@ -698,7 +711,7 @@
 5178 = {	# 5178 - Boryspil
 	
 	# Misc
-	culture = russian
+	culture = severian
 	religion = slavic_pagan
 	
 	holding = none
@@ -716,7 +729,7 @@
 5179 = {	# 5179 - Priluk
 	
 	# Misc
-	culture = russian
+	culture = severian
 	religion = slavic_pagan
 	
 	holding = none
@@ -734,7 +747,7 @@
 5180 = {	# 5180 - Zolotonosha
 	
 	# Misc
-	culture = russian
+	culture = severian
 	religion = slavic_pagan
 	
 	holding = none
@@ -749,7 +762,7 @@
 5181 = {	# 5181 - Hradyzk
 	
 	# Misc
-	culture = russian
+	culture = severian
 	religion = slavic_pagan
 	
 	#holding = castle_holding
@@ -764,7 +777,7 @@
 5182 = {	# 5182 - Akhtyr
 	
 	# Misc
-	culture = russian
+	culture = severian
 	religion = slavic_pagan
 	
 	holding = none
@@ -782,7 +795,7 @@
 5183 = {	# 5183 - Myrhorod
 	
 	# Misc
-	culture = russian
+	culture = severian
 	religion = slavic_pagan
 	
 	holding = none
@@ -800,7 +813,7 @@
 5184 = {	# 5184 - Poltava
 	
 	# Misc
-	culture = russian
+	culture = severian
 	religion = slavic_pagan
 	
 	holding = none
@@ -818,7 +831,7 @@
 5185 = {	# 5185 - Romen
 	
 	# Misc
-	culture = russian
+	culture = severian
 	religion = slavic_pagan
 	
 	#holding = castle_holding
@@ -833,7 +846,7 @@
 5186 = {	# 5186 - Lokhrytsia
 	
 	# Misc
-	culture = russian
+	culture = severian
 	religion = slavic_pagan
 	
 	holding = none
@@ -848,7 +861,7 @@
 5187 = {	# 5187 - Nedryhailiv
 	
 	# Misc
-	culture = russian
+	culture = severian
 	religion = slavic_pagan
 	
 	holding = none
@@ -863,7 +876,7 @@
 5188 = {	# 5188 - Sumy
 	
 	# Misc
-	culture = russian
+	culture = severian
 	religion = slavic_pagan
 	
 	holding = none
@@ -878,7 +891,7 @@
 5189 = {	# 5189 - Voin'
 	
 	# Misc
-	culture = russian
+	culture = severian
 	religion = slavic_pagan
 	
 	#holding = castle_holding
@@ -893,7 +906,7 @@
 5190 = {	# 5190 - Lubny
 	
 	# Misc
-	culture = russian
+	culture = severian
 	religion = slavic_pagan
 	
 	holding = none
@@ -904,6 +917,7 @@
 	}
 	989.9.15 = {
 		religion = orthodox
+		culture = russian
 	}
 
 }
@@ -912,7 +926,7 @@
 5191 = {	# 5191 - Borzna
 	
 	# Misc
-	culture = russian
+	culture = severian
 	religion = slavic_pagan
 	
 	holding = none
@@ -920,6 +934,7 @@
 	# History
 	989.9.15 = {
 		religion = orthodox
+		culture = russian
 	}
 	1000.1.1 = {
 		holding = church_holding
@@ -930,7 +945,7 @@
 5192 = {	# 5192 - Glukhov
 	
 	# Misc
-	culture = russian
+	culture = severian
 	religion = slavic_pagan
 	
 	holding = none
@@ -948,7 +963,7 @@
 5193 = {	# 5193 - Putyvl
 	
 	# Misc
-	culture = russian
+	culture = severian
 	religion = slavic_pagan
 	
 	#holding = castle_holding
@@ -963,7 +978,7 @@
 5194 = {	# 5194 - Vyr'
 	
 	# Misc
-	culture = russian
+	culture = severian
 	religion = slavic_pagan
 	
 	holding = none
@@ -981,7 +996,7 @@
 5195 = {	# 5195 - Konotop
 	
 	# Misc
-	culture = russian
+	culture = severian
 	religion = slavic_pagan
 	
 	holding = none
@@ -996,7 +1011,7 @@
 5196 = {	# 5196 - Kursk
 	
 	# Misc
-	culture = russian
+	culture = vyatichian
 	religion = slavic_pagan
 	
 	#holding = castle_holding
@@ -1011,7 +1026,7 @@
 5197 = {	# 5197 - Rylsk
 	
 	# Misc
-	culture = russian
+	culture = vyatichian
 	religion = slavic_pagan
 	
 	holding = none
@@ -1029,7 +1044,7 @@
 5198 = {	# 5198 - Sudzha
 	
 	# Misc
-	culture = russian
+	culture = vyatichian
 	religion = slavic_pagan
 	
 	holding = none
@@ -1044,7 +1059,7 @@
 5199 = {	# 5199 - Oboyan
 	
 	# Misc
-	culture = russian
+	culture = vyatichian
 	religion = slavic_pagan
 	
 	holding = none
@@ -1059,7 +1074,7 @@
 5200 = {	# 5200 - Gomel
 	
 	# Misc
-	culture = russian
+	culture = severian
 	religion = slavic_pagan
 	
 	holding = none
@@ -1077,7 +1092,7 @@
 5201 = {	# 5201 - Unenezh
 	
 	# Misc
-	culture = russian
+	culture = severian
 	religion = slavic_pagan
 	
 	holding = none
@@ -1085,6 +1100,7 @@
 	# History
 	989.9.15 = {
 		religion = orthodox
+		culture = russian
 	}
 	1147.1.1 = {
 		holding = church_holding
@@ -1095,7 +1111,7 @@
 5202 = {	# 5202 - Surazichi
 	
 	# Misc
-	culture = russian
+	culture = severian
 	religion = slavic_pagan
 	
 	holding = none
@@ -1110,7 +1126,7 @@
 5203 = {	# 5203 - Starodub
 	
 	# Misc
-	culture = russian
+	culture = severian
 	religion = slavic_pagan
 	
 	#holding = castle_holding
@@ -1125,7 +1141,7 @@
 5204 = {	# 5204 - Trubetsk
 	
 	# Misc
-	culture = russian
+	culture = severian
 	religion = slavic_pagan
 	
 	holding = none
@@ -1143,7 +1159,7 @@
 5205 = {	# 5205 - Mglin
 	
 	# Misc
-	culture = russian
+	culture = severian
 	religion = slavic_pagan
 	
 	holding = none
@@ -1158,7 +1174,7 @@
 5206 = {	# 5206 - Sevsk
 	
 	# Misc
-	culture = russian
+	culture = vyatichian
 	religion = slavic_pagan
 	
 	#holding = castle_holding
@@ -1173,7 +1189,7 @@
 5207 = {	# 5207 - Ust-livny
 	
 	# Misc
-	culture = russian
+	culture = vyatichian
 	religion = slavic_pagan
 	
 	holding = none
@@ -1188,7 +1204,7 @@
 5208 = {	# 5208 - Lokot
 	
 	# Misc
-	culture = russian
+	culture = vyatichian
 	religion = slavic_pagan
 	
 	holding = none
@@ -1203,7 +1219,7 @@
 5209 = {	# 5209 - Karachev
 	
 	# Misc
-	culture = russian
+	culture = vyatichian
 	religion = slavic_pagan
 	
 	#holding = castle_holding
@@ -1218,7 +1234,7 @@
 5210 = {	# 5210 - Krom
 	
 	# Misc
-	culture = russian
+	culture = vyatichian
 	religion = slavic_pagan
 	
 	holding = none
@@ -1236,7 +1252,7 @@
 5211 = {	# 5211 - Oryol
 	
 	# Misc
-	culture = russian
+	culture = vyatichian
 	religion = slavic_pagan
 	
 	holding = none
@@ -1254,7 +1270,7 @@
 5212 = {	# 5212 - Kozelsk
 	
 	# Misc
-	culture = russian
+	culture = vyatichian
 	religion = slavic_pagan
 	
 	#holding = castle_holding
@@ -1269,7 +1285,7 @@
 5213 = {	# 5213 - Vorotynsk
 	
 	# Misc
-	culture = russian
+	culture = vyatichian
 	religion = slavic_pagan
 	
 	holding = none
@@ -1287,7 +1303,7 @@
 5214 = {	# 5214 - Belev
 	
 	# Misc
-	culture = russian
+	culture = vyatichian
 	religion = slavic_pagan
 	
 	holding = none
@@ -1315,7 +1331,7 @@
 		religion = orthodox
 	}
 	1050.1.1 = {
-		culture = russian
+		culture = severian
 	}
 }
 
@@ -1333,7 +1349,7 @@
 		religion = orthodox
 	}
 	1050.1.1 = {
-		culture = russian
+		culture = severian
 	}
 	1146.1.1 = {
 		holding = city_holding
@@ -1354,7 +1370,7 @@
 		religion = orthodox
 	}
 	1050.1.1 = {
-		culture = russian
+		culture = severian
 	}
 }
 
@@ -1372,7 +1388,7 @@
 		religion = orthodox
 	}
 	1050.1.1 = {
-		culture = russian
+		culture = severian
 	}
 }
 

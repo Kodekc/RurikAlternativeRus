@@ -33,7 +33,7 @@
 # 513 - Barlad
 513 = {	# 513 - Barlad
 	
-	culture = russian
+	culture = tiverian
 	religion = slavic_pagan
 	
 	#holding = castle_holding
@@ -49,7 +49,7 @@
 # 541 - Iasi
 541 = {	# 541 - Iasi
 	
-	culture = russian
+	culture = tiverian
 	religion = slavic_pagan
 	
 	#holding = castle_holding
@@ -65,7 +65,7 @@
 # 545 - Suceava
 545 = {	# 545 - Suceava
 	
-	culture = russian
+	culture = tiverian
 	religion = slavic_pagan
 	
 	#holding = castle_holding
@@ -178,7 +178,7 @@
 # 5017 - Lapusna
 5017 = {	# 5017 - Lapusna
 	
-	culture = russian
+	culture = tiverian
 	religion = slavic_pagan
 	
 	#holding = castle_holding
@@ -194,7 +194,7 @@
 # 5018 - Chisinau
 5018 = {	# 5018 - Chisinau
 	
-	culture = russian
+	culture = tiverian
 	religion = slavic_pagan
 	
 	holding = none
@@ -210,7 +210,7 @@
 # 5019 - Orhei
 5019 = {	# 5019 - Orhei
 	
-	culture = russian
+	culture = tiverian
 	religion = slavic_pagan
 	
 	#holding = castle_holding
@@ -242,7 +242,7 @@
 # 5021 - Soroca
 5021 = {	# 5021 - Soroca
 	
-	culture = russian
+	culture = tiverian
 	religion = slavic_pagan
 	
 	#holding = castle_holding
@@ -401,7 +401,7 @@
 # 5031 - Piatra Neamnt
 5031 = {	# 5031 - Piatra Neamnt
 	
-	culture = russian
+	culture = tiverian
 	religion = slavic_pagan
 	
 	#holding = castle_holding
@@ -417,7 +417,7 @@
 # 5032 - Targu Neamnt
 5032 = {	# 5032 - Targu Neamnt
 	
-	culture = russian
+	culture = tiverian
 	religion = slavic_pagan
 	
 	holding = none
@@ -520,7 +520,7 @@
 # 5038 - Dorohoi
 5038 = {	# 5038 - Dorohoi
 	
-	culture = russian
+	culture = tiverian
 	religion = slavic_pagan
 	
 	#holding = castle_holding
@@ -552,7 +552,7 @@
 # 5040 - Hotin
 5040 = {	# 5040 - Hotin
 	
-	culture = russian
+	culture = tiverian
 	religion = slavic_pagan
 	
 	#holding = castle_holding

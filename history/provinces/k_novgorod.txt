@@ -67,7 +67,7 @@
 5138 = {	# 5138 - Ladoga
 	
 	# Misc
-	culture = russian
+	culture = ilmenian
 	religion = slavic_pagan
 	
 	#holding = castle_holding
@@ -77,6 +77,7 @@
 	# History
 	989.9.15 = {
 		religion = orthodox
+		culture = russian
 	}
 }
 
@@ -84,7 +85,7 @@
 5139 = {	# 5139 - Lyuban
 	
 	# Misc
-	culture = russian
+	culture = ilmenian
 	religion = slavic_pagan
 	
 	holding = none
@@ -94,6 +95,7 @@
 	# History
 	989.9.15 = {
 		religion = orthodox
+		culture = russian
 	}
 }
 
@@ -101,7 +103,7 @@
 5140 = {	# 5140 - Soltsy
 	
 	# Misc
-	culture = russian
+	culture = ilmenian
 	religion = slavic_pagan
 	
 	holding = none
@@ -111,6 +113,7 @@
 	# History
 	989.9.15 = {
 		religion = orthodox
+		culture = russian
 	}
 }
 
@@ -118,7 +121,7 @@
 5141 = {	# 5141 - Luga
 	
 	# Misc
-	culture = russian
+	culture = ilmenian
 	religion = slavic_pagan
 	
 	holding = none
@@ -128,6 +131,7 @@
 	# History
 	989.9.15 = {
 		religion = orthodox
+		culture = russian
 	}
 }
 
@@ -135,7 +139,7 @@
 5142 = {	# 5142 - Pushkin
 	
 	# Misc
-	culture = russian
+	culture = ilmenian
 	religion = slavic_pagan
 	
 	holding = none
@@ -145,6 +149,7 @@
 	# History
 	989.9.15 = {
 		religion = orthodox
+		culture = russian
 	}
 }
 
@@ -152,7 +157,7 @@
 5143 = {	# 5143 - Rusa
 	
 	# Misc
-	culture = russian
+	culture = ilmenian
 	religion = slavic_pagan
 	
 	#holding = castle_holding
@@ -162,6 +167,7 @@
 	# History
 	989.9.15 = {
 		religion = orthodox
+		culture = russian
 	}
 }
 
@@ -169,7 +175,7 @@
 5144 = {	# 5144 - Dedovichi
 	
 	# Misc
-	culture = russian
+	culture = ilmenian
 	religion = slavic_pagan
 	
 	holding = none
@@ -179,6 +185,7 @@
 	# History
 	989.9.15 = {
 		religion = orthodox
+		culture = russian
 	}
 	1000.1.1 = {
 		holding = city_holding
@@ -189,7 +196,7 @@
 5145 = {	# 5145 - Loknya
 	
 	# Misc
-	culture = russian
+	culture = ilmenian
 	religion = slavic_pagan
 	
 	holding = none
@@ -199,6 +206,7 @@
 	# History
 	989.9.15 = {
 		religion = orthodox
+		culture = russian
 	}
 	1080.1.1 = {
 		holding = church_holding
@@ -209,7 +217,7 @@
 5146 = {	# 5146 - Pskov
 	
 	# Misc
-	culture = russian
+	culture = ilmenian
 	religion = slavic_pagan
 	
 	#holding = castle_holding
@@ -219,6 +227,7 @@
 	# History
 	989.9.15 = {
 		religion = orthodox
+		culture = russian
 	}
 }
 
@@ -226,7 +235,7 @@
 5147 = {	# 5147 - Izborsk
 	
 	# Misc
-	culture = russian
+	culture = ilmenian
 	religion = slavic_pagan
 	
 	holding = city_holding
@@ -236,6 +245,7 @@
 	# History
 	989.9.15 = {
 		religion = orthodox
+		culture = russian
 	}
 }
 
@@ -253,6 +263,7 @@
 	# History
 	989.9.15 = {
 		religion = orthodox
+		culture = russian
 	}
 }
 
@@ -270,6 +281,7 @@
 	# History
 	989.9.15 = {
 		religion = orthodox
+		culture = russian
 	}
 }
 
@@ -277,7 +289,7 @@
 5150 = {	# 5150 - Sebezh
 	
 	# Misc
-	culture = russian
+	culture = ilmenian
 	religion = slavic_pagan
 	
 	#holding = castle_holding
@@ -287,6 +299,7 @@
 	# History
 	989.9.15 = {
 		religion = orthodox
+		culture = russian
 	}
 }
 
@@ -294,7 +307,7 @@
 5151 = {	# 5151 - Nevel
 	
 	# Misc
-	culture = russian
+	culture = ilmenian
 	religion = slavic_pagan
 	
 	holding = none
@@ -304,6 +317,7 @@
 	# History
 	989.9.15 = {
 		religion = orthodox
+		culture = russian
 	}
 }
 
@@ -311,7 +325,7 @@
 5152 = {	# 5152 - Novorzhev
 	
 	# Misc
-	culture = russian
+	culture = ilmenian
 	religion = slavic_pagan
 	
 	holding = none
@@ -321,6 +335,7 @@
 	# History
 	989.9.15 = {
 		religion = orthodox
+		culture = russian
 	}
 }
 
@@ -338,6 +353,7 @@
 	# History
 	1150.1.1 = {
 		religion = orthodox
+		culture = russian
 	}
 }
 
@@ -468,7 +484,7 @@
 5161 = {	# 5161 - Luki
 	
 	# Misc
-	culture = russian
+	culture = ilmenian
 	religion = slavic_pagan
 	
 	#holding = castle_holding
@@ -485,7 +501,7 @@
 5162 = {	# 5162 - Kholm
 	
 	# Misc
-	culture = russian
+	culture = ilmenian
 	religion = slavic_pagan
 	
 	holding = none
@@ -505,7 +521,7 @@
 5163 = {	# 5163 - Seltsa u Nishi
 	
 	# Misc
-	culture = russian
+	culture = ilmenian
 	religion = slavic_pagan
 	
 	holding = none

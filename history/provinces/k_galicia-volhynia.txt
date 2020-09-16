@@ -2,7 +2,7 @@
 534 = {	# 534 - Peremyshl
 	
 	# Misc
-	culture = russian
+	culture = volhynian
 	religion = slavic_pagan
 	
 	#holding = castle_holding
@@ -20,7 +20,7 @@
 535 = {	# 535 - Volodymyr
 	
 	# Misc
-	culture = russian
+	culture = volhynian
 	religion = slavic_pagan
 	
 	#holding = castle_holding
@@ -38,7 +38,7 @@
 536 = {	# 536 - Halych
 	
 	# Misc
-	culture = russian
+	culture = volhynian
 	religion = slavic_pagan
 	
 	#holding = castle_holding
@@ -56,7 +56,7 @@
 546 = {	# 546 - Terebovl
 	
 	# Misc
-	culture = russian
+	culture = volhynian
 	religion = slavic_pagan
 	
 	#holding = castle_holding
@@ -74,7 +74,7 @@
 549 = {	# 549 - Berestye
 	
 	# Misc
-	culture = russian
+	culture = volhynian
 	religion = slavic_pagan
 	
 	#holding = castle_holding
@@ -92,7 +92,7 @@
 5047 = {	# 5047 - Lutsk
 	
 	# Misc
-	culture = russian
+	culture = volhynian
 	religion = slavic_pagan
 	
 	holding = city_holding
@@ -110,7 +110,7 @@
 5048 = {	# 5048 - Luboml
 	
 	# Misc
-	culture = russian
+	culture = volhynian
 	religion = slavic_pagan
 	
 	holding = none
@@ -128,7 +128,7 @@
 5049 = {	# 5049 - Kovel
 	
 	# Misc
-	culture = russian
+	culture = volhynian
 	religion = slavic_pagan
 	
 	holding = none
@@ -146,7 +146,7 @@
 5050 = {	# 5050 - Rozhyshche
 	
 	# Misc
-	culture = russian
+	culture = volhynian
 	religion = slavic_pagan
 	
 	holding = none
@@ -164,7 +164,7 @@
 5051 = {	# 5051 - Peresopnytsia
 	
 	# Misc
-	culture = russian
+	culture = volhynian
 	religion = slavic_pagan
 	
 	#holding = castle_holding
@@ -182,7 +182,7 @@
 5052 = {	# 5052 - Rivne
 	
 	# Misc
-	culture = russian
+	culture = volhynian
 	religion = slavic_pagan
 	
 	holding = none
@@ -200,7 +200,7 @@
 5053 = {	# 5033 - Klevan
 	
 	# Misc
-	culture = russian
+	culture = volhynian
 	religion = slavic_pagan
 	
 	holding = none
@@ -218,7 +218,7 @@
 5054 = {	# 5054 - Bielsk
 	
 	# Misc
-	culture = russian
+	culture = volhynian
 	religion = slavic_pagan
 	
 	holding = none
@@ -239,7 +239,7 @@
 5055 = {	# 5055 - Kamyanyets
 	
 	# Misc
-	culture = russian
+	culture = volhynian
 	religion = slavic_pagan
 	
 	holding = none
@@ -257,7 +257,7 @@
 5056 = {	# 5056 - Simiatychi
 	
 	# Misc
-	culture = russian
+	culture = volhynian
 	religion = slavic_pagan
 	
 	holding = none
@@ -275,7 +275,7 @@
 5057 = {	# 5057 - Dorohychyn
 	
 	# Misc
-	culture = russian
+	culture = volhynian
 	religion = slavic_pagan
 	
 	#holding = castle_holding
@@ -293,7 +293,7 @@
 5058 = {	# 5058 - Kobryn
 	
 	# Misc
-	culture = russian
+	culture = volhynian
 	religion = slavic_pagan
 	
 	holding = none
@@ -311,7 +311,7 @@
 5059 = {	# 5059 - Blotkowo
 	
 	# Misc
-	culture = russian
+	culture = volhynian
 	religion = slavic_pagan
 	
 	holding = none
@@ -329,7 +329,7 @@
 5060 = {	# 5060 - Sambir
 	
 	# Misc
-	culture = russian
+	culture = volhynian
 	religion = slavic_pagan
 	
 	holding = none
@@ -350,7 +350,7 @@
 5061 = {	# 5061 - Kolomyia
 	
 	# Misc
-	culture = russian
+	culture = volhynian
 	religion = slavic_pagan
 	
 	holding = none
@@ -368,7 +368,7 @@
 5062 = {	# 5062 - Spas
 	
 	# Misc
-	culture = russian
+	culture = volhynian
 	religion = slavic_pagan
 	
 	holding = none
@@ -386,7 +386,7 @@
 5063 = {	# 5063 - Lviv
 	
 	# Misc
-	culture = russian
+	culture = volhynian
 	religion = slavic_pagan
 	
 	#holding = castle_holding
@@ -404,7 +404,7 @@
 5064 = {	# 5064 - Zvenyhorod
 	
 	# Misc
-	culture = russian
+	culture = volhynian
 	religion = slavic_pagan
 	
 	holding = none
@@ -425,7 +425,7 @@
 5065 = {	# 5065 - Busk
 	
 	# Misc
-	culture = russian
+	culture = volhynian
 	religion = slavic_pagan
 	
 	holding = none
@@ -446,7 +446,7 @@
 5066 = {	# 5066 - Buchach
 	
 	# Misc
-	culture = russian
+	culture = volhynian
 	religion = slavic_pagan
 	
 	holding = none
@@ -464,7 +464,7 @@
 5067 = {	# 5067 - Moklekov
 	
 	# Misc
-	culture = russian
+	culture = volhynian
 	religion = slavic_pagan
 	
 	holding = none
@@ -482,7 +482,7 @@
 5068 = {	# 5068 - Horodok
 	
 	# Misc
-	culture = russian
+	culture = volhynian
 	religion = slavic_pagan
 	
 	holding = none
@@ -500,7 +500,7 @@
 5069 = {	# 5069 - Chortkiv
 	
 	# Misc
-	culture = russian
+	culture = volhynian
 	religion = slavic_pagan
 	
 	holding = none
@@ -518,7 +518,7 @@
 5070 = {	# 5070 - Zaslavl
 	
 	# Misc
-	culture = russian
+	culture = volhynian
 	religion = slavic_pagan
 	
 	#holding = castle_holding
@@ -536,7 +536,7 @@
 5071 = {	# 5071 - Dubno
 	
 	# Misc
-	culture = russian
+	culture = volhynian
 	religion = slavic_pagan
 	
 	holding = none
@@ -557,7 +557,7 @@
 5072 = {	# 5072 - Ostroh
 	
 	# Misc
-	culture = russian
+	culture = volhynian
 	religion = slavic_pagan
 	
 	holding = none
@@ -578,7 +578,7 @@
 5073 = {	# 5073 - Cherven
 	
 	# Misc
-	culture = russian
+	culture = volhynian
 	religion = slavic_pagan
 	
 	#holding = castle_holding
@@ -596,7 +596,7 @@
 5074 = {	# 5074 - Volin
 	
 	# Misc
-	culture = russian
+	culture = volhynian
 	religion = slavic_pagan
 	
 	holding = city_holding
@@ -614,7 +614,7 @@
 5075 = {	# 5075 - Kholm
 	
 	# Misc
-	culture = russian
+	culture = volhynian
 	religion = slavic_pagan
 	
 	holding = none
@@ -635,7 +635,7 @@
 5076 = {	# 5076 - Suteysk
 	
 	# Misc
-	culture = russian
+	culture = volhynian
 	religion = slavic_pagan
 	
 	holding = none
@@ -656,7 +656,7 @@
 5077 = {	# 5077 - Belz
 	
 	# Misc
-	culture = russian
+	culture = volhynian
 	religion = slavic_pagan
 	
 	#holding = castle_holding
@@ -674,7 +674,7 @@
 5078 = {	# 5078 - Liubachev
 	
 	# Misc
-	culture = russian
+	culture = volhynian
 	religion = slavic_pagan
 	
 	holding = none
@@ -692,7 +692,7 @@
 5079 = {	# 5079 - Yaroslav
 	
 	# Misc
-	culture = russian
+	culture = volhynian
 	religion = slavic_pagan
 	
 	holding = none
@@ -713,7 +713,7 @@
 5080 = {	# 5080 - Sanok
 	
 	# Misc
-	culture = russian
+	culture = volhynian
 	religion = slavic_pagan
 	
 	holding = none
@@ -734,7 +734,7 @@
 5081 = {	# 5081 - Lizhensk
 	
 	# Misc
-	culture = russian
+	culture = volhynian
 	religion = slavic_pagan
 	
 	holding = none

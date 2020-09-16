@@ -10,7 +10,7 @@
 # INTRIGUE OUTCOMES
 education_intrigue_1 = {
 	index = 1
-	minimum_age = 16
+	minimum_age = 14
 	intrigue = 2
 	education = yes
 	monthly_intrigue_lifestyle_xp_gain_mult = 0.1
@@ -32,7 +32,7 @@ education_intrigue_1 = {
 }
 education_intrigue_2 = {
 	index = 2
-	minimum_age = 16
+	minimum_age = 14
 	intrigue = 4
 	education = yes
 	monthly_intrigue_lifestyle_xp_gain_mult = 0.2
@@ -54,7 +54,7 @@ education_intrigue_2 = {
 }
 education_intrigue_3 = {
 	index = 3
-	minimum_age = 16
+	minimum_age = 14
 	intrigue = 6
 	education = yes
 	monthly_intrigue_lifestyle_xp_gain_mult = 0.3
@@ -76,7 +76,7 @@ education_intrigue_3 = {
 }
 education_intrigue_4 = {
 	index = 4
-	minimum_age = 16
+	minimum_age = 14
 	intrigue = 8
 	education = yes
 	monthly_intrigue_lifestyle_xp_gain_mult = 0.4
@@ -100,7 +100,7 @@ education_intrigue_4 = {
 # DIPLOMACY OUTCOMES
 education_diplomacy_1 = {
 	index = 5
-	minimum_age = 16
+	minimum_age = 14
 	diplomacy = 2
 	education = yes
 	monthly_diplomacy_lifestyle_xp_gain_mult = 0.1
@@ -122,7 +122,7 @@ education_diplomacy_1 = {
 }
 education_diplomacy_2 = {
 	index = 6
-	minimum_age = 16
+	minimum_age = 14
 	diplomacy = 4
 	education = yes
 	monthly_diplomacy_lifestyle_xp_gain_mult = 0.2
@@ -144,7 +144,7 @@ education_diplomacy_2 = {
 }
 education_diplomacy_3 = {
 	index = 7
-	minimum_age = 16
+	minimum_age = 14
 	diplomacy = 6
 	education = yes
 	monthly_diplomacy_lifestyle_xp_gain_mult = 0.3
@@ -166,7 +166,7 @@ education_diplomacy_3 = {
 }
 education_diplomacy_4 = {
 	index = 8
-	minimum_age = 16
+	minimum_age = 14
 	diplomacy = 8
 	education = yes
 	monthly_diplomacy_lifestyle_xp_gain_mult = 0.4
@@ -190,7 +190,7 @@ education_diplomacy_4 = {
 # STEWARDSHIP OUTCOMES
 education_stewardship_1 = { #Indulgent wastrel
 	index = 9
-	minimum_age = 16
+	minimum_age = 14
 	stewardship = 2
 	education = yes
 	monthly_stewardship_lifestyle_xp_gain_mult = 0.1
@@ -212,7 +212,7 @@ education_stewardship_1 = { #Indulgent wastrel
 }
 education_stewardship_2 = { #Thrifty clerk
 	index = 10
-	minimum_age = 16
+	minimum_age = 14
 	stewardship = 4
 	education = yes
 	monthly_stewardship_lifestyle_xp_gain_mult = 0.2
@@ -234,7 +234,7 @@ education_stewardship_2 = { #Thrifty clerk
 }
 education_stewardship_3 = {	#Fortune builder
 	index = 11
-	minimum_age = 16
+	minimum_age = 14
 	stewardship = 6
 	education = yes
 	monthly_stewardship_lifestyle_xp_gain_mult = 0.3
@@ -256,7 +256,7 @@ education_stewardship_3 = {	#Fortune builder
 }
 education_stewardship_4 = {
 	index = 12
-	minimum_age = 16
+	minimum_age = 14
 	stewardship = 8
 	education = yes
 	monthly_stewardship_lifestyle_xp_gain_mult = 0.4
@@ -280,7 +280,7 @@ education_stewardship_4 = {
 # MARTIAL OUTCOMES
 education_martial_1 = {
 	index = 13
-	minimum_age = 16
+	minimum_age = 14
 	martial = 2
 	education = yes
 	monthly_martial_lifestyle_xp_gain_mult = 0.1
@@ -304,7 +304,7 @@ education_martial_1 = {
 }
 education_martial_2 = { #Tough soldier
 	index = 14
-	minimum_age = 16
+	minimum_age = 14
 	martial = 4
 	education = yes
 	monthly_martial_lifestyle_xp_gain_mult = 0.2
@@ -327,7 +327,7 @@ education_martial_2 = { #Tough soldier
 }
 education_martial_3 = { #Skilled tactician
 	index = 15
-	minimum_age = 16
+	minimum_age = 14
 	martial = 6
 	education = yes
 	monthly_martial_lifestyle_xp_gain_mult = 0.3
@@ -350,7 +350,7 @@ education_martial_3 = { #Skilled tactician
 }
 education_martial_4 = { #Brilliant strategist
 	index = 16
-	minimum_age = 16
+	minimum_age = 14
 	martial = 8
 	education = yes
 	monthly_martial_lifestyle_xp_gain_mult = 0.4
@@ -375,7 +375,7 @@ education_martial_4 = { #Brilliant strategist
 # LEARNING OUTCOMES
 education_learning_1 = {
 	index = 17
-	minimum_age = 16
+	minimum_age = 14
 	learning = 2
 	education = yes
 	monthly_learning_lifestyle_xp_gain_mult = 0.1
@@ -397,7 +397,7 @@ education_learning_1 = {
 }
 education_learning_2 = {
 	index = 18
-	minimum_age = 16
+	minimum_age = 14
 	learning = 4
 	education = yes
 	monthly_learning_lifestyle_xp_gain_mult = 0.2
@@ -419,7 +419,7 @@ education_learning_2 = {
 }
 education_learning_3 = {
 	index = 19
-	minimum_age = 16
+	minimum_age = 14
 	learning = 6
 	education = yes
 	monthly_learning_lifestyle_xp_gain_mult = 0.3
@@ -441,7 +441,7 @@ education_learning_3 = {
 }
 education_learning_4 = {
 	index = 20
-	minimum_age = 16
+	minimum_age = 14
 	learning = 8
 	education = yes
 	monthly_learning_lifestyle_xp_gain_mult = 0.4
@@ -3037,7 +3037,7 @@ rowdy = {
 	
 	childhood = yes
 	minimum_age = 3
-	maximum_age = 15
+	maximum_age = 13
 	martial = 1
 	intrigue = 1
 
@@ -3078,7 +3078,7 @@ charming = {
 	
 	childhood = yes
 	minimum_age = 3
-	maximum_age = 15
+	maximum_age = 13
 	intrigue = 1
 	diplomacy = 1
 
@@ -3120,7 +3120,7 @@ curious = {
 	
 	childhood = yes
 	minimum_age = 3
-	maximum_age = 15
+	maximum_age = 13
 	diplomacy = 1
 	learning = 1
 
@@ -3161,7 +3161,7 @@ pensive = {
 	
 	childhood = yes
 	minimum_age = 3
-	maximum_age = 15
+	maximum_age = 13
 	learning = 1
 	stewardship = 1
 
@@ -3205,7 +3205,7 @@ bossy = {
 	
 	childhood = yes
 	minimum_age = 3
-	maximum_age = 15
+	maximum_age = 13
 	stewardship = 1
 	martial = 1
 
@@ -8212,7 +8212,7 @@ consecrated_blood = {
 
 education_martial_prowess_1 = {
 	index = 274
-	minimum_age = 16
+	minimum_age = 14
 	prowess = 1
 
 	group = education_martial_prowess
@@ -8233,7 +8233,7 @@ education_martial_prowess_1 = {
 
 education_martial_prowess_2 = {
 	index = 275
-	minimum_age = 16
+	minimum_age = 14
 	prowess = 2
 
 	group = education_martial_prowess
@@ -8254,7 +8254,7 @@ education_martial_prowess_2 = {
 
 education_martial_prowess_3 = {
 	index = 276
-	minimum_age = 16
+	minimum_age = 14
 	prowess = 3
 
 	group = education_martial_prowess
@@ -8275,7 +8275,7 @@ education_martial_prowess_3 = {
 
 education_martial_prowess_4 = {
 	index = 277
-	minimum_age = 16
+	minimum_age = 14
 	prowess = 4
 
 	group = education_martial_prowess

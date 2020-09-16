@@ -676,11 +676,136 @@ childhood_education.9001 = {
 	hidden = yes
 	immediate = {
 		add_character_flag = natural_education_progression
-		if = {
+		if = {			
 			limit = {
-				has_education_focus_trigger = no
+				NOT = { 
+					OR = {
+						any_parent = { is_ai = no }
+						any_relation = { 
+							is_ai = no
+							type = guardian
+						
+						}
+					}
+				}	
+			}						
+				
+			if = {
+				limit = {
+					has_education_focus_trigger = no
+				}
+				set_default_education = yes
 			}
-			set_default_education = yes
+
+		}
+		else_if  = {
+			limit = {
+				any_parent = { is_ai = no
+				save_temporary_scope_as = parenttemp
+				} 					
+			}
+
+			scope:parenttemp = {
+				save_scope_as = playerparent	
+			}
+			
+			save_scope_as = child
+			
+			scope:playerparent = {
+					trigger_event = childhood_education.9903
+			}				
+		}			
+		else_if  = {
+			limit = {
+				any_relation = { 
+					is_ai = no
+					type = guardian
+					save_temporary_scope_as = parenttemp
+				} 					
+			}
+
+			scope:parenttemp = {
+				save_scope_as = playerparent	
+			}
+			
+			save_scope_as = child
+			
+			scope:playerparent = {
+					trigger_event = childhood_education.9903
+			}				
+		}	
+	}
+}
+
+
+childhood_education.9903 = {
+
+	title = rus_mod_choosechildeducationevent.1001.t
+	desc = rus_mod_choosechildeducationevent.1001.desc
+	
+	left_portrait = {
+		character = scope:playerparent
+		animation = shame
+	}
+
+	right_portrait = {
+		character = scope:child
+		animation = shame
+	}
+	
+	theme = education
+
+	option = {
+		name = rus_mod_educationfocus.diplomacy
+		hidden_effect = {
+			scope:child = {
+				set_focus = education_diplomacy
+			}
+		}
+	}
+
+	option = {
+		name = rus_mod_educationfocus.martial
+		hidden_effect = {
+			scope:child = {
+				set_focus = education_martial
+			}
+		}
+	}
+	
+	option = {
+		name = rus_mod_educationfocus.steward
+		hidden_effect = {
+			scope:child = {
+				set_focus = education_stewardship
+			}
+		}
+	}
+	
+	option = {
+		name = rus_mod_educationfocus.intrigue
+		hidden_effect = {
+			scope:child = {
+				set_focus = education_intrigue
+			}
+		}
+	}
+	
+	option = {
+		name = rus_mod_educationfocus.learning
+		hidden_effect = {
+			scope:child = {
+				set_focus = education_learning
+			}
+		}
+	}
+
+	option = {
+		name = rus_mod_educationfocus.recommended
+		hidden_effect = {
+			scope:child = {
+				set_default_education = yes
+			}
 		}
 	}
 }

@@ -3,7 +3,7 @@
 childhood_personality_age = 3
 childhood_education_start_age = 6
 
-adulthood_start_age = 16
+adulthood_start_age = 14
 
 age_plus_10 = {
 	value = age

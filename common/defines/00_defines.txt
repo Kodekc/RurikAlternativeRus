@@ -138,9 +138,9 @@ NCharacter = {
 	TODDLER_AGE = 3
 	CHILDHOOD_AGE = 6
 	ADOLESCENCE_AGE = 12
-	MALE_ADULT_AGE = 16
-	FEMALE_ADULT_AGE = 16
-	BETROTHAL_TIMEOUT_AGE = 17
+	MALE_ADULT_AGE = 14
+	FEMALE_ADULT_AGE = 14
+	BETROTHAL_TIMEOUT_AGE = 15
 	MALE_ATTRACTION_CUTOFF_AGE = 65		# After this age, the attraction of traits no longer have any effect
 	FEMALE_ATTRACTION_CUTOFF_AGE = 50	# After this age, the attraction of traits no longer have any effect
 
@@ -192,7 +192,7 @@ NCharacter = {
 	FOCUS_CHILD_MAX_CHANGES = 1
 	FOCUS_ADULT_COOLDOWN_MONTHS = 60
 	
-	SKILL_SCALE_AGE = 16
+	SKILL_SCALE_AGE = 14
 	MAX_HEIR_TO_SHOWN = 4
 	MAX_PARENT_STEPS_FOR_HEIR = 6
 	MIN_HEIR_TO_FIND = 4
@@ -253,9 +253,9 @@ NOldAge = {
 
 NChildbirth = {
 	MIN_REPRODUCTION_AGE_IN_HISTORY_DB = 12 # If a historical parent is younger than this when their child is born, we log an error
-	MIN_FEMALE_REPRODUCTION_AGE = 16
+	MIN_FEMALE_REPRODUCTION_AGE = 14
 	MAX_FEMALE_REPRODUCTION_AGE = 45
-	MIN_MALE_REPRODUCTION_AGE = 16
+	MIN_MALE_REPRODUCTION_AGE = 14
 	BASE_NR_OF_CHILDREN_PER_COUPLE = { 1 1 2 3 5 5 } # Based on tier of character or parents; whichever is higher Unlanded, Baron, Count, ..., Emperor
 	CHANCE_OF_LOWERED_CHILD_LIMIT = 0.5	# Chance that the child limit is lowered by 1
 	EXTRA_CHILDREN_FOR_RULERS = 2 # If either character is a ruler, they get extra children
@@ -336,8 +336,8 @@ NChildbirth = {
 }
 
 NMarriage = {
-	AGE_OF_MARRIAGE_MALE = 16
-	AGE_OF_MARRIAGE_FEMALE = 16
+	AGE_OF_MARRIAGE_MALE = 14
+	AGE_OF_MARRIAGE_FEMALE = 14
 	MAX_ALLIANCE_FAMILY_DISTANCE_SUM = 4	# How far can the married characters be related (a sum of both distances) to the arrangers in order for the arrangers to get alliances.
 	LANDED_AI_DESCENDANTS_CANT_MARRY_YEARS = 10	# For how many years can't same-subrealm players' children and grandchildren marry after when they're landed
 
@@ -592,11 +592,11 @@ NScheme = {
 	DAYS_BETWEEN_AGENT_CHECKS_NORMAL = 100			# Rest of the time, check them this often to save performance
 	SECRECY_REVEAL_CHANCE = 0.1						# The reveal chance is computed by multiplying the secrecy by this value
 	DEFAULT_OWNER_DISCOVERY_CHANCE = 0.5			# Default chance of the scheme owner being discovered (vs. one of the agents) unless scripted otherwise in the scheme type
-	SCHEME_RESISTANCE_TIER_BARONY = 2.0				# Characters whose highest title is a barony title get this amount of resistance
-	SCHEME_RESISTANCE_TIER_COUNTY = 4.0				# Characters whose highest title is a county title get this amount of resistance
-	SCHEME_RESISTANCE_TIER_DUCHY = 8.0					# Characters whose highest title is a duchy title get this amount of resistance
-	SCHEME_RESISTANCE_TIER_KINGDOM = 16.0				# Characters whose highest title is a kingdom title get this amount of resistance
-	SCHEME_RESISTANCE_TIER_EMPIRE = 32.0				# Characters whose highest title is an empire title get this amount of resistance
+	SCHEME_RESISTANCE_TIER_BARONY = 6.0				# Characters whose highest title is a barony title get this amount of resistance
+	SCHEME_RESISTANCE_TIER_COUNTY = 12.0				# Characters whose highest title is a county title get this amount of resistance
+	SCHEME_RESISTANCE_TIER_DUCHY = 24.0					# Characters whose highest title is a duchy title get this amount of resistance
+	SCHEME_RESISTANCE_TIER_KINGDOM = 32.0				# Characters whose highest title is a kingdom title get this amount of resistance
+	SCHEME_RESISTANCE_TIER_EMPIRE = 64.0				# Characters whose highest title is an empire title get this amount of resistance
 	
 	STEPS_TO_PROGRESS = 10								# The number of times a scheme need to progress before completing
 	AGENT_POWER_RELATION_MULTIPLIER_SPYMASTER = 2.0		# The agents relation to the target

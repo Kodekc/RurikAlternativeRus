@@ -1,8 +1,8 @@
 ﻿l_russian:
  TITLE_NAME:0 "$NAME$"
- TITLE_TIERED_NAME:0 "$TIER|U$ владения $NAME$"
+ TITLE_TIERED_NAME:0 "$TIER|U$ $NAME$"
  TITLE_CLAN_TIERED_NAME:0 "$NAME$ $TIER|U$"
- TITLE_CLAN_TIERED_WITH_UNDERLYING_NAME:0 "$NAME$ $TIER|U$ #F ($TIER|U$ владения $BASE_NAME$) #!"
+ TITLE_CLAN_TIERED_WITH_UNDERLYING_NAME:0 "$NAME$ $TIER|U$ #F ($TIER|U$ $BASE_NAME$) #!"
  TITLE_TIER_AS_NAME:0 "$TIER|U$"
  # Custom (changed from default) title names:
  LOTHARINGIA:0 "$k_lotharingia$"
@@ -10782,7 +10782,7 @@
  b_vindhyachal:0 "Виндхьячал"
  b_vinitapura:0 "Винитапура"
  b_vinkovci:0 "Винковци"
- b_vinnytsia:0 "Веничя"
+ b_vinnytsia:0 "Винница" # rus mod fix
  b_vinukonda:0 "Винуконда"
  b_viraja:0 "Вираджа"
  b_virateshwar:0 "Виратешвар"
@@ -13231,8 +13231,8 @@
  c_miliez_adj:0 "Миличск"
  c_millau:0 "Мийо"
  c_millau_adj:0 "Мийоск"
- c_minsk:0 "Менск"
- c_minsk_adj:0 "Менск"
+ c_minsk:0 "Минск"
+ c_minsk_adj:0 "Минск"
  c_mithila:0 "Митхила"
  c_mithila_adj:0 "Митхильск"
  c_modena:0 "Модена"
@@ -15863,9 +15863,9 @@
  e_slavia:0 "Славия"
  e_slavia_adj:0 "Славянск"
  e_slavia_pre:0 "Славянск"
- e_russia:0 "Россия"
- e_russia_adj:0 "Российск"
- e_russia_pre:0 "Российск"
+ e_russia:0 "Великая Русь" #rus mod fix
+ e_russia_adj:0 "Реликороск" #rus mod fix
+ e_russia_pre:0 "Реликороск" #rus mod fix
  e_scandinavia:0 "Скандинавия"
  e_scandinavia_adj:0 "Скандинавск"
  e_scandinavia_pre:0 "Скандинавск"
@@ -16109,8 +16109,8 @@
  k_rus:0 "Русь"
  k_rus_adj:0 "Русск"
  k_rus_pre:0 "Русск"
- k_ruthenia:0 "Рутения"
- k_ruthenia_adj:0 "Рутенск"
+ k_ruthenia:0 "Киевская Русь" #rus mod fix
+ k_ruthenia_adj:0 "Киевск"
  k_sardinia:0 "Сардиния"
  k_sardinia_adj:0 "Сардинск"
  k_sapmi:0 "Сапми"
@@ -16168,9 +16168,9 @@
  k_ziyanids_adj:0 "Зийянидск"
  b_volkovysk:0 "Волковыск"
  b_bielastock:0 "Белосток"
- k_galicia-volhynia:0 "Галицкая Русь"
- c_volodymyr:0 "Владимир"
- b_volodymyr:0 "Владимир"
+ k_galicia-volhynia:0 "Малая Русь" #rus mod fix
+ c_volodymyr:0 "Владимир-Волынский" #rus mod fix
+ b_volodymyr:0 "Владимир-Волынский" #rus mod fix
  b_rozhyshche:0 "Рожище"
  c_peresopnytsia:0 "Пересопница"
  b_peresopnytsia:0 "Пересопница"
@@ -16265,7 +16265,7 @@
  b_lukoml:0 "Лукомль"
  c_novogrudok:0 "Новогрудок"
  c_novogrudok_adj:0 "Новогрудск"
- k_novgorod:0 "Новгород"
+ k_novgorod:0 "Северная Русь" #rus mod fix
  k_novgorod_adj:0 "Новгородск"
  b_ladoga:0 "Ладога"
  b_lyuban:0 "Любань"
@@ -16600,7 +16600,7 @@
  c_tula_adj:0 "Тульск"
  b_gorodets-meshchyorsky:0 "Городец-Мещерский"
  b_pavlovo:0 "Павлово"
- k_opolye:0 "Владимир"
+ k_opolye:0 "Владимирско-Суздальская Русь" #rus mod fix
  k_opolye_adj:0 "Владимирск"
  d_opolye:0 "Ополье"
  d_opolye_adj:0 "Опольевск"
@@ -16970,8 +16970,8 @@
  #Volga Bulgaria
  e_volga-ural:0 "Волга-Урал"
  e_volga-ural_adj:0 "Волго-Уральск"
- k_mordvinia:0 "Мордвиния"
- k_mordvinia_adj:0 "Мордвинск"
+ k_mordvinia:0 "Мордовия" #rus mod fix
+ k_mordvinia_adj:0 "Мордовск"
  k_permia:0 "Пермь Великая"
  k_permia_adj:0 "Пермск"
  k_bashkiria:0 "Башкирия"

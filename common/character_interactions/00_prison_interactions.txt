@@ -2411,7 +2411,7 @@ release_from_prison_interaction = {
 				scope:recipient = { ai_zeal <= 20 }
 				scope:demand_conversion = yes
 			}
-			add = -20
+			add = -40
 			desc = "CONVERSION_NEGATIVE_REASON"
 		}
 		modifier = {
@@ -2430,10 +2430,10 @@ release_from_prison_interaction = {
 							}
 						}
 					}
-					multiply = -1
+					multiply = -2
 				}
 				else = {
-					multiply = -2
+					multiply = -4
 				}
 			}
 			desc = "CONVERSION_NEGATIVE_REASON"

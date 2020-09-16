@@ -286,7 +286,7 @@ knights.0001 = {
 					}
 				}
 			}
-			100 = { # Wounded
+			80 = { # Wounded
 				trigger = {
 					NOT = {
 						has_trait_rank = {
@@ -373,7 +373,7 @@ knights.0001 = {
 					increase_wounds_effect = { REASON = fight }
 				}
 			}
-			40 = { # Maimed
+			20 = { # Maimed
 				trigger = {
 					NAND = {
 						has_trait = one_legged
@@ -471,7 +471,7 @@ knights.0001 = {
 					maimed_in_battle_effect = yes
 				}
 			}
-			30 = { # Killed
+			10 = { # Killed
 				modifier = {
 					factor = { # Prowess directly reduces chance of injury/death
 						value = 30 # Value at which 'immortality' happens

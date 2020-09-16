@@ -474,14 +474,6 @@ combat_event.1001 = {
 	scope = combat_side
 	hidden = yes
 
-	trigger = {
-		# Prisoners of war can only be taken during an actual war.
-		# Non-war battles (such as from engaging Hostile forces) do not take prisoners, since PoWs cannot be released on war end if there is no war!
-		side_primary_participant = {
-			is_at_war_with = root.enemy_side.side_primary_participant
-		}
-	}
-
 	immediate = {
 		# Save necessary scopes for later usage.
 		save_scope_as = winning_side
@@ -532,7 +524,7 @@ combat_event.1001 = {
 			enemy_side.side_commander = {
 				random_list = {
 					# No Effect
-					90 = {
+					70 = {
 						# Reduced risk for characters with the Stalwart Leader perk.
 						modifier = {
 							add = 100
@@ -548,11 +540,11 @@ combat_event.1001 = {
 						# Being stackwiped greatly increases the chance of capture.
 						modifier = {
 							scope:wipe = yes
-							factor = 0.20
+							factor = 0.01
 						}
 					}
 					# Captured in battle.
-					10 = {
+					30 = {
 						trigger = {
 							is_alive = yes
 						}
@@ -573,6 +565,12 @@ combat_event.1001 = {
 						modifier = {
 							factor = 2
 							has_trait = brave
+						}
+
+						# Being stackwiped greatly increases the chance of capture.
+						modifier = {
+							scope:wipe = yes
+							factor = 5
 						}
 
 						# Certain injuries increase the chances of being caught.
@@ -606,7 +604,7 @@ combat_event.1001 = {
 		enemy_side = {
 			every_side_knight = {
 				random_list = {
-					85 = { # Nothing Happens
+					70 = { # Nothing Happens
 						trigger = {
 							is_alive = yes
 						}
@@ -624,10 +622,10 @@ combat_event.1001 = {
 						# Being stackwiped greatly increases the chance of capture and/or death.
 						modifier = {
 							scope:wipe = yes
-							factor = 0.20
+							factor = 0.01
 						}
 					}
-					10 = { # Imprisonment
+					25 = { # Imprisonment
 						trigger = {
 							is_alive = yes
 						}
@@ -647,6 +645,11 @@ combat_event.1001 = {
 						modifier = {
 							factor = 0.5
 							has_trait = craven
+						}
+						# Being stackwiped greatly increases the chance of capture.
+						modifier = {
+							scope:wipe = yes
+							factor = 5
 						}
 						modifier = {
 							factor = 2

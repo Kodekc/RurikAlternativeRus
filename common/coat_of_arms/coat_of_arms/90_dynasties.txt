@@ -3945,13 +3945,12 @@ house_british_isles_brycheiniog = 200068
 
 705 = { # Rurikid # EE
 	pattern = "pattern_solid.dds"
-	color1 = "blue"
+	color1 = "white"
 	color2 = "yellow"
 	colored_emblem = {
-		texture = "ce_rurikid.dds"
-		color1 = "yellow"
-		color2 = "yellow"
-		instance = { position = { 0.5 0.5 } scale = { 1.0 1.0 }  }							
+		texture = "rus_mod_rurikid.dds"
+		color1 = "black"
+		color2 = "white"						
 	}											
 }
 

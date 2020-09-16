@@ -9,7 +9,7 @@
 	#Main Group
 	doctrine = doctrine_no_head
 	doctrine = doctrine_gender_male_dominated
-	doctrine = doctrine_pluralism_fundamentalist
+	doctrine = doctrine_pluralism_pluralistic
 	doctrine = doctrine_theocracy_temporal
 
 	#Marriage
@@ -19,15 +19,15 @@
 	doctrine = doctrine_consanguinity_cousins
 
 	#Crimes
-	doctrine = doctrine_homosexuality_crime
-	doctrine = doctrine_adultery_men_crime
-	doctrine = doctrine_adultery_women_crime
+	doctrine = doctrine_homosexuality_shunned
+	doctrine = doctrine_adultery_men_shunned
+	doctrine = doctrine_adultery_women_shunned
 	doctrine = doctrine_kinslaying_close_kin_crime
-	doctrine = doctrine_deviancy_crime
-	doctrine = doctrine_witchcraft_crime
+	doctrine = doctrine_deviancy_shunned
+	doctrine = doctrine_witchcraft_accepted
 
 	#Clerical Functions
-	doctrine = doctrine_clerical_function_recruitment
+	doctrine = doctrine_clerical_function_alms_and_pacification
 	doctrine = doctrine_clerical_gender_either
 	doctrine = doctrine_clerical_marriage_allowed
 	doctrine = doctrine_clerical_succession_temporal_appointment
@@ -207,7 +207,7 @@
 
 			doctrine = tenet_sanctity_of_nature
 			doctrine = tenet_ritual_celebrations
-			doctrine = tenet_communal_identity
+			doctrine = tenet_ritual_hospitality
 
 		}
 		#slavic_pagan_reformed = {

@@ -17,7 +17,7 @@
 	doctrine = doctrine_consanguinity_aunt_nephew_and_uncle_niece
 
 	#Crimes
-	doctrine = doctrine_homosexuality_shunned
+	doctrine = doctrine_homosexuality_crime
 	doctrine = doctrine_adultery_men_shunned
 	doctrine = doctrine_adultery_women_crime
 	doctrine = doctrine_kinslaying_close_kin_crime
@@ -558,7 +558,7 @@
 			doctrine = doctrine_divorce_disallowed
 
 			#Crimes
-			doctrine = doctrine_homosexuality_accepted
+			doctrine = doctrine_homosexuality_shunned
 			doctrine = doctrine_adultery_men_shunned
 			doctrine = doctrine_adultery_women_shunned
 
@@ -975,7 +975,7 @@
 
 			#Crimes
 			#Generally quite bad at enforcing religious dictats from Rome: many things are shunned, few things are criminal.
-			doctrine = doctrine_homosexuality_shunned
+			doctrine = doctrine_homosexuality_crime
 			doctrine = doctrine_adultery_men_shunned
 			doctrine = doctrine_adultery_women_shunned
 			doctrine = doctrine_kinslaying_shunned

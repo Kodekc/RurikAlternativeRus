@@ -47,7 +47,7 @@
 	}
 
 	ai_will_do = {
-		value = 1 # Always a good backup
+		value = 5 # Always a good backup
 	}
 }
 
@@ -72,6 +72,22 @@ task_court_politics = {
 				on_action = court_politics_setup
 				days = { 0 30 }
 			}
+		}
+	}
+
+	ai_will_do = {
+		value = 1
+		if = {
+			limit = {
+				scope:councillor = { diplomacy > mediocre_skill_rating }
+			}
+			value = 10
+		}
+		if = {
+			limit = {
+				scope:councillor = { diplomacy > high_skill_rating }
+			}
+			value = 100
 		}
 	}
 }
@@ -99,6 +115,22 @@ task_chivalry = {
 			}
 		}
 	}
+
+	ai_will_do = {
+		value = 1
+		if = {
+			limit = {
+				scope:councillor = { martial > mediocre_skill_rating }
+			}
+			value = 100
+		}
+		if = {
+			limit = {
+				scope:councillor = { martial > high_skill_rating }
+			}
+			value = 100
+		}
+	}
 }
 
 task_manage_domain = {
@@ -122,6 +154,22 @@ task_manage_domain = {
 				on_action = manage_domain_setup
 				days = { 0 30 }
 			}
+		}
+	}
+
+	ai_will_do = {
+		value = 1
+		if = {
+			limit = {
+				scope:councillor = { stewardship > mediocre_skill_rating }
+			}
+			value = 100
+		}
+		if = {
+			limit = {
+				scope:councillor = { stewardship > high_skill_rating }
+			}
+			value = 100
 		}
 	}
 }
@@ -149,6 +197,22 @@ task_court_intrigue = {
 			}
 		}
 	}
+
+	ai_will_do = {
+		value = 1
+		if = {
+			limit = {
+				scope:councillor = { intrigue > mediocre_skill_rating }
+			}
+			value = 100
+		}
+		if = {
+			limit = {
+				scope:councillor = { intrigue > high_skill_rating }
+			}
+			value = 100
+		}
+	}
 }
 
 task_patronage = {
@@ -172,6 +236,22 @@ task_patronage = {
 				on_action = patronage_setup
 				days = { 0 30 }
 			}
+		}
+	}
+
+	ai_will_do = {
+		value = 1
+		if = {
+			limit = {
+				scope:councillor = { learning > mediocre_skill_rating }
+			}
+			value = 100
+		}
+		if = {
+			limit = {
+				scope:councillor = { learning > high_skill_rating }
+			}
+			value = 100
 		}
 	}
 }

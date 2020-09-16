@@ -545,7 +545,7 @@ seduce_interaction = {
 		attracted_to_owner = yes
 		owner_attracted = yes
 	}
-	ai_frequency = 36
+	ai_frequency = 50
 
 	is_shown = {
 		#debug_only = yes
@@ -619,6 +619,7 @@ seduce_interaction = {
 	
 	ai_potential = {
 		is_adult = yes
+		has_trait = lustful
 		NOR = {
 			has_trait = celibate
 			has_trait = chaste
@@ -644,7 +645,7 @@ seduce_interaction = {
 	auto_accept = yes
 	
 	ai_will_do = {
-		base = 5
+		base = -100
 
 		modifier = {
 			add = -50
@@ -655,7 +656,7 @@ seduce_interaction = {
 		}
 		
 		modifier = {
-			add = 50
+			add = 175
 			scope:actor = {
 				has_focus = intrigue_temptation_focus
 			}
@@ -683,7 +684,7 @@ seduce_interaction = {
 		}
 		
 		modifier = { # Seducing your unmarried courtiers is good for producing bastards, which the AI will want to do if they have few heirs
-			add = 10
+			add = 0
 			scope:actor = {
 				any_child = {
 					count <= 1
@@ -700,14 +701,14 @@ seduce_interaction = {
 		}
 		
 		modifier = {
-			add = 30
+			add = 175
 			scope:actor = {
 				has_trait = lustful
 			}
 		}
 
 		modifier = { # ( ͡° ͜ʖ ͡°)
-			add = 50
+			add = 0
 			scope:actor = {
 				is_close_or_extended_family_of = scope:recipient
 				is_deviant_trigger = yes
@@ -721,7 +722,7 @@ seduce_interaction = {
 		}
 		
 		modifier = {
-			add = 25
+			add = 0
 			scope:actor = {
 				is_close_or_extended_family_of = scope:recipient
 				is_deviant_trigger = yes
@@ -735,7 +736,7 @@ seduce_interaction = {
 		}
 		
 		modifier = {
-			add = 50
+			add = 0
 			scope:actor = {
 				is_close_or_extended_family_of = scope:recipient
 				faith = { has_doctrine = tenet_divine_marriage }
@@ -743,7 +744,7 @@ seduce_interaction = {
 		}
 		
 		modifier = { # Seducing the spouse of your rival is good drama...
-			add = 25
+			add = 0
 			scope:recipient = {
 				exists = primary_spouse
 				primary_spouse = {
@@ -756,7 +757,7 @@ seduce_interaction = {
 		}
 		
 		modifier = {
-			add = -20
+			add = -200
 			scope:actor = {
 				NOR = {
 					has_trait = lustful
@@ -802,7 +803,7 @@ seduce_interaction = {
 		}
 
 		modifier = {
-			factor = 1.25
+			factor = 1.1
 			scope:recipient = {
 				number_of_personality_traits_in_common = {
 					target = scope:actor
@@ -812,7 +813,7 @@ seduce_interaction = {
 		}
 
 		modifier = {
-			factor = 1.5
+			factor = 1.25
 			scope:recipient = {
 				number_of_personality_traits_in_common = {
 					target = scope:actor
@@ -822,7 +823,7 @@ seduce_interaction = {
 		}
 
 		modifier = {
-			factor = 2
+			factor = 1.5
 			scope:recipient = {
 				number_of_personality_traits_in_common = {
 					target = scope:actor
@@ -832,7 +833,7 @@ seduce_interaction = {
 		}
 
 		modifier = {
-			factor = 1.5
+			factor = 1.2
 			scope:recipient = {
 				is_landed = yes
 			}
@@ -937,7 +938,7 @@ seduce_interaction = {
 		}
 		
 		modifier = { #
-			factor = 0.1
+			factor = 0
 			scope:recipient = {
 				is_ai = yes
 				has_trait = chaste

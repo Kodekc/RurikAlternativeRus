@@ -10,10 +10,9 @@
  SignjO_tr:0 "Сивар"
  # Titles
  e_russia:0 "Великая Русь"
- e_russia_adj:0 "Реликороск"
- e_russia_pre:0 "Реликороск"
+ e_russia_adj:0 "Великороск"
+ e_russia_pre:0 "Великороск"
  k_ruthenia:0 "Киевская Русь"
- k_galicia-volhynia:0 "Малая Русь"
  k_novgorod:0 "Северная Русь"
  k_opolye:0 "Владимирско-Суздальская Русь"
  k_mordvinia:0 "Мордовия"

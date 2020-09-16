@@ -1,0 +1,275 @@
+﻿# Accepted categories are: governments, cultures, culture_groups, faiths, religions
+# A Flavorization will apply if ALL specified categories have ANY of their entries
+# represented in the character/title
+# So for example:
+# governments = { feudal_government }
+# culture_groups = { mongolic_group central_germanic_group }
+# religions = { christianity_religion }
+# cultures = { norse }
+# faiths = { catholicism }
+# For this to apply a character MUST BE feudal, AND must also be EITHER altaic OR germanic
+# priority is used to determine priority, if they are the same then the LAST will be selected,
+# and honorifics will be prefered over landed titles. Default priority is 1
+# If a flavorization does not have a tier it can apply to all tiers of characters, too many non-tiered
+# flavorizations is bad for performance though, YOU HAVE BEEN WARNED!
+# 'top_liege = no' means that its the holder of the title causing the honorific that is tested for
+# the various categories, so for a prince it is the king that is tested, for a queen mother it is her son
+# if this is not specified ( or 'top_liege = yes' the default ) then it is the top liege of that character
+# that is tested, this means that most title flavor comes from the top liege of the title not the holder
+
+#sultan = { #Example
+#	gender = male
+#	special = holder
+#	tier = kingdom
+	#	governments = { feudal_government clan_government }
+#	religions = { islam_religion }
+#}
+
+#############################################
+### East Slavic titulature ###
+
+# Barony
+unoccupied_free_land = {
+	type = title
+	tier = barony
+	priority = 5
+}
+russian_barony_pogost = {
+	type = title
+	tier = barony
+	top_liege = no
+	priority = 8
+	holding = city_holding
+	governments = { republic_government }
+	culture_groups = { east_slavic_group }
+}
+russian_barony_ostrog = {
+	type = title
+	tier = barony
+	priority = 7
+	governments = { tribal_government }
+	culture_groups = { east_slavic_group }
+	religions = { slavic_religion }
+}
+russian_barony_village = {
+	type = title
+	tier = barony
+	priority = 7
+	governments = { tribal_government }
+	culture_groups = { east_slavic_group }
+	religions = { christianity_religion }
+}
+russian_barony_city = {
+	type = title
+	tier = barony
+	priority = 7
+	governments = { feudal_government }
+	culture_groups = { east_slavic_group }
+}
+russian_elder = {
+	type = character
+	special = holder
+	tier = barony
+	priority = 29
+	governments = { tribal_government }
+	culture_groups = { east_slavic_group }
+	religions = { slavic_religion }
+}
+russian_namestnik = {
+	type = character
+	special = holder
+	tier = barony
+	priority = 29
+	governments = { tribal_government }
+	culture_groups = { east_slavic_group }
+	religions = { christianity_religion }
+}
+russian_boyarin = {
+	type = character
+	gender = male
+	special = holder
+	tier = barony
+	priority = 29
+	governments = { feudal_government }
+	culture_groups = { east_slavic_group }
+}
+russian_boyarinya = {
+	type = character
+	gender = female
+	special = holder
+	tier = barony
+	priority = 29
+	governments = { feudal_government }
+	culture_groups = { east_slavic_group }
+}
+
+# Сounty
+russian_voivode = {
+	type = character
+	gender = male
+	special = holder
+	tier = county
+	priority = 30
+	governments = { tribal_government }
+	culture_groups = { east_slavic_group }
+}
+russian_leader = {
+	type = character
+	gender = female
+	special = holder
+	tier = county
+	priority = 30
+	governments = { tribal_government }
+	culture_groups = { east_slavic_group }
+}
+russian_votchina = {
+	type = title
+	tier = county
+	priority = 30
+	governments = { tribal_government }
+	culture_groups = { east_slavic_group }
+}
+russian_yknyaz = {
+	type = character
+	gender = male
+	special = holder
+	tier = county
+	priority = 40
+	governments = { feudal_government }
+	culture_groups = { east_slavic_group }
+}
+russian_yknyaginya = {
+	type = character
+	gender = female
+	special = holder
+	tier = county
+	priority = 40
+	governments = { feudal_government }
+	culture_groups = { east_slavic_group }
+}
+russian_yknyazhestvo = {
+	type = title
+	tier = county
+	priority = 40
+	governments = { feudal_government }
+	culture_groups = { east_slavic_group }
+}
+
+# Duchy
+russian_knyaz = {
+	type = character
+	gender = male
+	special = holder
+	tier = duchy
+	priority = 90
+	governments = { feudal_government tribal_government }
+	culture_groups = { east_slavic_group }
+}
+russian_knyaginya = {
+	type = character
+	gender = female
+	special = holder
+	tier = duchy
+	priority = 90
+	governments = { feudal_government tribal_government }
+	culture_groups = { east_slavic_group }
+}
+russian_knyazhestvo = {
+	type = title
+	tier = duchy
+	priority = 90
+	governments = { feudal_government tribal_government }
+	culture_groups = { east_slavic_group }
+}
+
+# Kingdom
+russian_kingdom_knyaz = {
+	type = character
+	gender = male
+	special = holder
+	tier = kingdom
+	priority = 120
+	governments = { feudal_government tribal_government }
+	culture_groups = { east_slavic_group }
+}
+russian_kingdom_knyaginya = {
+	type = character
+	gender = female
+	special = holder
+	tier = kingdom
+	priority = 120
+	governments = { feudal_government tribal_government }
+	culture_groups = { east_slavic_group }
+}
+russian_kingdom_knyazhestvo = {
+	type = title
+	tier = kingdom
+	priority = 120
+	governments = { feudal_government tribal_government }
+	culture_groups = { east_slavic_group }
+}
+
+# Empire
+russian_tsar = {
+	type = character
+	gender = male
+	special = holder
+	tier = empire
+	priority = 150
+	governments = { feudal_government }
+	culture_groups = { east_slavic_group }
+}
+russian_tsaritsa = {
+	type = character
+	gender = female
+	special = holder
+	tier = empire
+	priority = 150
+	governments = { feudal_government }
+	culture_groups = { east_slavic_group }
+}
+russian_tsardom = {
+	type = title
+	tier = empire
+	priority = 150
+	governments = { feudal_government }
+	culture_groups = { east_slavic_group }
+}
+
+# Other titles
+russian_prince = {
+	type = character
+	gender = male
+	special = ruler_child
+	tier = kingdom
+	culture_groups = { east_slavic_group }
+	priority = 35
+	top_liege = no
+}
+russian_princess = {
+	type = character
+	gender = female
+	special = ruler_child
+	tier = kingdom
+	culture_groups = { east_slavic_group }
+	priority = 35
+	top_liege = no
+}
+russian_empire_prince = {
+	type = character
+	gender = male
+	special = ruler_child
+	tier = empire
+	culture_groups = { east_slavic_group }
+	priority = 35
+	top_liege = no
+}
+russian_empire_princess = {
+	type = character
+	gender = female
+	special = ruler_child
+	tier = empire
+	culture_groups = { east_slavic_group }
+	priority = 35
+	top_liege = no
+}

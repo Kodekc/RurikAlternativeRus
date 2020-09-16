@@ -41,13 +41,13 @@ liege_lost_mongol_invasion_war = {
 }
 
 rejected_call_to_defensive_war = {
-	opinion = -20
-	years = 3
+	opinion = -60
+	years = 4
 }
 
 rejected_call_to_offensive_war = {
-	opinion = -10
-	years = 1
+	opinion = -30
+	years = 2
 }
 
 contributed_in_war = {

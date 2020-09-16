@@ -1,0 +1,6 @@
+﻿#############################################
+# CHARACTER NICKNAMES
+#############################################
+
+# Exclusively Historical Nicknames
+nick_dir = {} #antinorman rus mod

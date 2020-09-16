@@ -423,33 +423,33 @@
 	}
 }
 
-6871 = {
-	name = "Halfdan"
-	dynasty = 7516
-	religion = norse_pagan
-	culture = norse
-	father = 6811
-	mother = 6872
-	864.1.1 = {
-		birth = yes
-	}
-	890.1.1 = {
-		death = yes
-	}
-}
+#6871 = {
+#	name = "Halfdan"
+#	dynasty = 7516
+#	religion = norse_pagan
+#	culture = norse
+#	father = 6811
+#	mother = 6872
+#	864.1.1 = {
+#		birth = yes
+#	}
+#	890.1.1 = {
+#		death = yes
+#	}
+#}
 
-6872 = {
-	name = "Sif"
-	female = yes
-	religion = norse_pagan
-	culture = norse
-	847.1.1 = {
-		birth = yes
-	}
-	893.1.1 = {
-		death = yes
-	}
-}
+#6872 = {
+#	name = "Sif"
+#	female = yes
+#	religion = norse_pagan
+#	culture = norse
+#	847.1.1 = {
+#		birth = yes
+#	}
+#	893.1.1 = {
+#		death = yes
+#	}
+#}
 
 6873 = {
 	name = "AlfriT_"
@@ -579,124 +579,124 @@
 	}
 }
 
-40697 = {
- 	name = "Umila" #Fictional mother of Rurik
- 	female = yes
- 	religion = "norse_pagan"
-	culture = norse
-	803.1.1 = {
-		birth = yes
-	}
-	855.1.1 = {
-		death = yes
-	}
-}
+#40697 = {
+# 	name = "Umila" #Fictional mother of Rurik
+# 	female = yes
+# 	religion = "norse_pagan"
+#	culture = norse
+#	803.1.1 = {
+#		birth = yes
+#	}
+#	855.1.1 = {
+#		death = yes
+#	}
+#}
 
 
-302221 = { #Brother of Rurik Rurikd
-	name = "SignjO_tr"	#Sineus
-	dynasty = 705
-	religion = norse_pagan
-	culture = norse
-	trait = deceitful
-	trait = gregarious
-	trait = ambitious
-	mother = 40697
-	833.1.1 = {
-		birth = yes
-		effect = { give_nickname = nick_blue_snake }
-	}
-	862.1.2 = {
-		death = yes
-	}
-}
+#302221 = { #Brother of Rurik Rurikd
+#	name = "SignjO_tr"	#Sineus
+#	dynasty = 705
+#	religion = norse_pagan
+#	culture = norse
+#	trait = deceitful
+#	trait = gregarious
+#	trait = ambitious
+#	mother = 40697
+#	833.1.1 = {
+#		birth = yes
+#		effect = { give_nickname = nick_blue_snake }
+#	}
+#	862.1.2 = {
+#		death = yes
+#	}
+#}
 
-302222 = { #Brother of Rurik Rurikd
-	name = "T_O_rvar"		#Truvor
-	dynasty = 705
-	religion = norse_pagan
-	trait = just
-	trait = compassionate
-	trait = ambitious
-	mother = 40697
-	culture = norse
-	834.1.1 = {
-		birth = yes
-		effect = {
-			give_nickname = nick_the_loyal
-		}
-	}
-	862.1.2 = {
-		death = yes
-	}
-}
+#302222 = { #Brother of Rurik Rurikd
+#	name = "T_O_rvar"		#Truvor
+#	dynasty = 705
+#	religion = norse_pagan
+#	trait = just
+#	trait = compassionate
+#	trait = ambitious
+#	mother = 40697
+#	culture = norse
+#	834.1.1 = {
+#		birth = yes
+#		effect = {
+#			give_nickname = nick_the_loyal
+#		}
+#	}
+#	862.1.2 = {
+#		death = yes
+#	}
+#}
 
 
-40605 = {
-	name = "Rurik" # Rurik, legendary founder of Rus. Probably known as Hrörekr by his Norse contemporaries.
-	dna = 40605_rurik_rurikid
-	dynasty = 705
-	religion = "norse_pagan"
-	culture = norse
-	diplomacy = 12
-	martial = 8
-	stewardship = 8
-	intrigue = 6
-	learning = 3
-	trait = gregarious
-	trait = ambitious
-	trait = just
-	trait = intellect_good_1
-	trait = education_martial_4
-	trait = brave
-	mother = 40697
-	830.1.1 = {
-		birth = yes
-	}
-	866.1.1 = {
-		add_spouse = 6863
+#40605 = {
+#	name = "Rurik" # Rurik, legendary founder of Rus. Probably known as Hrörekr by his Norse contemporaries.
+#	dna = 40605_rurik_rurikid
+#	dynasty = 705
+#	religion = "norse_pagan"
+#	culture = norse
+#	diplomacy = 12
+#	martial = 8
+#	stewardship = 8
+#	intrigue = 6
+#	learning = 3
+#	trait = gregarious
+#	trait = ambitious
+#	trait = just
+#	trait = intellect_good_1
+#	trait = education_martial_4
+#	trait = brave
+#	mother = 40697
+#	830.1.1 = {
+#		birth = yes
+#	}
+#	866.1.1 = {
+#		add_spouse = 6863
+#
+#		effect = {
+#			give_nickname = nick_troublemaker
+#			add_gold = 500
+#		}
+#	}
+#	879.1.2 = {
+#		death = yes
+#	}
+#}
 
-		effect = {
-			give_nickname = nick_troublemaker
-			add_gold = 500
-		}
-	}
-	879.1.2 = {
-		death = yes
-	}
-}
-
-40606 = {
-	name = "Helgi"		#Oleg the Seer
-	dynasty = 705
-	religion = slavic_pagan
-	culture = norse
-	father = 40605 #Rurik (wasn't actually his son but his "kinsman" who ruled between Rurik and Rurik's son Yngvar)
-	diplomacy = 9
-	martial = 9
-	learning = 9
-	trait = intellect_good_1
-	trait = arrogant
-	trait = education_martial_3
-	trait = greedy
-	trait = stubborn
-	trait = legitimized_bastard #fiction
-	850.1.1 = {
-		birth = yes
-	}
-	866.1.1 = {
-		effect = {
-			give_nickname = nick_the_seer
-			random = {
-				chance = 33
-				give_witch_secret_or_trait_effect = yes
-			}
-		}
-	}	
-	912.1.1 = {
-		death = yes
-	}
-}
+#40606 = {
+#	name = "Helgi"		#Oleg the Seer
+#	dynasty = 705
+#	religion = slavic_pagan
+#	culture = norse
+#	father = 40605 #Rurik (wasn't actually his son but his "kinsman" who ruled between Rurik and Rurik's son Yngvar)
+#	diplomacy = 9
+#	martial = 9
+#	learning = 9
+#	trait = intellect_good_1
+#	trait = arrogant
+#	trait = education_martial_3
+#	trait = greedy
+#	trait = stubborn
+#	trait = legitimized_bastard #fiction
+#	850.1.1 = {
+#		birth = yes
+#	}
+#	866.1.1 = {
+#		effect = {
+#			give_nickname = nick_the_seer
+#			random = {
+#				chance = 33
+#				give_witch_secret_or_trait_effect = yes
+#			}
+#		}
+#	}	
+#	912.1.1 = {
+#		death = yes
+#	}
+#}
 
 41234 = {
 	name = "SigfriT_" #count of Guines
@@ -3997,50 +3997,50 @@
 	}
 }
 
-6811 = {
-	name = "Dyre" # Ruler of Kiev (Askold/Hoskuldr)
-	dynasty = 7516
-	religion = "norse_pagan"
-	culture = norse
-	martial = 9
-	diplomacy = 9
-	stewardship = 6
-	trait = cynical
-	trait = greedy
-	trait = gregarious
-	trait = education_diplomacy_4
-	trait = intellect_good_3
-	trait = bastard
-	trait = disinherited
-	father = 163112 # "Halfdan" # Ragnarsson 'Hvitserk', not certain. Other suggestion is Björn Ironside
-	845.1.1 = {
-		give_nickname = nick_the_stranger # Oskyldr -> Askold
-		birth = yes
-	}
-	863.1.1 = {
-		add_spouse = 6872
-	}
-	867.1.1 = {
-		effect = {
-			add_gold = 500
-			## TODO_CD: Check if these soldiers are for war or raiding, if raiding delete if war move to war histories.
-			#spawn_unit = {
-			#	province = 547
-			#	owner = ROOT
-			#	#leader = ROOT
-			#	troops = {
-			#		light_infantry = { 722 722 }
-			#		heavy_infantry = { 156 156 }
-			#		archers = { 200 200 }
-			#	}
-			#	attrition = 1.0
-			#}
-		}
-	}
-	882.1.1 = {
-		death = yes
-	}
-}
+#6811 = {
+#	name = "Dyre" # Ruler of Kiev (Askold/Hoskuldr)
+#	dynasty = 7516
+#	religion = "norse_pagan"
+#	culture = norse
+#	martial = 9
+#	diplomacy = 9
+#	stewardship = 6
+#	trait = cynical
+#	trait = greedy
+#	trait = gregarious
+#	trait = education_diplomacy_4
+#	trait = intellect_good_3
+#	trait = bastard
+#	trait = disinherited
+#	father = 163112 # "Halfdan" # Ragnarsson 'Hvitserk', not certain. Other suggestion is Björn Ironside
+#	845.1.1 = {
+#		give_nickname = nick_the_stranger # Oskyldr -> Askold
+#		birth = yes
+#	}
+#	863.1.1 = {
+#		add_spouse = 6872
+#	}
+#	867.1.1 = {
+#		effect = {
+#			add_gold = 500
+#			## TODO_CD: Check if these soldiers are for war or raiding, if raiding delete if war move to war histories.
+#			#spawn_unit = {
+#			#	province = 547
+#			#	owner = ROOT
+#			#	#leader = ROOT
+#			#	troops = {
+#			#		light_infantry = { 722 722 }
+#			#		heavy_infantry = { 156 156 }
+#			#		archers = { 200 200 }
+#			#	}
+#			#	attrition = 1.0
+#			#}
+#		}
+#	}
+#	882.1.1 = {
+#		death = yes
+#	}
+#}
 
 167649 = {
 	name = "Ingrid"

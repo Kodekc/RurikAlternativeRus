@@ -1,0 +1,261 @@
+﻿# Rus mod characters change (Autor: Kodeks)
+6811 = {
+	name = "Askold" # Ruler of Kiev
+	dynasty = 7516
+	religion = "slavic_pagan"
+	culture = russian
+	martial = 9
+	diplomacy = 8
+	stewardship = 6
+	trait = cynical
+	trait = trusting
+	trait = gregarious
+	trait = education_diplomacy_4
+	845.1.1 = {
+		give_nickname = nick_dir
+		birth = yes
+	}
+	863.1.1 = {
+		add_spouse = 6872
+	}
+	867.1.1 = {
+		effect = {
+			add_gold = 500
+			## TODO_CD: Check if these soldiers are for war or raiding, if raiding delete if war move to war histories.
+			#spawn_unit = {
+			#	province = 547
+			#	owner = ROOT
+			#	#leader = ROOT
+			#	troops = {
+			#		light_infantry = { 722 722 }
+			#		heavy_infantry = { 156 156 }
+			#		archers = { 200 200 }
+			#	}
+			#	attrition = 1.0
+			#}
+		}
+	}
+	882.1.1 = {
+		death = yes
+	}
+}
+
+6872 = {
+	name = "Anna"
+	female = yes
+	religion = slavic_pagan
+	culture = russian
+	847.1.1 = {
+		birth = yes
+	}
+	893.1.1 = {
+		death = yes
+	}
+}
+
+40605 = {
+	name = "Rurik" # Rurik, legendary founder of Rus. Presumably his homeland in sity Rerik (now in Germany). Was never Norman
+	dna = 40605_rurik_rurikid
+	dynasty = 705
+	religion = "slavic_pagan"
+	culture = russian
+	diplomacy = 12
+	martial = 8
+	stewardship = 8
+	intrigue = 6
+	learning = 3
+	trait = gregarious
+	trait = ambitious
+	trait = just
+	trait = brave
+	trait = intellect_good_1
+	trait = education_martial_4
+	father = 40698
+	mother = 40697
+	829.1.1 = {
+		birth = yes
+	}
+	854.1.8 = {
+		add_spouse = 40699
+
+		effect = {
+			add_gold = 500
+			add_prestige = -250
+		}
+	}
+	879.1.1 = {
+		death = yes
+	}
+}
+
+40606 = {
+	name = "Oleg"		#Oleg the Seer
+	dna = 40606_oleg_seer
+	dynasty = 705
+	religion = slavic_pagan
+	culture = ilmenian
+	diplomacy = 9
+	martial = 9
+	stewardship = 7
+	intrigue = 6
+	learning = 5
+	trait = chaste
+	trait = cynical
+	trait = stubborn
+	trait = celibate
+	trait = intellect_good_1
+	trait = education_martial_3
+	sexuality = asexual
+	father = 40700
+	848.1.1 = {
+		birth = yes
+	}
+	864.1.2 = {
+		add_pressed_claim = k_novgorod
+		add_pressed_claim = d_novgorod
+	}
+	866.1.1 = {
+		effect = {
+			give_nickname = nick_the_seer
+			random = {
+				chance = 33
+				give_witch_secret_or_trait_effect = yes
+			}
+		}
+	}	
+	912.1.1 = {
+		death = yes
+	}
+}
+
+40697 = {
+ 	name = "Umila" #Intended mother of Rurik
+ 	female = yes
+ 	religion = slavic_pagan
+	culture = polabian
+	803.1.1 = {
+		birth = yes
+	}
+	859.1.1 = {
+		death = yes
+	}
+}
+
+40698 = {
+ 	name = "Godslav" #Intended father of Rurik
+ 	religion = slavic_pagan
+	culture = polabian
+	801.1.1 = {
+		birth = yes
+	}
+	824.1.1 = {
+		add_spouse = 40697
+	}
+	850.1.2 = {
+		death = yes
+	}
+}
+
+40699 = {
+ 	name = "Efanda" #Intended wife of Rurik
+	dna = 40699_princess_efanda
+	female = yes
+	diplomacy = 6
+	martial = 5
+	stewardship = 7
+	intrigue = 4
+	learning = 8
+ 	religion = slavic_pagan
+	culture = ilmenian
+	trait = chaste
+	trait = just
+	trait = brave
+	trait = education_diplomacy_3
+	father = 40700
+	836.1.7 = {
+		birth = yes
+	}
+	882.1.2 = {
+		death = yes
+	}
+}
+
+40700 = {
+ 	name = "Gostomysl" #Intended father of Oleg and Efanda
+ 	religion = slavic_pagan
+	culture = ilmenian
+	trait = chaste
+	790.1.3 = {
+		birth = yes
+	}
+	858.1.6 = {
+		death = yes
+	}
+}
+
+302221 = { #Brother of Rurik Rurikd
+	name = "SignjO_tr"	#Sineus
+	dynasty = 705
+	religion = slavic_pagan
+	culture = polabian
+	trait = deceitful
+	trait = gregarious
+	trait = ambitious
+	father = 40698
+	mother = 40697
+	833.1.1 = {
+		birth = yes
+		effect = { give_nickname = nick_blue_snake }
+	}
+	862.1.2 = {
+		death = yes
+	}
+}
+
+302222 = { #Brother of Rurik Rurikd
+	name = "T_O_rvar"		#Truvor
+	dynasty = 705
+	religion = slavic_pagan
+	culture = polabian
+	trait = just
+	trait = compassionate
+	trait = ambitious
+	father = 40698
+	mother = 40697
+	834.1.1 = {
+		birth = yes
+		effect = {
+			give_nickname = nick_the_loyal
+		}
+	}
+	862.1.2 = {
+		death = yes
+	}
+}
+
+302219 = {
+	name = "Jaromir"
+	dynasty = 2001041	#Pskovych
+	religion = slavic_pagan
+	culture = ilmenian
+	831.7.23 = {
+		birth = 831.7.23
+	}
+	882.4.10 = {
+		death = 882.4.10
+	}
+}
+
+302220 = {
+	name = Boris
+	dynasty = 2001041	#Pskovych
+	religion = slavic_pagan
+	culture = ilmenian
+	father = 302219
+	854.11.2 = {
+		birth = 854.11.2
+	}
+	903.4.13 = {
+		death = 903.4.13
+	}
+}

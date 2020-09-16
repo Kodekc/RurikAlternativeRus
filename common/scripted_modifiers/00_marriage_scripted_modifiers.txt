@@ -478,7 +478,7 @@ marriage_ai_accept_modifier = {
 					limit = {
 						NOT = { is_vassal_of = scope:actor }
 					}
-					add = -15
+					add = -30
 				}
 			}
 		}

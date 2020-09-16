@@ -299,7 +299,7 @@
 	}
 	
 	ai_accept = {
-		base = 20
+		base = 0
 
 		modifier = {  # Refuse call against Heir
 			add = -1000
@@ -336,14 +336,34 @@
 		opinion_modifier = { # Opinion Factor
 			who = scope:recipient
 			opinion_target = scope:actor
-			multiplier = 1.0
+			multiplier = 1.5
+			desc = AI_OPINION_REASON
+		}
+		
+		opinion_modifier = { # Opinion Factor
+			trigger = {
+				scope:target.casus_belli.primary_attacker = scope:actor  
+			}		
+			who = scope:recipient
+			opinion_target = scope:target.casus_belli.primary_defender
+			multiplier = -1.0
+			desc = AI_OPINION_REASON
+		}
+	
+		opinion_modifier = { # Opinion Factor
+			trigger = {
+				scope:target.casus_belli.primary_defender = scope:actor 
+			}		
+			who = scope:recipient
+			opinion_target = scope:target.casus_belli.primary_attacker
+			multiplier = -0.5
 			desc = AI_OPINION_REASON
 		}
 
 		# Honor factor
 		ai_value_modifier = {
-			ai_honor = 1
-			min = 0
+			ai_honor = 1.0
+			min = -100
 		}
 
 		modifier = {  # Tends to join defensive wars
@@ -388,7 +408,7 @@
 		}
 
 		modifier = {  # Reluctant to attack another ally
-			add = -50
+			add = -70
 			scope:target.casus_belli.primary_attacker = scope:actor
 			scope:recipient = {
 				is_allied_to = scope:target.casus_belli.primary_defender
@@ -397,7 +417,7 @@
 		}
 
 		modifier = {  # Reluctant to defend against another ally
-			add = -25
+			add = -50
 			scope:target.casus_belli.primary_defender = scope:actor
 			scope:recipient = {
 				is_allied_to = scope:target.casus_belli.primary_attacker

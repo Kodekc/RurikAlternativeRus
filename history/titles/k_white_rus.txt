@@ -646,19 +646,11 @@ c_babruysk = {
 d_minsk = {
 	###Pre-Kievan Rus
 	825.12.3 = {
-		holder = 302209		#Fictional Krivichi
+		succession_laws = { veche_elective_succession_law }
 		government = tribal_government
-	}
-	864.2.23 = {
-		holder = 302212		#Fictional Krivichi
 	}
 	935.1.1 = {
 		government = feudal_government	#Ahistorical, just for ease of bookmarks.
-	}
-	
-	###Vladimir the great invades Minsk area
-	978.6.15 = {
-		holder = 0
 	}
 	
 	#Split of the possessions of Polotsk
@@ -692,12 +684,8 @@ c_minsk = {
 	
 	###Pre-Kievan Rus
 	825.12.3 = {
-		holder = 302209		#Fictional Krivichi
-		liege = d_minsk
+		holder = 302215		#Fictional Krivichi
 		government = tribal_government
-	}
-	864.2.23 = {
-		holder = 302212		#Fictional Krivichi
 	}
 	
 	###Kievan Rus', invasion by Vladimir the Great
@@ -753,7 +741,7 @@ c_orsha = {
 	###Pre-Kievan Rus
 	825.12.3 = {
 		holder = 302209		#Fictional Krivichi
-		liege = d_minsk
+		liege = d_polotsk
 		government = tribal_government
 	}
 	864.2.23 = {
@@ -812,9 +800,12 @@ c_orsha = {
 d_polotsk = {
 	800.1.2 = {
 		holder = 0
+		succession_laws = { veche_elective_succession_law }
 		government = tribal_government
 	}
-	
+	862.1.4 = {
+		holder = 302212
+	}
 	#Kievan Rus creation
 	987.1.2 = {
 		holder = 616		#Iziaslav I Vladimirovich
@@ -878,7 +869,7 @@ c_polotsk = {
 	###Pre-Kievan Rus
 	863.1.1 = {
 		holder = 302196		#Polochans
-		liege = 0
+		liege = d_polotsk
 		government = tribal_government
 	}
 	910.6.8 = {
@@ -954,7 +945,7 @@ c_lukoml = {
 	###Pre-Kievan Rus
 	825.12.3 = {
 		holder = 302209		#Fictional Krivichi
-		liege = d_minsk
+		liege = d_polotsk
 		government = tribal_government
 	}
 	864.2.23 = {
@@ -1028,7 +1019,7 @@ c_vitebsk = {
 	###Pre-Kievan Rus
 	825.12.3 = {
 		holder = 302209		#Fictional Krivichi
-		liege = d_minsk
+		liege = d_polotsk
 		government = tribal_government
 	}
 	864.2.23 = {
@@ -1161,7 +1152,7 @@ c_smolensk = {
 	###Pre-Kievan Rus
 	833.8.11 = {
 		holder = 302245		#Fictional Krivichi
-		liege = d_minsk
+		liege = d_polotsk
 		government = tribal_government
 	}
 	861.3.20 = {
@@ -1261,7 +1252,7 @@ c_gnezdovo = {
 	###Pre-Kievan Rus
 	833.8.11 = {
 		holder = 302245		#Fictional Krivichi
-		liege = d_minsk
+		liege = d_polotsk
 		government = tribal_government
 	}
 	861.3.20 = {
@@ -1546,7 +1537,7 @@ c_toropets = {
 	###Pre-Kievan Rus
 	833.8.11 = {
 		holder = 302245		#Fictional Krivichi
-		liege = d_minsk
+		liege = d_polotsk
 		government = tribal_government
 	}
 	861.3.20 = {

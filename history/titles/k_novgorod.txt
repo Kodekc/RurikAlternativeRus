@@ -1,6 +1,10 @@
 k_novgorod  = {
 	867.1.1 = { change_development_level = 0 }
 	1066.1.1 = { change_development_level = 2 }
+	
+	860.1.8 = {
+		succession_laws = { veche_elective_succession_law }
+	}
 }
 
 d_novgorod = {
@@ -10,6 +14,7 @@ d_novgorod = {
 	###Pre Kievan Rus
 	862.1.2 = {
 		holder = 40605	#Rurik
+		succession_laws = { veche_elective_succession_law }
 		liege = 0
 		government = tribal_government
 	}
@@ -885,6 +890,7 @@ d_vepsia = {
 	}
 	862.1.2 = {
 		holder = 40605	#Rurik
+		succession_laws = { veche_elective_succession_law }
 		liege = 0
 	}
 	879.1.2 = {
@@ -895,6 +901,12 @@ d_vepsia = {
 	}
 }
 
+d_luki = {
+	###Not created
+	860.1.2 = {
+		succession_laws = { veche_elective_succession_law }
+	}
+}
 
 c_beloozero = {
 	###Pre Kievan Rus

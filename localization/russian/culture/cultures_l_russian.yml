@@ -120,7 +120,7 @@
  #Central Germanic group
  central_germanic_group:0 "Центральногерманск"
  central_germanic_group_collective_noun:0 "Центральногерманские народы"
- german:0 "Герман"
+ german:0 "Германск" #rus mod fix
  german_collective_noun:0 "Немцы"
  lombard:0 "Ломбардск"
  lombard_collective_noun:0 "Ломбарды"
@@ -238,10 +238,10 @@
  #East Slavic group
  east_slavic_group:0 "Восточнославянск"
  east_slavic_group_collective_noun:0 "Восточные славяне"
- russian:0 "Русск"
+ russian:0 "Русинск" #rus mod fix
  russian_collective_noun:0 "Русь"
  ilmenian:0 "Ильменск"
- ilmenian_collective_noun:0 "Ильменские словене"
+ ilmenian_collective_noun:0 "Ильмены" #rus mod fix
  severian:0 "Северск"
  severian_collective_noun:0 "Северяне"
  volhynian:0 "Волынск"
@@ -413,8 +413,8 @@
  #West Slavic group
  west_slavic_group:0 "Западнославянск"
  west_slavic_group_collective_noun:0 "Западные славяне"
- pommeranian:0 "Померанск"
- pommeranian_collective_noun:0 "Померанцы"
+ pommeranian:0 "Поморянск" #rus mod fix
+ pommeranian_collective_noun:0 "Поморяне" #rus mod fix
  czech:0 "Чешск"
  czech_collective_noun:0 "Чехи"
  slovien:0 "Словенск"

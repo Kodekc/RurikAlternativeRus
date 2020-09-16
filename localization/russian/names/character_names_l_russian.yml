@@ -18159,7 +18159,7 @@
  Sigismund:0 "Сигизмунд"
  Sigmund:0 "Сигмунд"
  Signe:0 "Сигне"
- SignjO_tr:0 "Сигньот"
+ SignjO_tr:0 "Сивар" #rus mod fix
  Sigobert:0 "Сигоберт"
  Sigong:0 "Сыгун"
  Sigrid:0 "Сигрид"
@@ -18970,7 +18970,7 @@
  T_hyra:0 "Тюра"
  T_item:0 "Титем"
  T_jodhildr:0 "Тьодхильд"
- T_O_rvar:0 "Торвар"
+ T_O_rvar:0 "Трувор" #rus mod fix
  T_or:0 "Тор"
  T_ora:0 "Тора"
  T_orberg:0 "Торберг"

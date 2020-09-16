@@ -1,6 +1,4 @@
-﻿
-
-diplomacy_foreign_affairs_focus = {
+﻿diplomacy_foreign_affairs_focus = {
 	lifestyle = diplomacy_lifestyle
 	
 	modifier = {
@@ -13,16 +11,65 @@ diplomacy_foreign_affairs_focus = {
 	}
 
 	auto_selection_weight = {
-		value = 11
+		value = 10
 		if = {
 			limit = {
 				has_education_diplomacy_trigger = yes
 			}
-			add = 1989
+			add = 30
 		}
 		if = {
 			limit = {
 				has_trait = shy
+			}
+			multiply = 0
+		}
+		if = {
+			limit = {
+				has_trait = wrathful
+			}
+			multiply = 0.2
+		}
+		if = {
+			limit = {
+				has_trait = impatient
+			}
+			multiply = 0.2
+		}
+
+		if = {
+			limit = {
+				has_trait = arrogant
+			}
+			multiply = 0.2
+		}
+		if = {
+			limit = {
+				has_trait = deceitful
+			}
+			multiply = 2
+		}
+		if = {
+			limit = {
+				has_trait = craven
+			}
+			multiply = 0.1
+		}
+		if = {
+			limit = {
+				has_trait = gregarious
+			}
+			multiply = 2
+		}
+		if = {
+			limit = {
+				diplomacy > high_skill_rating
+			}
+			multiply = 1.2
+		}
+		if = {
+			limit = {
+				diplomacy < mediocre_skill_rating
 			}
 			multiply = 0
 		}
@@ -45,24 +92,60 @@ diplomacy_majesty_focus = {
 	}
 
 	auto_selection_weight = {
-		value = 11
+		value = 10
 		if = {
 			limit = {
 				has_education_diplomacy_trigger = yes
 			}
-			add = 1989
+			add = 30
 		}
 		if = {
 			limit = {
 				has_trait = arrogant
 			}
-			multiply = 5
+			multiply = 2
 		}
 		if = {
 			limit = {
 				has_trait = ambitious
 			}
 			multiply = 2
+		}
+		if = {
+			limit = {
+				has_trait = content
+			}
+			multiply = 0
+		}
+		if = {
+			limit = {
+				has_trait = shy
+			}
+			multiply = 0.2
+		}
+		if = {
+			limit = {
+				has_trait = gluttonous
+			}
+			multiply = 0.4
+		}
+		if = {
+			limit = {
+				has_trait = humble
+			}
+			multiply = 0.2
+		}
+		if = {
+			limit = {
+				diplomacy > high_skill_rating
+			}
+			multiply = 1.2
+		}
+		if = {
+			limit = {
+				diplomacy < mediocre_skill_rating
+			}
+			multiply = 0
 		}
 	}
 
@@ -83,12 +166,85 @@ diplomacy_family_focus = {
 	}
 
 	auto_selection_weight = {
-		value = 11
+		value = 10
 		if = {
 			limit = {
 				has_education_diplomacy_trigger = yes
 			}
-			add = 1989
+			add = 30
+		}
+		if = {
+			limit = {
+				has_trait = shy
+			}
+			multiply = 0.3
+		}
+		if = {
+			limit = {
+				has_trait = arrogant
+			}
+			multiply = 0.3
+		}
+		if = {
+			limit = {
+				has_trait = lustful
+			}
+			multiply = 0.5
+		}
+		if = {
+			limit = {
+				has_trait = vengeful
+			}
+			multiply = 0.3
+		}
+		if = {
+			limit = {
+				has_trait = wrathful
+			}
+			multiply = 0.3
+		}
+		if = {
+			limit = {
+				has_trait = sadistic
+			}
+			multiply = 0.3
+		}
+		if = {
+			limit = {
+				has_trait = calm
+			}
+			multiply = 2
+		}
+		if = {
+			limit = {
+				has_trait = humble
+			}
+			multiply = 1.5
+		}
+		if = {
+			limit = {
+				has_trait = lazy
+			}
+			multiply = 1.2
+		}
+		if = {
+			limit = {
+				diplomacy > high_skill_rating
+			}
+			multiply = 1.2
+		}
+		if = {
+			limit = {
+				diplomacy < mediocre_skill_rating
+			}
+			multiply = 0
+		}
+		
+		if = {
+			limit = {
+				has_government = theocracy_government
+			}
+			multiply = 0
 		}
 	}
 
@@ -108,12 +264,60 @@ martial_strategy_focus = {
 	}
 
 	auto_selection_weight = {
-		value = 11
+		value = 10
 		if = {
 			limit = {
 				has_education_martial_trigger = yes
 			}
-			add = 1989
+			add = 30
+		}
+		if = {
+			limit = {
+				has_trait = impatient
+			}
+			multiply = 0.5
+		}
+		if = {
+			limit = {
+				has_trait = patient
+			}
+			multiply = 1.1
+		}
+		if = {
+			limit = {
+				has_trait = brave
+			}
+			multiply = 1.5
+		}
+		if = {
+			limit = {
+				has_trait = craven
+			}
+			multiply = 0.1
+		}
+		if = {
+			limit = {
+				has_trait = lazy
+			}
+			multiply = 0.3
+		}
+		if = {
+			limit = {
+				has_trait = calm
+			}
+			multiply = 0.3
+		}
+		if = {
+			limit = {
+				martial > high_skill_rating
+			}
+			multiply = 1.2
+		}
+		if = {
+			limit = {
+				martial < mediocre_skill_rating
+			}
+			multiply = 0
 		}
 	}
 
@@ -135,12 +339,12 @@ martial_authority_focus = {
 	}
 
 	auto_selection_weight = {
-		value = 11
+		value = 10
 		if = {
 			limit = {
 				has_education_martial_trigger = yes
 			}
-			add = 1989
+			add = 30
 		}
 		if = {
 			limit = {
@@ -151,6 +355,55 @@ martial_authority_focus = {
 		if = {
 			limit = {
 				has_trait = shy
+			}
+			multiply = 0
+		}
+		if = {
+			limit = {
+				has_trait = craven
+			}
+			multiply = 0.2
+		}
+		if = {
+			limit = {
+				has_trait = calm
+			}
+			multiply = 0.4
+		}
+		if = {
+			limit = {
+				has_trait = just
+			}
+			multiply = 0.3
+		}
+		if = {
+			limit = {
+				has_trait = compassionate
+			}
+			multiply = 0.2
+		}
+
+		if = {
+			limit = {
+				has_trait = stubborn
+			}
+			multiply = 2
+		}
+		if = {
+			limit = {
+				has_trait = humble
+			}
+			multiply = 0.2
+		}
+		if = {
+			limit = {
+				martial > high_skill_rating
+			}
+			multiply = 1.2
+		}
+		if = {
+			limit = {
+				martial < mediocre_skill_rating
 			}
 			multiply = 0
 		}
@@ -174,18 +427,30 @@ martial_chivalry_focus = {
 	}
 
 	auto_selection_weight = {
-		value = 11
+		value = 10
 		if = {
 			limit = {
 				has_education_martial_trigger = yes
 			}
-			add = 1989
+			add = 30
 		}
 		if = {
 			limit = {
 				has_trait = brave
 			}
-			multiply = 5
+			multiply = 3
+		}
+		if = {
+			limit = {
+				prowess < mediocre_skill_rating
+			}
+			multiply = 0.2
+		}
+		if = {
+			limit = {
+				prowess < low_skill_rating
+			}
+			multiply = 0
 		}
 		if = {
 			limit = {
@@ -197,7 +462,49 @@ martial_chivalry_focus = {
 			limit = {
 				has_trait = chaste
 			}
-			multiply = 1.5
+			multiply = 2
+		}
+		if = {
+			limit = {
+				has_trait = craven
+			}
+			multiply = 0
+		}
+		if = {
+			limit = {
+				has_trait = deceitful
+			}
+			multiply = 0
+		}
+		if = {
+			limit = {
+				has_trait = arbitrary
+			}
+			multiply = 0.2
+		}
+		if = {
+			limit = {
+				has_trait = cynical
+			}
+			multiply = 0.2
+		}
+		if = {
+			limit = {
+				has_trait = calm
+			}
+			multiply = 0.2
+		}
+		if = {
+			limit = {
+				martial > high_skill_rating
+			}
+			multiply = 1.2
+		}
+		if = {
+			limit = {
+				martial < mediocre_skill_rating
+			}
+			multiply = 0
 		}
 	}
 
@@ -217,12 +524,12 @@ intrigue_skulduggery_focus = {
 	}
 
 	auto_selection_weight = {
-		value = 11
+		value = 10
 		if = {
 			limit = {
 				has_education_intrigue_trigger = yes
 			}
-			add = 1989
+			add = 30
 		}
 		if = {
 			limit = {
@@ -234,7 +541,13 @@ intrigue_skulduggery_focus = {
 			limit = {
 				has_trait = paranoid
 			}
-			multiply = 5
+			multiply = 3
+		}
+		if = {
+			limit = {
+				has_trait = lunatic
+			}
+			multiply = 3
 		}
 		if = {
 			limit = {
@@ -246,7 +559,37 @@ intrigue_skulduggery_focus = {
 			limit = {
 				has_trait = honest
 			}
-			multiply = 0.1
+			multiply = 0
+		}
+		if = {
+			limit = {
+				has_trait = just
+			}
+			multiply = 0
+		}
+		if = {
+			limit = {
+				has_trait = ambitious
+			}
+			multiply = 2
+		}
+		if = {
+			limit = {
+				has_trait = craven
+			}
+			multiply = 2
+		}
+		if = {
+			limit = {
+				intrigue > high_skill_rating
+			}
+			multiply = 1.1
+		}
+		if = {
+			limit = {
+				intrigue < mediocre_skill_rating
+			}
+			multiply = 0
 		}
 	}
 
@@ -268,25 +611,70 @@ intrigue_temptation_focus = {
 	}
 
 	auto_selection_weight = {
-		value = 11
+		value = 10
 		if = {
 			limit = {
 				has_education_intrigue_trigger = yes
 			}
-			add = 1989
+			add = 30
 		}
 		if = {
 			limit = {
 				has_trait = lustful
 			}
-			multiply = 7
+			multiply = 2
 		}
 		if = {
 			limit = {
 				OR = {
 					has_trait = celibate
 					has_trait = chaste
+					has_trait = shy
+					has_trait = craven
 				}
+			}
+			multiply = 0
+		}
+		if = {
+			limit = {
+				has_trait = honest
+			}
+			multiply = 0.1
+		}
+		if = {
+			limit = {
+				has_trait = content
+			}
+			multiply = 0.2
+		}
+		if = {
+			limit = {
+				has_trait = temperate
+			}
+			multiply = 0.2
+		}
+
+		if = {
+			limit = {
+				has_trait = deceitful
+			}
+			multiply = 1.2
+		}
+		if = {
+			limit = {
+				has_trait = just
+			}
+			multiply = 0.1
+		}
+		if = {
+			limit = {
+				intrigue > high_skill_rating
+			}
+			multiply = 1.1
+		}
+		if = {
+			limit = {
+				intrigue < mediocre_skill_rating
 			}
 			multiply = 0
 		}
@@ -309,18 +697,24 @@ intrigue_intimidation_focus = {
 	}
 
 	auto_selection_weight = {
-		value = 11
+		value = 10
 		if = {
 			limit = {
 				has_education_intrigue_trigger = yes
 			}
-			add = 1989
+			add = 30
 		}
 		if = {
 			limit = {
 				has_trait = callous
 			}
-			multiply = 3
+			multiply = 2
+		}
+		if = {
+			limit = {
+				vassal_count >=10
+			}
+			multiply = 2
 		}
 		if = {
 			limit = {
@@ -336,11 +730,35 @@ intrigue_intimidation_focus = {
 		}
 		if = {
 			limit = {
+				has_trait = humble
+			}
+			multiply = 0.3
+		}
+		if = {
+			limit = {
+				has_trait = content
+			}
+			multiply = 0.3
+		}
+		if = {
+			limit = {
 				OR = {
 					has_trait = craven
 					has_trait = compassionate
 					has_trait = forgiving
 				}
+			}
+			multiply = 0
+		}
+		if = {
+			limit = {
+				intrigue > high_skill_rating
+			}
+			multiply = 1.1
+		}
+		if = {
+			limit = {
+				intrigue < mediocre_skill_rating
 			}
 			multiply = 0
 		}
@@ -362,22 +780,52 @@ stewardship_wealth_focus = {
 	}
 
 	auto_selection_weight = {
-		value = 11
+		value = 10
 		if = {
 			limit = {
 				has_education_stewardship_trigger = yes
 			}
-			add = 1989
+			add = 30
 		}
 		if = {
 			limit = {
 				has_trait = greedy
 			}
-			multiply = 5
+			multiply = 2
 		}
 		if = {
 			limit = {
 				has_trait = generous
+			}
+			multiply = 0
+		}
+		if = {
+			limit = {
+				has_trait = just
+			}
+			multiply = 0.2
+		}
+		if = {
+			limit = {
+				has_trait = arbitrary
+			}
+			multiply = 1.2
+		}
+		if = {
+			limit = {
+				has_trait = compassionate
+			}
+			multiply = 0.1
+		}
+		if = {
+			limit = {
+				stewardship > high_skill_rating
+			}
+			multiply = 1.1
+		}
+		if = {
+			limit = {
+				stewardship < mediocre_skill_rating
 			}
 			multiply = 0
 		}
@@ -399,18 +847,60 @@ stewardship_domain_focus = {
 	}
 
 	auto_selection_weight = {
-		value = 11
+		value = 10
 		if = {
 			limit = {
 				has_education_stewardship_trigger = yes
 			}
-			add = 1989
+			add = 30
 		}
 		if = {
 			limit = {
 				has_trait = diligent
 			}
 			multiply = 2
+		}
+		if = {
+			limit = {
+				has_trait = just
+			}
+			multiply = 1.4
+		}
+		if = {
+			limit = {
+				has_trait = lazy
+			}
+			multiply = 0.1
+		}
+		if = {
+			limit = {
+				has_trait = impatient
+			}
+			multiply = 0.1
+		}
+		if = {
+			limit = {
+				has_trait = calm
+			}
+			multiply = 1.2
+		}
+		if = {
+			limit = {
+				has_trait = temperate
+			}
+			multiply = 2
+		}
+		if = {
+			limit = {
+				stewardship > high_skill_rating
+			}
+			multiply = 1.1
+		}
+		if = {
+			limit = {
+				stewardship < mediocre_skill_rating
+			}
+			multiply = 0
 		}
 	}
 
@@ -431,18 +921,54 @@ stewardship_duty_focus = {
 	}
 
 	auto_selection_weight = {
-		value = 11
+		value = 10
 		if = {
 			limit = {
 				has_education_stewardship_trigger = yes
 			}
-			add = 1989
+			add = 30
 		}
 		if = {
 			limit = {
 				has_trait = just
 			}
-			multiply = 5
+			multiply = 2
+		}
+		if = {
+			limit = {
+				has_trait = lazy
+			}
+			multiply = 0.1
+		}
+		if = {
+			limit = {
+				has_trait = impatient
+			}
+			multiply = 0.1
+		}
+		if = {
+			limit = {
+				has_trait = calm
+			}
+			multiply = 1.2
+		}
+		if = {
+			limit = {
+				has_trait = craven
+			}
+			multiply = 1.2
+		}
+		if = {
+			limit = {
+				stewardship > high_skill_rating
+			}
+			multiply = 1.1
+		}
+		if = {
+			limit = {
+				stewardship < mediocre_skill_rating
+			}
+			multiply = 0
 		}
 	}
 
@@ -463,12 +989,54 @@ learning_medicine_focus = {
 	}
 
 	auto_selection_weight = {
-		value = 11
+		value = 10
 		if = {
 			limit = {
 				has_education_learning_trigger = yes
 			}
-			add = 1989
+			add = 30
+		}
+		if = {
+			limit = {
+				has_trait = lazy
+			}
+			multiply = 0.1
+		}
+		if = {
+			limit = {
+				has_trait = impatient
+			}
+			multiply = 0.1
+		}
+		if = {
+			limit = {
+				has_trait = arrogant
+			}
+			multiply = 0.1
+		}
+		if = {
+			limit = {
+				has_trait = content
+			}
+			multiply = 0.5
+		}
+		if = {
+			limit = {
+				has_trait = cynical
+			}
+			multiply = 0.3
+		}
+		if = {
+			limit = {
+				learning > high_skill_rating
+			}
+			multiply = 1.1
+		}
+		if = {
+			limit = {
+				learning < mediocre_skill_rating
+			}
+			multiply = 0
 		}
 	}
 
@@ -489,12 +1057,60 @@ learning_scholarship_focus = {
 	}
 
 	auto_selection_weight = {
-		value = 11
+		value = 10
 		if = {
 			limit = {
 				has_education_learning_trigger = yes
 			}
-			add = 1989
+			add = 30
+		}
+		if = {
+			limit = {
+				has_trait = lazy
+			}
+			multiply = 0.1
+		}
+		if = {
+			limit = {
+				has_trait = impatient
+			}
+			multiply = 0.1
+		}
+		if = {
+			limit = {
+				has_trait = arrogant
+			}
+			multiply = 0.1
+		}
+		if = {
+			limit = {
+				has_trait = arbitrary
+			}
+			multiply = 0.3
+		}
+		if = {
+			limit = {
+				has_trait = content
+			}
+			multiply = 0.5
+		}
+		if = {
+			limit = {
+				has_trait = zealous
+			}
+			multiply = 0.2
+		}
+		if = {
+			limit = {
+				learning > high_skill_rating
+			}
+			multiply = 1.1
+		}
+		if = {
+			limit = {
+				learning < mediocre_skill_rating
+			}
+			multiply = 0
 		}
 	}
 
@@ -515,24 +1131,54 @@ learning_theology_focus = {
 	}
 
 	auto_selection_weight = {
-		value = 11
+		value = 10
 		if = {
 			limit = {
 				has_education_learning_trigger = yes
 			}
-			add = 1989
+			add = 30
 		}
 		if = {
 			limit = {
 				has_trait = zealous
 			}
-			multiply = 5
+			multiply = 2
+		}
+		if = {
+			limit = {
+				has_government = theocracy_government
+			}
+			multiply = 10
 		}
 		if = {
 			limit = {
 				has_trait = cynical
 			}
 			multiply = 0
+		}
+		if = {
+			limit = {
+				has_trait = arrogant
+			}
+			multiply = 0.1
+		}
+		if = {
+			limit = {
+				learning > high_skill_rating
+			}
+			multiply = 1.1
+		}
+		if = {
+			limit = {
+				learning < mediocre_skill_rating
+			}
+			multiply = 0
+		}
+		if = {
+			limit = {
+				learning < high_skill_rating
+			}
+			multiply = 0.5
 		}
 	}
 

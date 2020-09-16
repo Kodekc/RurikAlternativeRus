@@ -12,7 +12,7 @@ feudal_government_taxes = {
 			vassal_opinion = 10
 
 			ai_liege_desire = 1
-			ai_vassal_desire = 5
+			ai_vassal_desire = 20
 		}
 		feudal_tax_low = {
 			parent = feudal_tax_exempt
@@ -21,8 +21,8 @@ feudal_government_taxes = {
 			tax = low_feudal_tax
 			vassal_opinion = 5
 
-			ai_liege_desire = 2
-			ai_vassal_desire = 4
+			ai_liege_desire = 1
+			ai_vassal_desire = 10
 		}
 		feudal_tax_normal = {
 			default = yes
@@ -31,8 +31,8 @@ feudal_government_taxes = {
 
 			tax = normal_feudal_tax
 
-			ai_liege_desire = 3
-			ai_vassal_desire = 3
+			ai_liege_desire = 5
+			ai_vassal_desire = 5
 		}
 		feudal_tax_high = {
 			parent = feudal_tax_normal
@@ -41,8 +41,8 @@ feudal_government_taxes = {
 			tax = high_feudal_tax
 			vassal_opinion = -15
 
-			ai_liege_desire = 4
-			ai_vassal_desire = 2
+			ai_liege_desire = 20
+			ai_vassal_desire = 1
 		}
 		feudal_tax_extortionate = {
 			parent = feudal_tax_high
@@ -51,7 +51,7 @@ feudal_government_taxes = {
 			tax = extortionate_feudal_tax
 			vassal_opinion = -25
 
-			ai_liege_desire = 5
+			ai_liege_desire = 50
 			ai_vassal_desire = 1
 		}
 	}
@@ -67,7 +67,7 @@ feudal_government_levies = {
 			levies = 0
 			vassal_opinion = 10
 
-			ai_liege_desire = 1
+			ai_liege_desire = 5
 			ai_vassal_desire = 5
 		}
 		feudal_levies_low = {
@@ -77,8 +77,8 @@ feudal_government_levies = {
 			levies = 0.1
 			vassal_opinion = 5
 
-			ai_liege_desire = 2
-			ai_vassal_desire = 4
+			ai_liege_desire = 5
+			ai_vassal_desire = 5
 		}
 		feudal_levies_normal = {
 			default = yes
@@ -87,8 +87,8 @@ feudal_government_levies = {
 
 			levies = 0.25
 
-			ai_liege_desire = 3
-			ai_vassal_desire = 3
+			ai_liege_desire = 5
+			ai_vassal_desire = 5
 		}
 		feudal_levies_high = {
 			parent = feudal_levies_normal
@@ -97,8 +97,8 @@ feudal_government_levies = {
 			levies = 0.35
 			vassal_opinion = -15
 
-			ai_liege_desire = 4
-			ai_vassal_desire = 2
+			ai_liege_desire = 5
+			ai_vassal_desire = 5
 		}
 		feudal_levies_extortionate = {
 			parent = feudal_levies_high
@@ -108,7 +108,7 @@ feudal_government_levies = {
 			vassal_opinion = -25
 
 			ai_liege_desire = 5
-			ai_vassal_desire = 1
+			ai_vassal_desire = 5
 		}
 	}
 }
@@ -356,7 +356,7 @@ fortification_rights = {
 			
 			tax_factor = fortification_rights_contract_taxes
 			
-			ai_liege_desire = 0
+			ai_liege_desire = 2
 			ai_vassal_desire = @ai_standard_vassal_desire
 		}
 	}
@@ -428,7 +428,7 @@ succession_rights = {
 			flag = locked_to_partition
 			
 			ai_liege_desire = @ai_standard_liege_desire
-			ai_vassal_desire = 0
+			ai_vassal_desire = 2
 		}
 	}
 }

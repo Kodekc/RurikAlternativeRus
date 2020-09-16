@@ -1,0 +1,47 @@
+﻿restore_ladoga_decision = {
+	picture = "gfx/interface/illustrations/decisions/decision_restore_ladoga.dds"
+	major = yes
+	ai_check_interval = 12
+
+	desc = restore_ladoga_decision_desc
+	selection_tooltip = restore_ladoga_decision_tooltip
+
+	is_shown = {
+		this = character:40605
+		has_government = tribal_government
+		has_culture_group = culture_group:east_slavic_group
+		has_religion = religion:slavic_religion
+		has_title = title:d_novgorod
+		NOT = {
+            title:b_ladoga.title_province = {
+            has_building = city_01}
+		}
+	}
+
+	is_valid = {
+		prestige_level >= 1
+		is_independent_ruler = yes
+	}
+
+	is_valid_showing_failures_only = {
+		is_ruler = yes
+		is_available_adult = yes
+	}
+
+	effect = {
+		title:b_ladoga.title_province = {
+            set_holding_type = city_holding
+          }
+		get_title = title:b_ladoga
+	}
+
+	cost = {
+		gold = 300
+		prestige = 100
+		piety = 300
+	}
+
+	ai_will_do = {
+		base = 100
+	}
+}

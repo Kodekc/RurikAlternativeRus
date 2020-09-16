@@ -29,6 +29,7 @@
 @special_maa_01 = "gfx/interface/icons/culture_innovations/innovation_special_maa_01.dds"
 @special_maa_02 = "gfx/interface/icons/culture_innovations/innovation_special_maa_02.dds"
 
+@rook = "gfx/interface/icons/culture_innovations/innovation_rook.dds"
 
 #culture_group_military
 innovation_motte = {
@@ -231,8 +232,15 @@ innovation_visigothic_codes = {
 			#Pyrenaic Visigoths & influenced-cultures only
 			this = culture:occitan
 			this = culture:basque
-			this = culture:aragonese
 			this = culture:catalan
+			this = culture:aragonese
+			this = culture:visigothic
+			this = culture:andalusian
+			this = culture:galician
+			this = culture:castilian
+			this = culture:asturleonese
+			this = culture:suebi
+			this = culture:portuguese
 		}
 	}
 	
@@ -249,7 +257,18 @@ innovation_longboats = {
 	culture_era = culture_era_tribal
 	region = world_europe_north
 	icon = @misc_inventions
+	
+	potential = {
+		OR = {
+			# North Germanic
+			this = culture:danish
+			this = culture:norse
+			this = culture:norwegian
+			this = culture:swedish
 
+		}
+	}
+	
 	modifier = {
 		embarkation_cost_mult = -0.75
 		naval_movement_speed_mult = 0.25
@@ -313,12 +332,74 @@ innovation_african_canoes = {
 	culture_era = culture_era_tribal
 	region = world_africa_west
 	icon = @majesty_01
+	
+	potential = {
+		OR = {
+			# West-African
+			this = culture:akan
+			this = culture:guan
+			this = culture:kru
+			this = culture:bozo
+			this = culture:gaw
+			this = culture:songhai
+			this = culture:soninke
+			this = culture:pulaar
+			this = culture:serer
+			this = culture:wolof
+			this = culture:bobo
+			this = culture:gur
+			this = culture:malinke
+			this = culture:marka
+			this = culture:mel
+			this = culture:sorko
+			this = culture:yoruba
+			this = culture:mossi
 
+		}
+	}
+	
 	modifier = {
 		embarkation_cost_mult = -0.25
 		raid_speed = 0.1
 	}
 	
+	custom = unlocks_naval_raiding
+	custom = unlocks_sailable_major_rivers
+
+	flag = global_regional
+	flag = tribal_era_regional
+}
+
+#############################################
+
+innovation_rook = {
+	group = culture_group_regional
+	culture_era = culture_era_tribal
+	region = world_europe_east
+	icon = @rook
+	
+	potential = {
+		OR = {
+			# East Slavic
+			this = culture:ilmenian
+			this = culture:russian
+			this = culture:severian
+			this = culture:volhynian
+			this = culture:krivichsian
+			this = culture:polansian
+			this = culture:tiverian
+			this = culture:vyatichian
+			this = culture:radimichian
+			this = culture:dregovichian
+
+		}
+	}
+	
+	modifier = {
+		embarkation_cost_mult = -0.50
+		naval_movement_speed_mult = 0.30
+	}
+
 	custom = unlocks_naval_raiding
 	custom = unlocks_sailable_major_rivers
 

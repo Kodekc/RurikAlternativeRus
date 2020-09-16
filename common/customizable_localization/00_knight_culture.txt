@@ -52,9 +52,25 @@
 					has_culture_group = culture_group:frankish_group
 				}
 			}
+			NOT = {
+				has_culture_group = culture_group:north_germanic_group 
+				has_culture_group = culture_group:east_slavic_group 
+			}
 		}
 		localization_key = knight_champion
 	}
+	text = {
+		trigger = {
+			has_culture_group = culture_group:north_germanic_group 
+		}
+		localization_key = knight_huscarl
+	}	
+	text = {
+		trigger = {
+			has_culture_group = culture_group:east_slavic_group 
+		}
+		localization_key = knight_vityaz
+	}		
 	text = {
 		localization_key = knight_default
 		fallback = yes
@@ -115,9 +131,25 @@ KnightCulturePlural = {
 					has_culture_group = culture_group:frankish_group
 				}
 			}
+			NOT = {
+				has_culture_group = culture_group:north_germanic_group 
+				has_culture_group = culture_group:east_slavic_group 
+			}
 		}
 		localization_key = knight_champion_plural
 	}
+	text = {
+		trigger = {
+			has_culture_group = culture_group:north_germanic_group 
+		}
+		localization_key = knight_huscarl_plural
+	}	
+	text = {
+		trigger = {
+			has_culture_group = culture_group:east_slavic_group 
+		}
+		localization_key = knight_vityaz_plural
+	}			
 	text = {
 		localization_key = knight_default_plural
 		fallback = yes
@@ -179,9 +211,25 @@ KnightCultureNoTooltip = {
 					has_culture_group = culture_group:frankish_group
 				}
 			}
+			NOT = {
+				has_culture_group = culture_group:north_germanic_group 
+				has_culture_group = culture_group:east_slavic_group 
+			}			
 		}
 		localization_key = knight_champion_no_tooltip
 	}
+	text = {
+		trigger = {
+			has_culture_group = culture_group:north_germanic_group 
+		}
+		localization_key = knight_huscarl_no_tooltip
+	}	
+	text = {
+		trigger = {
+			has_culture_group = culture_group:east_slavic_group 
+		}
+		localization_key = knight_vityaz_no_tooltip
+	}		
 	text = {
 		localization_key = knight_default_no_tooltip
 		fallback = yes
@@ -243,9 +291,25 @@ KnightCulturePluralNoTooltip = {
 					has_culture_group = culture_group:frankish_group
 				}
 			}
+			NOT = {
+				has_culture_group = culture_group:north_germanic_group 
+				has_culture_group = culture_group:east_slavic_group 
+			}			
 		}
 		localization_key = knight_champion_no_tooltip_plural
 	}
+	text = {
+		trigger = {
+			has_culture_group = culture_group:north_germanic_group 
+		}
+		localization_key = knight_huscarl_no_tooltip_plural
+	}	
+	text = {
+		trigger = {
+			has_culture_group = culture_group:east_slavic_group 
+		}
+		localization_key = knight_vityaz_no_tooltip_plural
+	}			
 	text = {
 		localization_key = knight_default_no_tooltip_plural
 		fallback = yes
@@ -307,9 +371,25 @@ KnightCultureNoTooltipLowercase = {
 					has_culture_group = culture_group:frankish_group
 				}
 			}
+			NOT = {
+				has_culture_group = culture_group:north_germanic_group 
+				has_culture_group = culture_group:east_slavic_group 
+			}			
 		}
 		localization_key = knight_champion_no_tooltip_lowercase
 	}
+	text = {
+		trigger = {
+			has_culture_group = culture_group:north_germanic_group 
+		}
+		localization_key = knight_huscarl_no_tooltip_lowercase
+	}		
+	text = {
+		trigger = {
+			has_culture_group = culture_group:east_slavic_group 
+		}
+		localization_key = knight_vityaz_no_tooltip_lowercase
+	}		
 	text = {
 		localization_key = knight_default_no_tooltip_lowercase
 		fallback = yes
@@ -371,9 +451,25 @@ KnightCulturePluralNoTooltipLowercase = {
 					has_culture_group = culture_group:frankish_group
 				}
 			}
+			NOT = {
+				has_culture_group = culture_group:north_germanic_group 
+				has_culture_group = culture_group:east_slavic_group 
+			}			
 		}
 		localization_key = knight_champion_no_tooltip_lowercase_plural
 	}
+	text = {
+		trigger = {
+			has_culture_group = culture_group:north_germanic_group 
+		}
+		localization_key = knight_huscarl_no_tooltip_lowercase_plural
+	}	
+	text = {
+		trigger = {
+			has_culture_group = culture_group:east_slavic_group 
+		}
+		localization_key = knight_vityaz_no_tooltip_lowercase_plural
+	}				
 	text = {
 		localization_key = knight_default_no_tooltip_lowercase_plural
 		fallback = yes
@@ -435,9 +531,25 @@ KnightCulturePluralPossessiveNoTooltipLowercase = {
 					has_culture_group = culture_group:frankish_group
 				}
 			}
+			NOT = {
+				has_culture_group = culture_group:north_germanic_group 
+				has_culture_group = culture_group:east_slavic_group 
+			}			
 		}
 		localization_key = knight_champion_no_tooltip_lowercase_plural_possessive
 	}
+	text = {
+		trigger = {
+			has_culture_group = culture_group:north_germanic_group 
+		}
+		localization_key = knight_huscarl_no_tooltip_lowercase_plural_possessive
+	}	
+	text = {
+		trigger = {
+			has_culture_group = culture_group:east_slavic_group 
+		}
+		localization_key = knight_vityaz_no_tooltip_lowercase_plural_possessive
+	}				
 	text = {
 		localization_key = knight_default_no_tooltip_lowercase_plural_possessive
 		fallback = yes
@@ -499,9 +611,25 @@ KnightCultureAdjectiveNoTooltipLowercase = {
 					has_culture_group = culture_group:frankish_group
 				}
 			}
+			NOT = {
+				has_culture_group = culture_group:north_germanic_group 
+				has_culture_group = culture_group:east_slavic_group 
+			}			
 		}
 		localization_key = knight_champion_no_tooltip_lowercase_adjective
 	}
+	text = {
+		trigger = {
+			has_culture_group = culture_group:north_germanic_group 
+		}
+		localization_key = knight_huscarl_no_tooltip_lowercase_plural_adjective
+	}	
+	text = {
+		trigger = {
+			has_culture_group = culture_group:east_slavic_group 
+		}
+		localization_key = knight_vityaz_no_tooltip_lowercase_plural_adjective
+	}			
 	text = {
 		localization_key = knight_default_no_tooltip_lowercase_adjective
 		fallback = yes

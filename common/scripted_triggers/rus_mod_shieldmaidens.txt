@@ -1,0 +1,28 @@
+﻿can_be_warrior_trigger = {
+	is_adult = yes
+	age >= 16
+	is_imprisoned = no
+	prowess >= 7
+	OR = {
+		can_be_combatant_based_on_gender_trigger = { ARMY_OWNER = $ARMY_OWNER$ }
+		AND = {
+			is_female = yes
+			religion = religion:germanic_religion
+			#Remove hashtags below if you only want norse faith rulers to be able to appoint shield-maidens.
+			#liege = {
+			#	religion = religion:germanic_religion
+			#}
+			prowess >= 14
+			OR = {
+				has_trait = education_martial_1
+				has_trait = education_martial_2
+				has_trait = education_martial_3
+				has_trait = education_martial_4
+			}
+		}
+	}
+	NOT = {
+		has_trait = incapable
+		has_trait = pregnant
+	}
+}

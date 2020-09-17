@@ -9,6 +9,8 @@
  T_O_rvar:0 "Трувор"
  SignjO_tr:0 "Сивар"
  # Titles
+ TITLE_TIERED_NAME:0 "$TIER|U$ $NAME$"
+ TITLE_CLAN_TIERED_WITH_UNDERLYING_NAME:0 "$NAME$ $TIER|U$ #F ($TIER|U$ $BASE_NAME$) #!"
  e_russia:0 "Великая Русь"
  e_russia_adj:0 "Великороск"
  e_russia_pre:0 "Великороск"

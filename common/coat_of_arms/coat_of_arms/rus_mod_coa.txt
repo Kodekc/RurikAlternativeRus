@@ -1,0 +1,15 @@
+705 = { # Rurikid # EE
+	pattern = "pattern_solid.dds"
+	color1 = "blue"
+	color2 = "blue"
+	colored_emblem = {
+		texture = "rus_mod_rurikid.dds"
+		color1 = "yellow"
+		color2 = "yellow"
+	}	
+	colored_emblem = {
+		texture = "ce_india_doted_frame_02.dds"
+		color1 = "yellow"
+		color2 = "yellow"
+	}	
+}

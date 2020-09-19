@@ -90,6 +90,10 @@
  restore_ladoga_decision_desc:0 "A small wooden fortress, which the squad and I erected in Ladoga, when we arrived in the Ilmen lands, became a stronghold and protection for the oppressed inhabitants of those lands, tired of civil strife, taxes and injustice, they finally found a peace. This place is of strategic importance, and more recently also a trading place, it is time to complete what we started in the past and strengthen our lands. Just need to get the blessing of our gods, deliver stone and provide financial investment for the construction of the village, and this place will retrive its old glory."
  restore_ladoga_decision_tooltip:0 "I have incomplete work from the past, that needs my attention"
  restore_ladoga_decision_confirm:0 "Strengthen the Ladoga village"
+ rurik_life_and_death.0001.t:0 "The same one night awaits everyone"
+ rurik_life_and_death.0001.desc:0 "A quiet whisper followed me all the time during the day, it called and beckoned me. The day ended and the sunset illuminated the sky, shimmering and playing with different colors. I felt that life was leaving with the sun leaving the horizon, glancing first at the door, and then at my palms, darkness enveloped my eyes, it seems my time had come and I’m not afraid to die..."
+ rurik_life_and_death.0001.a:0 "Rurik takes his last breath"
+ rurik_life_and_death.0001.a.tt:0 "Сhronicle is not yet finished, while the Rurik dynasty is still alive"
  # Сhildhood education events (Mod autor: lemmy101)
  rus_mod_educationfocus.diplomacy:0 "...be educated in diplomacy and statecraft."
  rus_mod_educationfocus.martial:0 "...be trained in the art of war!"
@@ -99,3 +103,9 @@
  rus_mod_educationfocus.recommended:0 "...have an education suited to [child.GetHerHis] personality"
  rus_mod_choosechildeducationevent.1001.t:0 "It's time to choose [child.GetFirstNameNoTooltip]'s education"
  rus_mod_choosechildeducationevent.1001.desc:0 "[child.GetFirstNameNoTooltip] is growing up fast! It's time to choose the focus of [child.GetHerHis] education.\n\n[child.GetSheHe] should..."
+ # Game rules
+ rule_rus_mod_historical_context:0 "Rurik: Alternative story"
+ setting_rus_mod_historical_context_on:0 "Historical"
+ setting_rus_mod_historical_context_off:0 "No events"
+ setting_rus_mod_historical_context_on_desc:0 "During the game there will be events bound to Rurik"
+ setting_rus_mod_historical_context_off_desc:0 "During the game NOT there will be events bound to Rurik"

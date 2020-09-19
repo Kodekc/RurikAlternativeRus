@@ -1,0 +1,6 @@
+﻿#Rurik: Alternative Rus (Autor: Kodeks)
+yearly_playable_pulse = {
+	events = {
+		rurik_life_and_death.0001
+	}
+}

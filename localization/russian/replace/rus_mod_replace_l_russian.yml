@@ -8,6 +8,7 @@
  # Сharacter names
  T_O_rvar:0 "Трувор"
  SignjO_tr:0 "Сивар"
+ bookmark_adventurers_rurik_rurikid_alt_helgi:0 "Олег"
  # Titles
  TITLE_TIERED_NAME:0 "$TIER|U$ $NAME$"
  TITLE_CLAN_TIERED_WITH_UNDERLYING_NAME:0 "$NAME$ $TIER|U$ #F ($TIER|U$ $BASE_NAME$) #!"

@@ -1,0 +1,11 @@
+﻿rus_mod_historical_context = {
+	default = rus_mod_historical_context_on
+
+	rus_mod_historical_context_on = {
+	
+	}
+
+	rus_mod_historical_context_off = {
+	
+	}	
+}

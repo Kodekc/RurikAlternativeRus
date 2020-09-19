@@ -1,0 +1,29 @@
+﻿#Rurik: Alternative Rus (Autor: Kodeks)
+
+namespace = rurik_life_and_death
+
+rurik_life_and_death.0001 = {
+	type = character_event
+	title = rurik_life_and_death.0001.t
+	desc = rurik_life_and_death.0001.desc
+	theme = death
+	left_portrait = scope:dead_character
+	
+	trigger = {
+		this = character:40605
+		age = 50
+		has_game_rule = rus_mod_historical_context_on
+		NOT = { this = scope:dead_character }
+	}
+	
+	immediate = {
+		play_music_cue = mx_cue_death
+	}
+	
+	option = {
+		name = rurik_life_and_death.0001.a
+		custom_tooltip = rurik_life_and_death.0001.a.tt
+		inform_liege_about_wound_treatment_effect = { TREATMENT = risky OUTCOME = death }
+		death = natural
+	}
+}

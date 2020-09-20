@@ -102,10 +102,9 @@
 	trait = chaste
 	trait = cynical
 	trait = stubborn
-	trait = celibate
+	trait = virgin
 	trait = intellect_good_1
 	trait = education_martial_3
-	sexuality = asexual
 	father = 40700
 	848.1.1 = {
 		birth = yes

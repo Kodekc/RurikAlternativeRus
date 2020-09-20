@@ -1,4 +1,4 @@
-﻿# Witch / Warlock
+﻿# Rus Mod Traits
 witch = {
 	index = 226
 	diplomacy = -1
@@ -48,4 +48,39 @@ witch = {
 		ignore_opinion_value_if_same_trait = yes
 	}
 
+}
+
+virgin = {
+	index = 300
+	diplomacy = 1
+	learning = 1
+	monthly_prestige = 0.5
+	monthly_piety = 0.5
+	
+	attraction_opinion = -20
+	clergy_opinion = 10
+
+	flag = can_not_marry
+	can_have_children = no
+
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					NOT = { exists = this }
+				}
+				desc = trait_virgin_desc
+			}
+			desc = trait_virgin_character_desc
+		}
+	}
+
+	ai_energy = -20
+
+	compatibility = {
+		deviant = @pos_compat_high
+		lustful = @pos_compat_medium
+		chaste = @neg_compat_medium
+		celibate = @neg_compat_medium
+	}
 }

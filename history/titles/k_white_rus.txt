@@ -1,6 +1,10 @@
 k_white_rus = {
 	867.1.1 = { change_development_level = 2 }
 	1066.1.1 = { change_development_level = 5 }
+	
+	860.1.8 = {
+		succession_laws = { veche_elective_succession_law }
+	}
 }
 
 c_grodno = {
@@ -517,6 +521,12 @@ c_novogrudok = {
 
 }
 
+d_pinsk = {
+	###Not created
+	860.1.2 = {
+		succession_laws = { veche_elective_succession_law }
+	}
+}
 
 c_pinsk = {
 	867.1.1 = { change_development_level = 2 }
@@ -552,6 +562,12 @@ c_pinsk = {
 
 }
 
+d_grodno = {
+	###Not created
+	860.1.2 = {
+		succession_laws = { veche_elective_succession_law }
+	}
+}
 
 c_slutsk = {
 	#Pre Kievan Rus' / Dregovichi tribes
@@ -1085,6 +1101,9 @@ c_vitebsk = {
 
 d_smolensk = {
 	#Death of Yaroslav the Wise, creation of Smolensk Principality
+	825.12.3 = {
+		succession_laws = { veche_elective_succession_law }
+	}
 	1054.2.20 = {
 		holder = 9132	#Viacheslav I Yaroslavich
 		liege = k_ruthenia
@@ -1607,4 +1626,3 @@ c_toropets = {
 		holder = 222589	#Mstislav Mstislavich the Bold/Daring
 	}
 }
-

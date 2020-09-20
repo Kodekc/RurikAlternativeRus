@@ -105,6 +105,14 @@ veche_elective = { #Veche
 	#scope:candidate = Candidate, scope:title = Title, scope:holder_candidate = Candidate currently selected by ruler.
 	candidates = {
 		add = {
+			type = title_dejure_vassals
+			limit = {
+				is_vassal_of = scope:holder #Only Powerful, direct, de jure vassals are potential candidates.
+				is_powerful_vassal = yes
+				feudal_elective_potential_landed_candidate_trigger = yes
+			}
+		}
+		add = {
 			type = title_claimants
 			limit = {
 				feudal_elective_potential_landless_claimant_candidate_trigger = yes
@@ -113,6 +121,7 @@ veche_elective = { #Veche
 		add = {
 			type = holder_close_or_extended_family
 			limit = {
+				is_child_of = scope:holder #In Saxon Elective filter only the children of the current holder.
 				dynasty = scope:holder.dynasty
 				feudal_elective_potential_landless_dynastic_candidate_trigger = yes
 			}

@@ -94,15 +94,6 @@
  rurik_life_and_death.0001.desc:0 "Тихий шёпот всё время преследовал меня в течение дня, он звал и манил за собой. День завершался и закат озарял небосвод, переливаясь и играя разными красками. Я чувствовал, что жизнь уходит вместе с уходящим за горизонт солнцем, бросив взгляд сперва на дверь, а после на свои ладони, глаза окутывала темнота, кажется моё время пришло и я не боюсь умереть..."
  rurik_life_and_death.0001.a:0 "Рюрик испускает последний вздох"
  rurik_life_and_death.0001.a.tt:0 "Летопись ещё не закончена, пока жива династия Рюриковичей"
- # Сhildhood education events (Mod autor: lemmy101)
- rus_mod_educationfocus.diplomacy:0 "...получать образование в области дипломатии."
- rus_mod_educationfocus.martial:0 "...обучаться военному ремеслу и тактике боя."
- rus_mod_educationfocus.steward:0 "...изучать, как эффективно управлять государством."
- rus_mod_educationfocus.intrigue:0 "...осваивать новые способы придворных интриг."
- rus_mod_educationfocus.learning:0 "...постигать знания в области теологии и естественных наук."
- rus_mod_educationfocus.recommended:0 "...иметь образование, подходящее для [child.GetHerHis] личности."
- rus_mod_choosechildeducationevent.1001.t:0 "Выбрать образование для [child.GetFirstNameNoTooltip]"
- rus_mod_choosechildeducationevent.1001.desc:0 "[child.GetFirstNameNoTooltip] быстро растёт! Пришло время выбрать фокус [child.GetHerHis] образования.\n\n[Select_CString(child.IsFemale, 'Она', 'Он' )] будет..."
  # Game rules
  rule_rus_mod_historical_context:0 "Рюрик: Альтернативная повесть"
  setting_rus_mod_historical_context_on:0 "Исторические"

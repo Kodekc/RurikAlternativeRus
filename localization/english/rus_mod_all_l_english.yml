@@ -94,15 +94,6 @@
  rurik_life_and_death.0001.desc:0 "A quiet whisper followed me all the time during the day, it called and beckoned me. The day ended and the sunset illuminated the sky, shimmering and playing with different colors. I felt that life was leaving with the sun leaving the horizon, glancing first at the door, and then at my palms, darkness enveloped my eyes, it seems my time had come and I’m not afraid to die..."
  rurik_life_and_death.0001.a:0 "Rurik takes his last breath"
  rurik_life_and_death.0001.a.tt:0 "Сhronicle is not yet finished, while the Rurik dynasty is still alive"
- # Сhildhood education events (Mod autor: lemmy101)
- rus_mod_educationfocus.diplomacy:0 "...be educated in diplomacy and statecraft."
- rus_mod_educationfocus.martial:0 "...be trained in the art of war!"
- rus_mod_educationfocus.steward:0 "...learn how to manage the realm."
- rus_mod_educationfocus.intrigue:0 "...learn the ways of court intrigue."
- rus_mod_educationfocus.learning:0 "...become learned in theology and the sciences."
- rus_mod_educationfocus.recommended:0 "...have an education suited to [child.GetHerHis] personality"
- rus_mod_choosechildeducationevent.1001.t:0 "It's time to choose [child.GetFirstNameNoTooltip]'s education"
- rus_mod_choosechildeducationevent.1001.desc:0 "[child.GetFirstNameNoTooltip] is growing up fast! It's time to choose the focus of [child.GetHerHis] education.\n\n[child.GetSheHe] should..."
  # Game rules
  rule_rus_mod_historical_context:0 "Rurik: Alternative story"
  setting_rus_mod_historical_context_on:0 "Historical"

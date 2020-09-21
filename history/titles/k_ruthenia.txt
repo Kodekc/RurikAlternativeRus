@@ -4,8 +4,7 @@ k_ruthenia = {
 
 	860.1.8 = {
 		succession_laws = { veche_elective_succession_law }
-	}
-}	
+	}	
 	###Kievan Rus'
 	882.1.2 = {
 		holder = 40606	#Oleg/Helgi the Seer
@@ -46,7 +45,6 @@ k_ruthenia = {
 		holder = 0
 	}
 }
-
 
 d_kiev = {
 	###Pre-Kievan Rus'

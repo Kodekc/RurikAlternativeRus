@@ -1,0 +1,22 @@
+﻿# Nordic folk tracks
+
+rus_mod_mood_temple_of_odin = {
+	music = "file:/sound/rus_mod_music/Danheim_Temple_of_Odin.ogg"
+	weight = 15
+	mood = yes
+	can_be_interrupted = yes
+}
+
+rus_mod_mood_danheim_gjallarhorn = {
+	music = "file:/sound/rus_mod_music/Danheim_Gjallarhorn.ogg"
+	weight = 15
+	mood = yes
+	can_be_interrupted = yes
+}
+
+rus_mod_mood_danheim_tyrfing = {
+	music = "file:/sound/rus_mod_music/Danheim_Tyrfing.ogg"
+	weight = 15
+	mood = yes
+	can_be_interrupted = yes
+}

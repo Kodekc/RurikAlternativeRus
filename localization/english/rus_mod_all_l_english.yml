@@ -103,3 +103,6 @@
  setting_rus_mod_historical_context_off:0 "No events"
  setting_rus_mod_historical_context_on_desc:0 "During the game there will be events bound to Rurik"
  setting_rus_mod_historical_context_off_desc:0 "During the game NOT there will be events bound to Rurik"
+ # Religion - Doctrines
+ doctrine_polyamory_name:0 "Polyamory"
+ doctrine_polyamory_desc:0 "Is the practice of, or desire for, intimate relationships with more than one partner, with the informed consent of all partners involved."

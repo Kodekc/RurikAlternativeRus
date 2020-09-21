@@ -52,12 +52,10 @@ witch = {
 
 virgin = {
 	index = 300
-	diplomacy = 1
 	learning = 1
-	monthly_prestige = 0.5
-	monthly_piety = 0.5
+	monthly_prestige = 0.2
+	monthly_piety = 0.3
 	
-	attraction_opinion = -20
 	clergy_opinion = 10
 
 	flag = can_not_marry

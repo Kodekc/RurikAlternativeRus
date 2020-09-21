@@ -74,6 +74,17 @@
  russian_princess:0 "Knyazhna"
  russian_empire_prince:0 "Tsarevich"
  russian_empire_princess:0 "Tsarevna"
+ # Byzantine titulature (Mod autor: Kodeks)
+ byzantine_barony_kastron:0 "Кastron of"
+ byzantine_praetor:0 "Praetor"
+ byzantine_theme:0 "Theme"
+ byzantine_strategos:0 "Strategos"
+ byzantine_strategeira:0 "Strategeira"
+ byzantine_catepanate:0 "Сatepanate of"
+ byzantine_katepano:0 "Katepano"
+ byzantine_katepaneira:0 "Katepaneira"
+ byzantine_kingdom_autokrator:0 "Autokrator"
+ byzantine_kingdom_patricia:0 "Patricia"
  # Veche elective (Mod autor: Kodeks)
  veche_elective_succession_law:0 "Slavic elections"
  veche_elective_succession_law_subname:0 "Veche meetings"

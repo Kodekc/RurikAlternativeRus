@@ -273,3 +273,99 @@ russian_empire_princess = {
 	priority = 35
 	top_liege = no
 }
+
+#############################################
+### Byzantine titulature ###
+
+# Barony
+byzantine_barony_kastron = {
+	type = title
+	tier = barony
+	priority = 7
+	governments = { feudal_government }
+	culture_groups = { byzantine_group }
+}
+byzantine_praetor = {
+	type = character
+	special = holder
+	tier = barony
+	priority = 29
+	governments = { feudal_government }
+	culture_groups = { byzantine_group }
+}
+
+# Сounty
+byzantine_theme = {
+	type = title
+	tier = county
+	priority = 30
+	governments = { feudal_government }
+	culture_groups = { byzantine_group }
+}
+byzantine_strategos = {
+	type = character
+	gender = male
+	special = holder
+	tier = county
+	priority = 40
+	governments = { feudal_government }
+	culture_groups = { byzantine_group }
+}
+byzantine_strategeira = {
+	type = character
+	gender = female
+	special = holder
+	tier = county
+	priority = 40
+	governments = { feudal_government }
+	culture_groups = { byzantine_group }
+}
+
+# Duchy
+byzantine_catepanate = {
+	type = title
+	tier = duchy
+	priority = 90
+	governments = { feudal_government }
+	culture_groups = { byzantine_group }
+}
+byzantine_katepano = {
+	type = character
+	gender = male
+	special = holder
+	tier = duchy
+	priority = 90
+	governments = { feudal_government }
+	culture_groups = { byzantine_group }
+}
+byzantine_katepaneira = {
+	type = character
+	gender = female
+	special = holder
+	tier = duchy
+	priority = 90
+	governments = { feudal_government }
+	culture_groups = { byzantine_group }
+}
+
+# Kingdom
+byzantine_kingdom_autokrator = {
+	type = character
+	gender = male
+	special = holder
+	tier = kingdom
+	priority = 120
+	only_independent = yes
+	governments = { feudal_government }
+	culture_groups = { byzantine_group }
+}
+byzantine_kingdom_patricia = {
+	type = character
+	gender = female
+	special = holder
+	tier = kingdom
+	priority = 120
+	only_independent = yes
+	governments = { feudal_government }
+	culture_groups = { byzantine_group }
+}

@@ -10,7 +10,7 @@
 			is_coastal_county = yes
 			#within 500 map distance
 			$CHARACTER$ = {
-				realm_to_title_distance_squared = { title = prev value < 250000 }
+				realm_to_title_distance_squared = { title = prev value < 3000000 }
 			}
 		}
 		#CHANGE: everybody else can use Conquest only on neighbouring and close-over-sea counties (including players, who could apparently target all counties?)

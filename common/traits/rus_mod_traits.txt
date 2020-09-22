@@ -50,7 +50,7 @@ witch = {
 
 }
 
-virgin = {
+rus_mod_virgin = {
 	index = 300
 	learning = 1
 	monthly_prestige = 0.2
@@ -67,9 +67,9 @@ virgin = {
 				trigger = {
 					NOT = { exists = this }
 				}
-				desc = trait_virgin_desc
+				desc = trait_rus_mod_virgin_desc
 			}
-			desc = trait_virgin_character_desc
+			desc = trait_rus_mod_virgin_character_desc
 		}
 	}
 

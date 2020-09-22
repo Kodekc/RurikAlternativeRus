@@ -96,9 +96,9 @@
  #Traits
  trait_witch_female:0 "Witch"
  trait_witch_male:0 "Sorcerer"
- trait_virgin:0 "Sworn virgin"
- trait_virgin_desc:0 "A character voluntarily taken the oath of celibacy."
- trait_virgin_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] took an oath of celibacy."
+ trait_rus_mod_virgin:0 "Sworn virgin"
+ trait_rus_mod_virgin_desc:0 "A character voluntarily taken the oath of celibacy."
+ trait_rus_mod_virgin_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] took an oath of celibacy."
  # Rurik event (Mod autor: Kodeks)
  restore_ladoga_decision:0 "Complete the restoration of Ladoga"
  restore_ladoga_decision_desc:0 "A small wooden fortress, which the squad and I erected in Ladoga, when we arrived in the Ilmen lands, became a stronghold and protection for the oppressed inhabitants of those lands, tired of civil strife, taxes and injustice, they finally found a peace. This place is of strategic importance, and more recently also a trading place, it is time to complete what we started in the past and strengthen our lands. Just need to get the blessing of our gods, deliver stone and provide financial investment for the construction of the village, and this place will retrive its old glory."

@@ -102,7 +102,7 @@
 	trait = chaste
 	trait = cynical
 	trait = stubborn
-	trait = virgin
+	trait = rus_mod_virgin
 	trait = intellect_good_1
 	trait = education_martial_3
 	father = 40700

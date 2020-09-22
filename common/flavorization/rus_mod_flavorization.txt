@@ -369,3 +369,125 @@ byzantine_kingdom_patricia = {
 	governments = { feudal_government }
 	culture_groups = { byzantine_group }
 }
+
+#############################################
+### Scandinavian titulature ###
+
+# Barony
+scandinavian_headman = {
+	type = character
+	special = holder
+	tier = barony
+	priority = 29
+	governments = { feudal_government tribal_government }
+	culture_groups = { north_germanic_group }
+}
+scandinavian_village = {
+	type = title
+	tier = barony
+	priority = 7
+	governments = { tribal_government }
+	culture_groups = { north_germanic_group }
+}
+
+# Сounty
+scandinavian_syssel = {
+	type = title
+	tier = county
+	priority = 30
+	governments = { tribal_government }
+	culture_groups = { north_germanic_group }
+}
+scandinavian_sysselmann = {
+	type = character
+	gender = male
+	special = holder
+	tier = county
+	priority = 39
+	governments = { tribal_government }
+	culture_groups = { north_germanic_group }
+}
+scandinavian_leader = {
+	type = character
+	gender = female
+	special = holder
+	tier = county
+	priority = 39
+	governments = { tribal_government }
+	culture_groups = { north_germanic_group }
+}
+scandinavian_independent_jarl = {
+	type = character
+	gender = male
+	special = holder
+	tier = county
+	priority = 40
+	only_independent = yes
+	governments = { tribal_government }
+	culture_groups = { north_germanic_group }
+}
+# Duchy
+scandinavian_jarldom = {
+	type = title
+	tier = duchy
+	priority = 90
+	governments = { tribal_government }
+	culture_groups = { north_germanic_group }
+}
+scandinavian_male_jarl = {
+	type = character
+	gender = male
+	special = holder
+	tier = duchy
+	priority = 90
+	governments = { feudal_government tribal_government }
+	culture_groups = { north_germanic_group }
+}
+scandinavian_female_jarl = {
+	type = character
+	gender = female
+	special = holder
+	tier = duchy
+	priority = 90
+	governments = { feudal_government tribal_government }
+	culture_groups = { north_germanic_group }
+}
+
+# Kingdom
+scandinavian_kongedom = {
+	type = title
+	tier = duchy
+	priority = 90
+	governments = { tribal_government }
+	culture_groups = { north_germanic_group }
+}
+scandinavian_kingdom_konge = {
+	type = character
+	gender = male
+	special = holder
+	tier = kingdom
+	priority = 120
+	governments = { tribal_government }
+	culture_groups = { north_germanic_group }
+}
+scandinavian_kingdom_drottning = {
+	type = character
+	gender = female
+	special = holder
+	tier = kingdom
+	priority = 120
+	governments = { tribal_government }
+	culture_groups = { north_germanic_group }
+}
+
+# Other titles
+scandinavian_kingdom_prince = {
+	type = character
+	gender = male
+	special = ruler_child
+	tier = kingdom
+	governments = { tribal_government }
+	culture_groups = { north_germanic_group }
+	priority = 35
+	top_liege = no
+}

@@ -10,13 +10,11 @@
 			is_coastal_county = yes
 			#within 500 map distance
 			$CHARACTER$ = {
-				any_held_county = {
-					squared_distance = { target = root value < 250000 }
-				}
+				realm_to_title_distance_squared = { title = prev value < 250000 }
 			}
 		}
-		#CHANGE: everybody else can use Conquest only on neighbouring and close-over-sea counties (including players, who could apparently target all counties before?)
-		trigger_else = {			
+		#CHANGE: everybody else can use Conquest only on neighbouring and close-over-sea counties (including players, who could apparently target all counties?)
+		trigger_else = {
 			any_title_to_title_neighboring_and_across_water_county = {
 				holder = {
 					target_is_same_character_or_above = $CHARACTER$

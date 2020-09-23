@@ -134,7 +134,7 @@
  # Religion - Doctrines
  doctrine_polyamory_name:0 "Polyamory"
  doctrine_polyamory_desc:0 "Is the practice of, or desire for, intimate relationships with more than one partner, with the informed consent of all partners involved."
- # Character interactions
+ # Character interactions (Shieldmaiden)
  appoint_shieldmaiden_interaction:0 "Offer shieldmaiden status"
  relieve_shieldmaiden_interaction:0 "Deprive shieldmaiden status"
  appointed_shieldmaiden_opinion:0 "Recognized as Shieldmaiden"

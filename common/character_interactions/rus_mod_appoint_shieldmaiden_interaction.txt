@@ -37,7 +37,6 @@
             }
             
             # Anyone can be a shieldmaiden if they are in the culture
-            # has_culture_group = culture_group:north_germanic_group
 
             is_courtier_of = scope:actor
         }
@@ -49,8 +48,12 @@
                 highest_held_title_tier >= tier_county
             }
 
-            has_culture_group = culture_group:north_germanic_group
-            faith.religion = religion:germanic_religion
+            OR = {
+                has_culture_group = culture_group:north_germanic_group
+                has_culture_group = culture_group:east_slavic_group
+                faith.religion = religion:germanic_religion
+                faith.religion = religion:slavic_religion
+			}
         }
     }
 
@@ -65,7 +68,7 @@
         scope:recipient = {
             custom_description = {
                 text = not_enough_prowess
-                prowess > 6
+                prowess > 8
             }
         }
 

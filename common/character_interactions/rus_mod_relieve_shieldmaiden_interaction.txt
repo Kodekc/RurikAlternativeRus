@@ -1,0 +1,48 @@
+﻿relieve_shieldmaiden_interaction = {
+    category = interaction_category_vassal
+
+    is_shown = {
+        scope:recipient = {
+            NOT = { 
+                this = scope:actor
+            }
+
+            has_trait = rus_mod_shieldmaiden
+        }
+
+        scope:actor = {
+            is_ruler = yes
+            OR = {
+                is_ai = no
+                highest_held_title_tier >= 2
+            }
+
+            has_culture_group = culture_group:north_germanic_group
+            faith.religion = religion:germanic_religion
+        }
+    }
+
+    greeting = negative
+    # TODO: make more conditions for acceptance
+    ai_accept = {
+        base = 1
+    }
+
+    on_accept = {
+        scope:recipient = {
+            if = {
+                remove_trait = rus_mod_shieldmaiden
+
+                remove_opinion = {
+                    target = scope:actor
+                    modifier = appointed_shieldmaiden_opinion
+                }
+
+                add_opinion = {
+                    target = scope:actor
+                    modifier = relieved_shieldmaiden_opinion
+                }
+            }
+        }
+    }
+}

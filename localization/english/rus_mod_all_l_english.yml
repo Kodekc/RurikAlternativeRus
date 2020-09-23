@@ -77,7 +77,7 @@
  # Byzantine titulature (Mod autor: Kodeks)
  byzantine_barony_kastron:0 "Кastron of"
  byzantine_praetor:0 "Praetor"
- byzantine_theme:0 "Theme"
+ byzantine_theme:0 "Theme of"
  byzantine_strategos:0 "Strategos"
  byzantine_strategeira:0 "Strategeira"
  byzantine_catepanate:0 "Сatepanate of"
@@ -113,6 +113,9 @@
  trait_rus_mod_virgin:0 "Sworn virgin"
  trait_rus_mod_virgin_desc:0 "A character voluntarily taken the oath of celibacy."
  trait_rus_mod_virgin_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] took an oath of celibacy."
+ trait_rus_mod_shieldmaiden:0 "Shieldmaiden"
+ trait_rus_mod_shieldmaiden_desc:0 "The character is a famous warrior."
+ trait_rus_mod_shieldmaiden_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] was trained to fight on a par with men, and received a personal shield as a sign of successful training.."
  # Rurik event (Mod autor: Kodeks)
  restore_ladoga_decision:0 "Complete the restoration of Ladoga"
  restore_ladoga_decision_desc:0 "A small wooden fortress, which the squad and I erected in Ladoga, when we arrived in the Ilmen lands, became a stronghold and protection for the oppressed inhabitants of those lands, tired of civil strife, taxes and injustice, they finally found a peace. This place is of strategic importance, and more recently also a trading place, it is time to complete what we started in the past and strengthen our lands. Just need to get the blessing of our gods, deliver stone and provide financial investment for the construction of the village, and this place will retrive its old glory."
@@ -131,3 +134,16 @@
  # Religion - Doctrines
  doctrine_polyamory_name:0 "Polyamory"
  doctrine_polyamory_desc:0 "Is the practice of, or desire for, intimate relationships with more than one partner, with the informed consent of all partners involved."
+ # Character interactions
+ appoint_shieldmaiden_interaction:0 "Offer shieldmaiden status"
+ relieve_shieldmaiden_interaction:0 "Deprive shieldmaiden status"
+ appointed_shieldmaiden_opinion:0 "Recognized as Shieldmaiden"
+ relieved_shieldmaiden_opinion:0 "Recinded recognition as Shieldmaiden"
+ msg_appointed_shieldmaiden_interaction_title:0 "Shieldmaiden Recognized"
+ msg_appointed_shieldmaiden_interaction_desc:0 "[recipient.GetTitledFirstName] has been recognized as a Shieldmaiden and can now become a champion or commander in your armies."
+ char_interaction.6121.opening:1 "[recipient.Custom2('AppropriateGreeting', actor )]"
+ char_interaction.6121.desc:0 "I accept your offer of recognizing me as a Shieldmaiden!"
+ char_interaction.6122.desc:0 "I do not need your recognition as a Shieldmaiden and would prefer to stay out of any duties that go with it."
+ char_interaction.6122.a:0 "I shall have to explore other options..."
+ OFFER_SHIELDMAIDEN_APPOINTMENT_NOTIFICATION:0 "I wish to recognize you as a Shieldmaiden given your prowess and abilities."
+ RECIPIENT_PROWESS_NOT_ENOUGH:0 "[CHARACTER.GetShortUINamePossessive] prowess is too low."

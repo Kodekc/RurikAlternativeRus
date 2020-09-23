@@ -80,5 +80,33 @@ rus_mod_virgin = {
 		lustful = @pos_compat_medium
 		chaste = @neg_compat_medium
 		celibate = @neg_compat_medium
+
 	}
+}
+
+rus_mod_shieldmaiden = {
+	index = 301
+	fame = yes
+	martial = 3
+	prowess = 2
+	monthly_prestige = 0.2
+	same_opinion = 15
+	same_faith_opinion = 5
+
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					NOT = { exists = this }
+				}
+				desc = trait_rus_mod_shieldmaiden_desc
+			}
+			desc = trait_rus_mod_shieldmaiden_character_desc
+		}
+	}
+
+	ai_rationality = medium_negative_ai_value
+	ai_energy = 20
+	ai_boldness = medium_positive_ai_value
+	
 }

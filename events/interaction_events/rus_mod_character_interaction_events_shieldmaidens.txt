@@ -1,0 +1,33 @@
+﻿namespace = char_interaction
+
+# Offer Appointment Response: Accepted
+char_interaction.6121 = {
+	type = letter_event
+	opening = {
+		desc = char_interaction.6121.opening
+	}
+	desc = char_interaction.6121.desc
+	sender = scope:recipient
+
+	option = {
+		name = EXCELLENT
+	}
+}
+
+# Offer Appointment Response: Refused
+char_interaction.6122 = {
+	type = letter_event
+	opening = {
+		desc = char_interaction.6121.opening
+	}
+	desc = char_interaction.6122.desc
+		
+	sender = {
+		character = scope:recipient
+		animation = dismissal
+	}
+
+	option = {
+		name = char_interaction.6122.a
+	}
+}

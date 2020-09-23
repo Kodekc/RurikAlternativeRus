@@ -113,6 +113,9 @@
  trait_rus_mod_virgin:0 "Клятвенный девственник"
  trait_rus_mod_virgin_desc:0 "Персонаж добровольно принявший клятву безбрачия."
  trait_rus_mod_virgin_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] принял клятву безбрачия."
+ trait_rus_mod_shieldmaiden:0 "Воительница"
+ trait_rus_mod_shieldmaiden_desc:0 "Прекрасная дева, выбравшая жизнь воительницы. Она столь же красива, сколь и смертоносна."
+ trait_rus_mod_shieldmaiden_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] прекрасная дева, выбравшая жизнь воительницы, известная своей силой и храбростью, была обучена биться наравне с мужчинами."
  # Rurik event (Mod autor: Kodeks)
  restore_ladoga_decision:0 "Завершить восстановление Ладоги"
  restore_ladoga_decision_desc:0 "Небольшая деревянная крепость, которую мы с дружинной возвели в Ладоге, когда прибыли в ильменские земли, стала оплотом и защитой для угнетённых жителей тех земель, уставшие от междоусобиц, податей и несправедливости, они наконец обрели заслуженный мир. Это место имеет стратегическое значение, а в последнее время и торговое, пора завершить начатое в прошлом и укрепить наши земли. Надо всего лишь получить благословение наших волхвов, доставить немного камня и обеспечить финансовую поддержку для строительства села, и это место обретёт вновь былую славу."
@@ -131,3 +134,16 @@
  # Religion - Doctrines
  doctrine_polyamory_name:0 "Полиамория"
  doctrine_polyamory_desc:0 "Одна из форм согласованной немоногамии, имеющая этические взгляды на любовь, допускающая возможность существования любовных отношений у одного человека с несколькими людьми одновременно, с согласия и одобрения всех участников этих отношений."
+ # Character interactions (Shieldmaiden)
+ appoint_shieldmaiden_interaction:0 "Предложить статус воительницы"
+ relieve_shieldmaiden_interaction:0 "Лишить статуса воительницы"
+ appointed_shieldmaiden_opinion:0 "Наделена статусом воительницы"
+ relieved_shieldmaiden_opinion:0 "Лишена статуса воительницы"
+ msg_appointed_shieldmaiden_interaction_title:0 "Признанная воительница"
+ msg_appointed_shieldmaiden_interaction_desc:0 "[recipient.GetTitledFirstName] была признана как воительница и теперь может стать хускарлом или воглавить армию."
+ char_interaction.6121.opening:1 "[recipient.Custom2('AppropriateGreeting', actor )]"
+ char_interaction.6121.desc:0 "Я принимаю ваше предложение призвать меня в ряды воительниц!"
+ char_interaction.6122.desc:0 "Мне не нужен статус воительницы и я предпочла бы не говорить об этом больше."
+ char_interaction.6122.a:0 "Придется рассмотреть другие кандидатуры..."
+ OFFER_SHIELDMAIDEN_APPOINTMENT_NOTIFICATION:0 "Я хочу предложить вам статус воительницы, учитывая вашу доблесть и способности."
+ RECIPIENT_PROWESS_NOT_ENOUGH:0 "[CHARACTER.GetShortUINamePossessive] имеет недостаточно доблести."

@@ -1,0 +1,9 @@
+﻿appointed_shieldmaiden_opinion = {
+    opinion = 15
+    years = 10
+}
+
+relieved_shieldmaiden_opinion = {
+    opinion = -35
+    years = 10
+}

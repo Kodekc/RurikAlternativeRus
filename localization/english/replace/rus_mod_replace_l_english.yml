@@ -1,7 +1,0 @@
-﻿l_english:
- # Religion
- game_concept_fervor_desc:2 "The $game_concept_fervor$ of a [faith|E] ranges from #V 0#! to #V 100%#!.\n\nLow $game_concept_fervor$ is the disillusionment and doubts of the defeated that makes it easier for [rulers|E] to create new heterodox faiths, and increases the likelihood of [counties|E] and characters apostatising to other faiths and [heresies|E].\n\nHigh $game_concept_fervor$ is the vigour and cohesion of triumphant faiths that increases County conversion speed and the likelihood of characters accepting conversion requests.\n\nWield the righteous sword of [GetPlayer.GetFaith.WarGodName] in victorious [GetPlayer.GetFaith.GHWNamePlural] and Holy Wars to increase [GetPlayer.GetFaith.GetAdjective] $game_concept_fervor$.\n\nDecrease the $game_concept_fervor$ of the enemies of [GetPlayer.Custom('GetReligionAlternateGodNameOne')] and the Holy [GetPlayer.GetFaith.ReligiousText] by defeating them in battle and scattering them to the four winds.\n\nFor the glory of the [GetPlayer.GetFaith.ReligiousSymbol] and [GetPlayer.Custom('GetReligionAlternateGodNameTwo')]!\n\n[GetPlayer.Custom('GetReligionCriDeGuerre')]"
- county_increased_opinion_modifier_crusade:0 "Suppressed locals"
- christianity_religious_text:0 "Bible"
- christianity_religious_symbol:0 "Cross"
- islam_religious_symbol:0 "Shahada"

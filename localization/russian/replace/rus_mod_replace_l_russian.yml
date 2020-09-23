@@ -26,8 +26,3 @@
  b_vinnytsia:0 "Винница"
  # Map items (Sea)
  sea_baltic:0 "Варяжское море"
- # Religion
- county_increased_opinion_modifier_crusade:0 "Подавленные мирные жители"
- christianity_religious_text:0 "Библия"
- christianity_religious_symbol:0 "Крест"
- islam_religious_symbol:0 "Шахада"

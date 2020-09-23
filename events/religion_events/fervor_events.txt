@@ -663,7 +663,7 @@ fervor.1001 = {
 			set_variable = {
 				name = recent_fervor_event
 				value = yes
-				days = 2920 # 8 year cooldown (plus a 1 year MTTH ~= occurs once per 8 years)
+				days = 1460 # 4 year cooldown (plus a 1 year MTTH ~= occurs once per 5 years)
 			}
 		} # Close 'exists = scope:sinful_theocrat'
 	}
@@ -1639,7 +1639,7 @@ fervor.2001 = {
 		set_variable = {
 			name = recent_fervor_event
 			value = yes
-			days = 2920 # 8 year cooldown (plus a 1 year MTTH ~= occurs once per 8 years)
+			days = 1460 # 4 year cooldown (plus a 1 year MTTH ~= occurs once per 5 years)
 		}
 	}
 }

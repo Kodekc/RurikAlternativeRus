@@ -1,26 +1,22 @@
 ﻿l_russian:
+ # Rurik: Alternative Rus (Mod autor: Kodeks)
  # Knight Culture
  knight_huscarl_no_tooltip:0 "Хускарл"
  knight_huscarl_no_tooltip_plural:0 "Хускарлы"
-
  knight_vityaz_no_tooltip:0 "Витязь"
  knight_vityaz_no_tooltip_plural:0 "Витязи" 
-
  knight_huscarl_no_tooltip_lowercase:0 "хускарл"
  knight_huscarl_no_tooltip_lowercase_plural:0 "хускарлы"
  knight_huscarl_no_tooltip_lowercase_plural_possessive:0 "хускарлов"
  knight_huscarl_no_tooltip_lowercase_adjective:0 "хускарл"
- knight_huscarl_no_tooltip_lowercase_plural_adjective:0 "Воинская" 
- 
+ knight_huscarl_no_tooltip_lowercase_plural_adjective:0 "Воинская"  
  knight_vityaz_no_tooltip_lowercase:0 "витязь"
  knight_vityaz_no_tooltip_lowercase_plural:0 "витязи"
  knight_vityaz_no_tooltip_lowercase_plural_possessive:0 "витязей"
  knight_vityaz_no_tooltip_lowercase_adjective:0 "витязь"
- knight_vityaz_no_tooltip_lowercase_plural_adjective:0 "Воинская"
- 
+ knight_vityaz_no_tooltip_lowercase_plural_adjective:0 "Воинская" 
  knight_huscarl:0 "[Concept( 'knight', '$knight_huscarl_no_tooltip$' )|E]"
  knight_huscarl_plural:0 "[Concept( 'knight', '$knight_huscarl_no_tooltip_plural$' )|E]"
-
  knight_vityaz:0 "[Concept( 'knight', '$knight_vityaz_no_tooltip$' )|E]"
  knight_vityaz_plural:0 "[Concept( 'knight', '$knight_vityaz_no_tooltip_plural$' )|E]"
  # Nicknames
@@ -45,7 +41,7 @@
  # Cultural innovations
  innovation_rook:0 "Ладьи"
  innovation_rook_desc:0 "Ладья — славянское полноводное парусно-гребное морское и речное судно, предназначенное для гражданских и военных целей."
- # Russian titulature (Mod autor: Kodeks)
+ # Russian titulature
  unoccupied_free_land:0 "Вольные земли"
  russian_barony_pogost:0 "Погост"
  russian_barony_ostrog:0 "Острог"
@@ -74,7 +70,7 @@
  russian_princess:0 "Княжна"
  russian_empire_prince:0 "Царевич"
  russian_empire_princess:0 "Царевна"
- # Byzantine titulature (Mod autor: Kodeks)
+ # Byzantine titulature
  byzantine_barony_kastron:0 "Кастрон"
  byzantine_praetor:0 "Претор"
  byzantine_theme:0 "Фема"
@@ -85,7 +81,7 @@
  byzantine_katepaneira:0 "Катепанесса"
  byzantine_kingdom_autokrator:0 "Автократор"
  byzantine_kingdom_patricia:0 "Патрикия"
- # Scandinavian titulature (Mod autor: Kodeks)
+ # Scandinavian titulature
  scandinavian_headman:0 "Хёвдинг"
  scandinavian_village:0 "Поселение"
  scandinavian_syssel:0 "Сюсла"
@@ -99,7 +95,7 @@
  scandinavian_kingdom_konge:0 "Конунг"
  scandinavian_kingdom_drottning:0 "Дроттнинг"
  scandinavian_kingdom_prince:0 "Дроттинн"
- # Veche elective (Mod autor: Kodeks)
+ # Veche elective
  veche_elective_succession_law:0 "Славянские выборы"
  veche_elective_succession_law_subname:0 "Вечевые собрания"
  veche_elective_succession_law_effects:0 "[ruler|E] и все [de_jure|El] [vassals|El] (кроме баронов) могут предложить кандидатуру [Concept( 'heir', 'наследника' )|El]. На наследство могут претендовать [Concept( 'extended_family', 'дальние родственники' )|El] правителя и любые законные [claimants|El]. Этот [succession_law|El] подразумевает, что [voting_power|El] зависит от размера [Concept( 'domain', 'домена' )|El] [Concept( 'elector', 'выборщика' )|El]. Кроме того, на него влияют [county_development|El] и [county_opinion|El]."
@@ -116,7 +112,7 @@
  trait_rus_mod_shieldmaiden:0 "Воительница"
  trait_rus_mod_shieldmaiden_desc:0 "Прекрасная дева, выбравшая жизнь воительницы. Она столь же красива, сколь и смертоносна."
  trait_rus_mod_shieldmaiden_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] прекрасная дева, выбравшая жизнь воительницы, известная своей силой и храбростью, была обучена биться наравне с мужчинами."
- # Rurik event (Mod autor: Kodeks)
+ # Rurik event
  restore_ladoga_decision:0 "Завершить восстановление Ладоги"
  restore_ladoga_decision_desc:0 "Небольшая деревянная крепость, которую мы с дружинной возвели в Ладоге, когда прибыли в ильменские земли, стала оплотом и защитой для угнетённых жителей тех земель, уставшие от междоусобиц, податей и несправедливости, они наконец обрели заслуженный мир. Это место имеет стратегическое значение, а в последнее время и торговое, пора завершить начатое в прошлом и укрепить наши земли. Надо всего лишь получить благословение наших волхвов, доставить немного камня и обеспечить финансовую поддержку для строительства села, и это место обретёт вновь былую славу."
  restore_ladoga_decision_tooltip:0 "У меня осталось незавершённым дело прошлого, требующее моего внимания"

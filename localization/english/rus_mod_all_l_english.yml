@@ -1,26 +1,22 @@
 ﻿l_english:
+ # English is not my first language so please help me correct any translation errors. Rurik: Alternative Rus (Mod autor: Kodeks)
  # Knight Culture
  knight_huscarl_no_tooltip:0 "Huscarl"
  knight_huscarl_no_tooltip_plural:0 "Huscarls"
-
  knight_vityaz_no_tooltip:0 "Vityaz"
  knight_vityaz_no_tooltip_plural:0 "Vityazs" 
-
  knight_huscarl_no_tooltip_lowercase:0 "huscarl"
  knight_huscarl_no_tooltip_lowercase_plural:0 "huscarls"
  knight_huscarl_no_tooltip_lowercase_plural_possessive:0 "huscarls'"
  knight_huscarl_no_tooltip_lowercase_adjective:0 "huscarl"
  knight_huscarl_no_tooltip_lowercase_plural_adjective:0 "Military" 
- 
  knight_vityaz_no_tooltip_lowercase:0 "vityaz"
  knight_vityaz_no_tooltip_lowercase_plural:0 "vityazs"
  knight_vityaz_no_tooltip_lowercase_plural_possessive:0 "vityazs'"
  knight_vityaz_no_tooltip_lowercase_adjective:0 "vityaz"
  knight_vityaz_no_tooltip_lowercase_plural_adjective:0 "Military"  
-
  knight_huscarl:0 "[Concept( 'knight', '$knight_huscarl_no_tooltip$' )|E]"
  knight_huscarl_plural:0 "[Concept( 'knight', '$knight_huscarl_no_tooltip_plural$' )|E]"
-
  knight_vityaz:0 "[Concept( 'knight', '$knight_vityaz_no_tooltip$' )|E]"
  knight_vityaz_plural:0 "[Concept( 'knight', '$knight_vityaz_no_tooltip_plural$' )|E]"
  # Nicknames
@@ -45,7 +41,7 @@
  # Cultural innovations
  innovation_rook:0 "Rooks"
  innovation_rook_desc:0 "Rook - is a slavic full-flowing sailing-rowing sea and river vessel intended for civil and military purposes."
- # Russian titulature (Mod autor: Kodeks)
+ # Russian titulature
  unoccupied_free_land:0 "Free land of"
  russian_barony_pogost:0 "Pogost of"
  russian_barony_ostrog:0 "Ostrog of"
@@ -74,7 +70,7 @@
  russian_princess:0 "Knyazhna"
  russian_empire_prince:0 "Tsarevich"
  russian_empire_princess:0 "Tsarevna"
- # Byzantine titulature (Mod autor: Kodeks)
+ # Byzantine titulature
  byzantine_barony_kastron:0 "Кastron of"
  byzantine_praetor:0 "Praetor"
  byzantine_theme:0 "Theme of"
@@ -85,7 +81,7 @@
  byzantine_katepaneira:0 "Katepaneira"
  byzantine_kingdom_autokrator:0 "Autokrator"
  byzantine_kingdom_patricia:0 "Patricia"
- # Scandinavian titulature (Mod autor: Kodeks)
+ # Scandinavian titulature
  scandinavian_headman:0 "Hövding"
  scandinavian_village:0 "Village of"
  scandinavian_syssel:0 "Syssel of"
@@ -99,7 +95,7 @@
  scandinavian_kingdom_konge:0 "Konge"
  scandinavian_kingdom_drottning:0 "Drottning"
  scandinavian_kingdom_prince:0 "Drohtin"
- # Veche elective (Mod autor: Kodeks)
+ # Veche elective
  veche_elective_succession_law:0 "Slavic elections"
  veche_elective_succession_law_subname:0 "Veche meetings"
  veche_elective_succession_law_effects:0 "The [ruler|E] and all [de_jure|E] [vassals|E] (except Barons) can nominate an [heir|E] amongst the ruler's [extended_family|E] and any available [claimants|E]. [voting_power|E] in this [succession_law|E] is influenced by the [elector|E]'s total [domain|E] [county_development|E] and [capital|E] [county_opinion|E]."
@@ -107,7 +103,7 @@
  veche_elective_candidates_tooltip:0 "In order to be a valid Candidate under the Veche, a character must fulfill one of the following conditions:\n$EFFECT_LIST_BULLET$Be a legitimate member of the ruler's [extended_family|E], who is not in line to inherit a Theocracy or Republic\n$EFFECT_LIST_BULLET$Be a [claimant|E] to the title, who is not in line to inherit a Theocracy or Republic"
  veche_elective_electors:0 "$feudal_elective_electors$"
  veche_elective_electors_tooltip:0 "In order to be a valid [elector|E] under the Veche, a vassal must fulfill all the following conditions:\n$EFFECT_LIST_BULLET$Be a direct vassal of the title\n$EFFECT_LIST_BULLET$NOT be a Baron"
- #Traits
+ # Traits
  trait_witch_female:0 "Witch"
  trait_witch_male:0 "Sorcerer"
  trait_rus_mod_virgin:0 "Sworn virgin"
@@ -116,7 +112,7 @@
  trait_rus_mod_shieldmaiden:0 "Shieldmaiden"
  trait_rus_mod_shieldmaiden_desc:0 "The character is a famous warrior."
  trait_rus_mod_shieldmaiden_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] was trained to fight on a par with men, and received a personal shield as a sign of successful training.."
- # Rurik event (Mod autor: Kodeks)
+ # Rurik event
  restore_ladoga_decision:0 "Complete the restoration of Ladoga"
  restore_ladoga_decision_desc:0 "A small wooden fortress, which the squad and I erected in Ladoga, when we arrived in the Ilmen lands, became a stronghold and protection for the oppressed inhabitants of those lands, tired of civil strife, taxes and injustice, they finally found a peace. This place is of strategic importance, and more recently also a trading place, it is time to complete what we started in the past and strengthen our lands. Just need to get the blessing of our gods, deliver stone and provide financial investment for the construction of the village, and this place will retrive its old glory."
  restore_ladoga_decision_tooltip:0 "I have incomplete work from the past, that needs my attention"

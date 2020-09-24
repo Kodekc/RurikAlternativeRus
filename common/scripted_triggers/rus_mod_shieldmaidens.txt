@@ -9,7 +9,6 @@
 			has_trait = rus_mod_shieldmaiden
 			}
 		}
-	}
 	NOT = {
 		has_trait = incapable
 		has_trait = pregnant

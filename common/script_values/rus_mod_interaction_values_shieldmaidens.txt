@@ -1,19 +1,19 @@
 ﻿appoint_shieldmaiden_cost = {
 	value = 100
 	multiply = {
-		value = root.primary_title.tier
+		value = scope:actor.primary_title.tier
 		subtract = 1
 		min = 1
 	}
 	if = {
 		limit = {
-			root.primary_title.tier > tier_duchy
+			scope:actor.primary_title.tier > tier_duchy
 		}
 		add = 50
 	}
 	if = {
 		limit = {
-			root= {
+			scope:actor= {
 				has_government = tribal_government
 			}
 		}
@@ -23,7 +23,7 @@
     # TODO: scale based on how rich the player is
     #if = {
     #    limit = {
-    #        root.gold > minor_gold_max_value
+    #        scope:actor.gold > minor_gold_max_value
     #    }
     #}
 }
@@ -33,19 +33,19 @@ appoint_shieldmaiden_prestige_gain = {
 
 	# TODO: adjust this better
 	multiply = {
-		value = root.primary_title.tier
+		value = scope:actor.primary_title.tier
 		subtract = 1
 		min = 1
 	}
 	if = {
 		limit = {
-			root.primary_title.tier > tier_duchy
+			scope:actor.primary_title.tier > tier_duchy
 		}
 		add = 50
 	}
 	if = {
 		limit = {
-			root= {
+			scope:actor = {
 				has_government = tribal_government
 			}
 		}

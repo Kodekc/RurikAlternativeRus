@@ -68,7 +68,7 @@
         scope:recipient = {
             custom_description = {
                 text = not_enough_prowess
-                prowess > 8
+                prowess >= 8
             }
         }
 

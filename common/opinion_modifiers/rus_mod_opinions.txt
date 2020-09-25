@@ -1,0 +1,12 @@
+﻿# Rurik: Alternative Rus (Mod autor: Kodeks)
+appointed_shieldmaiden_opinion = {
+    opinion = 15
+	decaying = yes
+    years = 10
+}
+
+relieved_shieldmaiden_opinion = {
+    opinion = -35
+	decaying = yes
+    years = 10
+}

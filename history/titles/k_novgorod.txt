@@ -465,7 +465,6 @@ c_rusa = {
 	}
 }
 
-
 c_pskov = {
 	###Pre Kievan Rus
 	860.1.2 = {
@@ -1804,4 +1803,3 @@ c_bezichi = {
 		holder = 125234
 	}
 }
-

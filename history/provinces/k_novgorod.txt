@@ -70,7 +70,7 @@
 	culture = ilmenian
 	religion = slavic_pagan
 	
-	#holding = castle_holding
+	holding = city_holding
 	
 	#terrain = forest
 	

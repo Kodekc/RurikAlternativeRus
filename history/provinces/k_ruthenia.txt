@@ -23,7 +23,7 @@
 547 = {	# 547 - Kiev
 	
 	# Misc
-	culture = polansian
+	culture = russian
 	religion = slavic_pagan
 	
 	#holding = castle_holding

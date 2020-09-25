@@ -14,7 +14,9 @@
 		has_title = title:d_novgorod
 		NOT = {
             title:b_ladoga.title_province = {
-            has_building = city_01}
+            has_building = outposts_01
+			has_building = common_tradeport_01
+			}
 		}
 	}
 
@@ -30,18 +32,19 @@
 
 	effect = {
 		title:b_ladoga.title_province = {
-            set_holding_type = city_holding
+            add_building = outposts_01
+			add_building = common_tradeport_01
           }
-		get_title = title:b_ladoga
 	}
 
 	cost = {
-		gold = 300
-		prestige = 100
-		piety = 300
+		gold = 150
+		prestige = 150
 	}
 
 	ai_will_do = {
-		base = 100
+		base = 100	
 	}
+	
+	ai_priority = 100
 }

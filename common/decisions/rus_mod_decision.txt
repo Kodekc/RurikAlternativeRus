@@ -1,7 +1,7 @@
 ﻿restore_ladoga_decision = {
 	picture = "gfx/interface/illustrations/decisions/decision_restore_ladoga.dds"
 	major = yes
-	ai_check_interval = 12
+	ai_check_interval = 6
 
 	desc = restore_ladoga_decision_desc
 	selection_tooltip = restore_ladoga_decision_tooltip

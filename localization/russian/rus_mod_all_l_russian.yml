@@ -38,6 +38,11 @@
  radimichian_collective_noun:0 "Радимичи"
  dregovichian:0 "Дреговичск"
  dregovichian_collective_noun:0 "Дреговичи"
+ rujanian:0 "Руянск"
+ rujanian_collective_noun:0 "Руяне"
+ # Cultural titles
+ cn_rugia:0 "Ругия"
+ cn_rugia_adj:0 "Ругийск"
  # Cultural innovations
  innovation_rook:0 "Ладьи"
  innovation_rook_desc:0 "Ладья — славянское полноводное парусно-гребное морское и речное судно, предназначенное для гражданских и военных целей."

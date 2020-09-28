@@ -38,6 +38,11 @@
  radimichian_collective_noun:0 "Radimichs"
  dregovichian:0 "Dregovichsk"
  dregovichian_collective_noun:0 "Dregoviches"
+ rujanian:0 "Ruyansk"
+ rujanian_collective_noun:0 "Rujani"
+ # Cultural titles
+ cn_rugia:0 "Rugia"
+ cn_rugia_adj:0 "Rugiysk"
  # Cultural innovations
  innovation_rook:0 "Rooks"
  innovation_rook_desc:0 "Rook - is a slavic full-flowing sailing-rowing sea and river vessel intended for civil and military purposes."

@@ -1,0 +1,4 @@
+﻿2001014 = {
+	name = "dynn_Rani"
+	culture = "rujanian"
+}

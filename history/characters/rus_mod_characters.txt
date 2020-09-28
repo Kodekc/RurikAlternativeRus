@@ -131,7 +131,7 @@
  	name = "Umila" #Intended mother of Rurik
  	female = yes
  	religion = slavic_pagan
-	culture = polabian
+	culture = rujanian
 	803.1.1 = {
 		birth = yes
 	}
@@ -143,7 +143,7 @@
 40698 = {
  	name = "Godslav" #Intended father of Rurik
  	religion = slavic_pagan
-	culture = polabian
+	culture = rujanian
 	801.1.1 = {
 		birth = yes
 	}
@@ -196,7 +196,7 @@
 	name = "SignjO_tr"	#Sineus
 	dynasty = 705
 	religion = slavic_pagan
-	culture = polabian
+	culture = rujanian
 	trait = deceitful
 	trait = gregarious
 	trait = ambitious
@@ -215,7 +215,7 @@
 	name = "T_O_rvar"		#Truvor
 	dynasty = 705
 	religion = slavic_pagan
-	culture = polabian
+	culture = rujanian
 	trait = just
 	trait = compassionate
 	trait = ambitious

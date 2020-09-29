@@ -1090,7 +1090,6 @@ colored_emblem_texture_lists = {
 			1000 = "ce_crescent_knot.dds"
 			# Rurik: Alternative Rus (Mod autor: Kodeks)
 			1000 = "rus_mod_belobog.dds"
-			1000 = "rus_mod_chernobog.dds"
 			1000 = "rus_mod_hors.dds"
 			1000 = "rus_mod_kypalo.dds"
 			1000 = "rus_mod_lelya.dds"

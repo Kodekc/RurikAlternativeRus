@@ -1,18 +1,7 @@
-d_novgorod = {
+k_novgorod = {
 	pattern = "pattern_solid.dds"
-	color1 = "white"
-	colored_emblem = {
-		texture = "rus_mod_throne.dds"
-		color1 = "yellow"
-		color2 = "red"
-	}
-	colored_emblem = {
-		texture = "rus_mod_bears.dds"
-		color1 = "black"
-	}
-	colored_emblem = {
-		texture = "rus_mod_сandle.dds"
-		color1 = "red"
-		color2 = "black"
+	color1 = rgb { 130 20 10 }
+	textured_emblem = {
+		texture = "rus_mod_falcon.dds"
 	}
 }

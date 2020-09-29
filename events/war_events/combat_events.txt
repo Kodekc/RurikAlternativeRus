@@ -524,7 +524,7 @@ combat_event.1001 = {
 			enemy_side.side_commander = {
 				random_list = {
 					# No Effect
-					70 = {
+					90 = {
 						# Reduced risk for characters with the Stalwart Leader perk.
 						modifier = {
 							add = 100
@@ -540,11 +540,11 @@ combat_event.1001 = {
 						# Being stackwiped greatly increases the chance of capture.
 						modifier = {
 							scope:wipe = yes
-							factor = 0.01
+							factor = 0.20
 						}
 					}
 					# Captured in battle.
-					30 = {
+					10 = {
 						trigger = {
 							is_alive = yes
 						}
@@ -604,7 +604,7 @@ combat_event.1001 = {
 		enemy_side = {
 			every_side_knight = {
 				random_list = {
-					70 = { # Nothing Happens
+					85 = { # Nothing Happens
 						trigger = {
 							is_alive = yes
 						}
@@ -622,10 +622,10 @@ combat_event.1001 = {
 						# Being stackwiped greatly increases the chance of capture and/or death.
 						modifier = {
 							scope:wipe = yes
-							factor = 0.01
+							factor = 0.20
 						}
 					}
-					25 = { # Imprisonment
+					10 = { # Imprisonment
 						trigger = {
 							is_alive = yes
 						}

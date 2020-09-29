@@ -13,7 +13,7 @@
 	}
 }
 5138 = {	#Ladoga
-	holding = none
+	holding = city_holding
 	935.1.1 = {
 		holding = castle_holding
 	}

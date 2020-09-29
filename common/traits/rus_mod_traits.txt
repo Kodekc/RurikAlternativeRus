@@ -52,6 +52,7 @@ witch = {
 
 rus_mod_virgin = {
 	index = 300
+	random_creation = 0
 	opposites = {
 		lifestyle_reveler
 		seducer
@@ -99,6 +100,7 @@ rus_mod_virgin = {
 
 rus_mod_shieldmaiden = {
 	index = 301
+	random_creation = 0
 	fame = yes
 	martial = 2
 	prowess = 3

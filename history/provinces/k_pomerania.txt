@@ -274,7 +274,7 @@
 
 ###c_wolgast
 2817 = {	#WOLGAST
-	culture = pommeranian
+	culture = polabian
 	religion = slavic_pagan
 	holding = tribal_holding
 	1020.1.1 = {
@@ -305,7 +305,6 @@
 }
 2810 = {	#STRALSUND
 	holding = none
-	culture = rujanian
 }
 
 ###c_rostock
@@ -322,13 +321,12 @@
 }
 2819 = {	#GUSTROW
 	holding = none
-	culture = rujanian
 	#1219
 }
 
 ###c_werle
 2812 = {	#WERLE
-	culture = pommeranian
+	culture = polabian
 	religion = slavic_pagan
 	holding = tribal_holding
 	1066.1.1 = {

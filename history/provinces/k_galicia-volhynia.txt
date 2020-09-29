@@ -1,750 +1,273 @@
-# 534 - Peremyshl
-534 = {	# 534 - Peremyshl
-	
-	# Misc
+#k_galicia-volhynia
+##d_volhynia ###################################
+###c_volodymyr
+535 = {		#Volodymyr
 	culture = volhynian
 	religion = slavic_pagan
-	
-	#holding = castle_holding
-	
-	#terrain = hills
-	
-	# History
+	holding = tribal_holding
+	935.1.1 = {
+		holding = castle_holding
+	}
 	989.9.15 = {
 		religion = orthodox
 	}
-
 }
-
-# 535 - Volodymyr
-535 = {	# 535 - Volodymyr
-	
-	# Misc
-	culture = volhynian
-	religion = slavic_pagan
-	
-	#holding = castle_holding
-	
-	#terrain = hills
-	
-	# History
-	989.9.15 = {
-		religion = orthodox
-	}
-
-}
-
-# 536 - Halych
-536 = {	# 536 - Halych
-	
-	# Misc
-	culture = volhynian
-	religion = slavic_pagan
-	
-	#holding = castle_holding
-	
-	#terrain = hills
-	
-	# History
-	989.9.15 = {
-		religion = orthodox
-	}
-
-}
-
-# 546 - Terebovl
-546 = {	# 546 - Terebovl
-	
-	# Misc
-	culture = volhynian
-	religion = slavic_pagan
-	
-	#holding = castle_holding
-	
-	#terrain = hills
-	
-	# History
-	989.9.15 = {
-		religion = orthodox
-	}
-
-}
-
-# 549 - Berestye
-549 = {	# 549 - Berestye
-	
-	# Misc
-	culture = volhynian
-	religion = slavic_pagan
-	
-	#holding = castle_holding
-	
-	#terrain = wetlands
-	
-	# History
-	989.9.15 = {
-		religion = orthodox
-	}
-
-}
-
-# 5047 - Lutsk
-5047 = {	# 5047 - Lutsk
-	
-	# Misc
-	culture = volhynian
-	religion = slavic_pagan
-	
-	holding = city_holding
-	
-	#terrain = hills
-	
-	# History
-	989.9.15 = {
-		religion = orthodox
-	}
-
-}
-
-# 5048 - Luboml
-5048 = {	# 5048 - Luboml
-	
-	# Misc
-	culture = volhynian
-	religion = slavic_pagan
-	
+5047 = {	#Lutsk
 	holding = none
-	
-	#terrain = plains
-	
-	# History
-	989.9.15 = {
-		religion = orthodox
+	935.1.1 = {
+		holding = city_holding
 	}
-
 }
-
-# 5049 - Kovel
-5049 = {	# 5049 - Kovel
-	
-	# Misc
-	culture = volhynian
-	religion = slavic_pagan
-	
+5048 = {	#Luboml
 	holding = none
-	
-	#terrain = plains
-	
-	# History
-	989.9.15 = {
-		religion = orthodox
-	}
-
 }
-
-# 5050 - Rozhyshche
-5050 = {	# 5050 - Rozhyshche
-	
-	# Misc
-	culture = volhynian
-	religion = slavic_pagan
-	
+5049 = {	#Kovel
 	holding = none
-	
-	#terrain = plains
-	
-	# History
-	989.9.15 = {
-		religion = orthodox
-	}
-
 }
-
-# 5051 - Peresopnytsia
-5051 = {	# 5051 - Peresopnytsia
-	
-	# Misc
-	culture = volhynian
-	religion = slavic_pagan
-	
-	#holding = castle_holding
-	
-	#terrain = hills
-	
-	# History
-	989.9.15 = {
-		religion = orthodox
-	}
-
-}
-
-# 5052 - Rivne
-5052 = {	# 5052 - Rivne
-	
-	# Misc
-	culture = volhynian
-	religion = slavic_pagan
-	
+5050 = {	#Rozhyshche
 	holding = none
-	
-	#terrain = hills
-	
-	# History
+}
+
+###c_peresopnytsia
+5051 = {	#Peresopnytsia
+	culture = volhynian
+	religion = slavic_pagan
+	holding = tribal_holding
+	935.1.1 = {
+		holding = castle_holding
+	}
 	989.9.15 = {
 		religion = orthodox
 	}
-
+}
+5052 = {	# Rivne
+	holding = none
+}
+5053 = {	#Klevan
+	holding = none
 }
 
-# 5053 - Klevan
-5053 = {	# 5033 - Klevan
-	
-	# Misc
+###c_berestye
+549 = {		#Berestye
 	culture = volhynian
 	religion = slavic_pagan
-	
-	holding = none
-	
-	#terrain = plains
-	
-	# History
+	holding = tribal_holding
+	985.1.1 = {
+		holding = castle_holding
+	}
 	989.9.15 = {
 		religion = orthodox
 	}
-
 }
-
-# 5054 - Bielsk
-5054 = {	# 5054 - Bielsk
-	
-	# Misc
-	culture = volhynian
-	religion = slavic_pagan
-	
+5054 = {	#Bielsk
 	holding = none
-	
-	#terrain = plains
-	
-	# History
 	989.9.15 = {
 		religion = orthodox
 	}
 	1150.1.1 = {
 		holding = city_holding
 	}
-
 }
-
-# 5055 - Kamyanyets
-5055 = {	# 5055 - Kamyanyets
-	
-	# Misc
-	culture = volhynian
-	religion = slavic_pagan
-	
+5055 = {	#Kamyanyets
 	holding = none
-	
-	#terrain = plains
-	
-	# History
-	989.9.15 = {
-		religion = orthodox
-	}
-
 }
-
-# 5056 - Simiatychi
-5056 = {	# 5056 - Simiatychi
-	
-	# Misc
-	culture = volhynian
-	religion = slavic_pagan
-	
+5056 = {	#Simiatychi
 	holding = none
-	
-	#terrain = plains
-	
-	# History
+}
+
+###c_dorohychyn
+5057 = {	#Dorohychyn
+	culture = volhynian
+	religion = slavic_pagan
+	holding = tribal_holding
+	985.1.1 = {
+		holding = castle_holding
+	}
 	989.9.15 = {
 		religion = orthodox
 	}
-
 }
-
-# 5057 - Dorohychyn
-5057 = {	# 5057 - Dorohychyn
-	
-	# Misc
-	culture = volhynian
-	religion = slavic_pagan
-	
-	#holding = castle_holding
-	
-	#terrain = forest
-	
-	# History
-	989.9.15 = {
-		religion = orthodox
-	}
-
-}
-
-# 5058 - Kobryn
-5058 = {	# 5058 - Kobryn
-	
-	# Misc
-	culture = volhynian
-	religion = slavic_pagan
-	
+5058 = {	#Kobryn
 	holding = none
-	
-	#terrain = wetlands
-	
-	# History
-	989.9.15 = {
-		religion = orthodox
-	}
-
+}
+5059 = {	#Blotkowo
+	holding = none
 }
 
-# 5059 - Blotkowo
-5059 = {	# 5059 - Blotkowo
-	
-	# Misc
+##d_halych ###################################
+###c_halych
+536 = {		#Halych
 	culture = volhynian
 	religion = slavic_pagan
-	
-	holding = none
-	
-	#terrain = forest
-	
-	# History
+	holding = tribal_holding
+	935.1.1 = {
+		holding = castle_holding
+	}
 	989.9.15 = {
 		religion = orthodox
 	}
-
 }
-
-# 5060 - Sambir
-5060 = {	# 5060 - Sambir
-	
-	# Misc
-	culture = volhynian
-	religion = slavic_pagan
-	
+5060 = {	#Sambir
 	holding = none
-	
-	#terrain = hills
-	
-	# History
-	989.9.15 = {
-		religion = orthodox
-	}
 	1150.1.1 = {
 		holding = city_holding
 	}
-
 }
-
-# 5061 - Kolomyia
-5061 = {	# 5061 - Kolomyia
-	
-	# Misc
-	culture = volhynian
-	religion = slavic_pagan
-	
+5061 = {	#Kolomyia
 	holding = none
-	
-	#terrain = hills
-	
-	# History
-	989.9.15 = {
-		religion = orthodox
-	}
-
 }
 
-# 5062 - Spas
-5062 = {	# 5062 - Spas
-	
-	# Misc
-	culture = volhynian
-	religion = slavic_pagan
-	
+5062 = {	#Spas
 	holding = none
-	
-	#terrain = hills
-	
-	# History
+}
+
+###c_lviv
+5063 = {	#Lviv
+	culture = volhynian
+	religion = slavic_pagan
+	holding = tribal_holding
+	935.1.1 = {
+		holding = castle_holding
+	}
 	989.9.15 = {
 		religion = orthodox
 	}
-
 }
-
-# 5063 - Lviv
-5063 = {	# 5063 - Lviv
-	
-	# Misc
-	culture = volhynian
-	religion = slavic_pagan
-	
-	#holding = castle_holding
-	
-	#terrain = hills
-	
-	# History
-	989.9.15 = {
-		religion = orthodox
-	}
-
-}
-
-# 5064 - Zvenyhorod
-5064 = {	# 5064 - Zvenyhorod
-	
-	# Misc
-	culture = volhynian
-	religion = slavic_pagan
-	
+5064 = {	#Zvenyhorod
 	holding = none
-	
-	#terrain = hills
-	
-	# History
-	989.9.15 = {
-		religion = orthodox
-	}
 	1050.1.1 = {
 		holding = city_holding
 	}
-
 }
 
-# 5065 - Busk
-5065 = {	# 5065 - Busk
-	
-	# Misc
-	culture = volhynian
-	religion = slavic_pagan
-	
+5065 = {	#Busk
 	holding = none
-	
-	#terrain = hills
-	
-	# History
-	989.9.15 = {
-		religion = orthodox
-	}
 	1071.1.1 = {
 		holding = church_holding
 	}
-
 }
-
-# 5066 - Buchach
-5066 = {	# 5066 - Buchach
-	
-	# Misc
-	culture = volhynian
-	religion = slavic_pagan
-	
+5066 = {	#Buchach
 	holding = none
-	
-	#terrain = hills
-	
-	# History
-	989.9.15 = {
-		religion = orthodox
-	}
-
 }
-
-# 5067 - Moklekov
-5067 = {	# 5067 - Moklekov
-	
-	# Misc
-	culture = volhynian
-	religion = slavic_pagan
-	
+5067 = {	#Moklekov
 	holding = none
-	
-	#terrain = hills
-	
-	# History
+}
+
+###c_terebovl
+546 = {		#Terebovl
+	culture = volhynian
+	religion = slavic_pagan
+	holding = tribal_holding
+	935.1.1 = {
+		holding = castle_holding
+	}
 	989.9.15 = {
 		religion = orthodox
 	}
-
 }
-
-# 5068 - Horodok
-5068 = {	# 5068 - Horodok
-	
-	# Misc
-	culture = volhynian
-	religion = slavic_pagan
-	
+5068 = {	#Horodok
 	holding = none
-	
-	#terrain = hills
-	
-	# History
-	989.9.15 = {
-		religion = orthodox
-	}
-
 }
-
-# 5069 - Chortkiv
-5069 = {	# 5069 - Chortkiv
-	
-	# Misc
-	culture = volhynian
-	religion = slavic_pagan
-	
+5069 = {	#Chortkiv
 	holding = none
-	
-	#terrain = hills
-	
-	# History
+}
+
+###c_zaslavl
+5070 = {	#Zaslavl
+	culture = volhynian
+	religion = slavic_pagan
+	holding = tribal_holding
+	935.1.1 = {
+		holding = castle_holding
+	}
 	989.9.15 = {
 		religion = orthodox
 	}
-
 }
-
-# 5070 - Zaslavl
-5070 = {	# 5070 - Zaslavl
-	
-	# Misc
-	culture = volhynian
-	religion = slavic_pagan
-	
-	#holding = castle_holding
-	
-	#terrain = hills
-	
-	# History
-	989.9.15 = {
-		religion = orthodox
-	}
-
-}
-
-# 5071 - Dubno
-5071 = {	# 5071 - Dubno
-	
-	# Misc
-	culture = volhynian
-	religion = slavic_pagan
-	
+5071 = {	#Dubno
 	holding = none
-	
-	#terrain = hills
-	
-	# History
-	989.9.15 = {
-		religion = orthodox
-	}
 	1100.1.1 = {
 		holding = city_holding
 	}
-
 }
-
-# 5072 - Ostroh
-5072 = {	# 5072 - Ostroh
-	
-	# Misc
-	culture = volhynian
-	religion = slavic_pagan
-	
+5072 = {	#Ostroh
 	holding = none
-	
-	#terrain = hills
-	
-	# History
-	989.9.15 = {
-		religion = orthodox
-	}
 	1100.1.1 = {
 		holding = church_holding
 	}
-
 }
 
-# 5073 - Cherven
-5073 = {	# 5073 - Cherven
-	
-	# Misc
+##d_cherven_cities ###################################
+###c_cherven
+5073 = {	#Cherven
 	culture = volhynian
 	religion = slavic_pagan
-	
-	#holding = castle_holding
-	
-	#terrain = hills
-	
-	# History
+	holding = tribal_holding
+	935.1.1 = {
+		holding = castle_holding
+	}
 	989.9.15 = {
 		religion = orthodox
 	}
-
 }
-
-# 5074 - Volin
-5074 = {	# 5074 - Volin
-	
-	# Misc
-	culture = volhynian
-	religion = slavic_pagan
-	
-	holding = city_holding
-	
-	#terrain = hills
-	
-	# History
-	989.9.15 = {
-		religion = orthodox
-	}
-
-}
-
-# 5075 - Kholm
-5075 = {	# 5075 - Kholm
-	
-	# Misc
-	culture = volhynian
-	religion = slavic_pagan
-	
+5074 = {	#Volin
 	holding = none
-	
-	#terrain = plains
-	
-	# History
+	935.1.1 = {
+		holding = city_holding
+	}
+}
+5075 = {	#Kholm
+	holding = none
 	950.1.1 = {
-		#holding = castle_holding
+		holding = castle_holding
 	}
-	989.9.15 = {
-		religion = orthodox
-	}
-
 }
-
-# 5076 - Suteysk
-5076 = {	# 5076 - Suteysk
-	
-	# Misc
-	culture = volhynian
-	religion = slavic_pagan
-	
+5076 = {	#Suteysk
 	holding = none
-	
-	#terrain = hills
-	
-	# History
-	989.9.15 = {
-		religion = orthodox
-	}
 	1035.1.1 = {
 		holding = church_holding
 	}
-
 }
-
-# 5077 - Belz
-5077 = {	# 5077 - Belz
-	
-	# Misc
+###c_belz
+5077 = {	#Belz
 	culture = volhynian
 	religion = slavic_pagan
-	
-	#holding = castle_holding
-	
-	#terrain = hills
-	
-	# History
+	holding = tribal_holding
+	935.1.1 = {
+		holding = castle_holding
+	}
 	989.9.15 = {
 		religion = orthodox
 	}
-
 }
-
-# 5078 - Liubachev
-5078 = {	# 5078 - Liubachev
-	
-	# Misc
-	culture = volhynian
-	religion = slavic_pagan
-	
+5078 = {	#Liubachev
 	holding = none
-	
-	#terrain = hills
-	
-	# History
-	989.9.15 = {
-		religion = orthodox
-	}
-
 }
 
-# 5079 - Yaroslav
-5079 = {	# 5079 - Yaroslav
-	
-	# Misc
+###c_peremyshl
+534 = {		#Peremyshl	
 	culture = volhynian
 	religion = slavic_pagan
-	
-	holding = none
-	
-	#terrain = forest
-	
-	# History
+	holding = tribal_holding
+	935.1.1 = {
+		holding = castle_holding
+	}
 	989.9.15 = {
 		religion = orthodox
 	}
+}
+5079 = {	#Yaroslav = b_yaroslav_VOL
+	holding = none
 	1031.1.1 = {
 		holding = church_holding
 	}
-
 }
-
-# 5080 - Sanok
-5080 = {	# 5080 - Sanok
-	
-	# Misc
-	culture = volhynian
-	religion = slavic_pagan
-	
+5080 = {	#Sanok
 	holding = none
-	
-	#terrain = hills
-	
-	# History
 	981.1.1 = {
 		holding = city_holding
 	}
-	989.9.15 = {
-		religion = orthodox
-	}
-
 }
-
-# 5081 - Lizhensk
-5081 = {	# 5081 - Lizhensk
-	
-	# Misc
-	culture = volhynian
-	religion = slavic_pagan
-	
+5081 = {	#Lizhensk
 	holding = none
-	
-	#terrain = hills
-	
-	# History
-	989.9.15 = {
-		religion = orthodox
-	}
-
 }
-

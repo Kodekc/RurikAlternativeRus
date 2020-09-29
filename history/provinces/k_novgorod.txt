@@ -1,693 +1,236 @@
-# 167 - YAMA
-167 = {	# 167 - YAMA
-	
-	# Misc
-	culture = estonian
-	religion = finnish_pagan
-	
-	# History
-	1150.1.1 = { religion = orthodox }
-
-}
-
-# 168 - KOPORYE
-168 = {	# 168 - KOPORYE
-	
-	# Misc
-	culture = estonian
-	religion = finnish_pagan
-	
-	# History
-	1150.1.1 = { religion = orthodox }
-
-}
-
-# 169 - NYEN
-169 = {	# 169 - NYEN
-	
-	# Misc
-	culture = estonian
-	religion = finnish_pagan
-	
-	# History
-	1150.1.1 = { religion = orthodox }
-
-}
-
-# 170 - NOTEBORG
-170 = {	# 170 - NOTEBORG
-	
-	# Misc
-	culture = estonian
-	religion = finnish_pagan
-	
-	# History
-	1150.1.1 = { religion = orthodox }
-
-}
-
-# 5137 - Novgorod
-5137 = {	# 5137 - Novgorod
-	
-	# Misc
+#k_novgorod
+##d_novgorod ###################################
+###c_novgorod
+5137 = {	#Novgorod
 	culture = russian
 	religion = slavic_pagan
-	
-	#holding = castle_holding
-	
-	#terrain = forest
-	
-	# History
+	holding = tribal_holding
+	935.1.1 = {
+		holding = castle_holding
+	}
 	989.9.15 = {
 		religion = orthodox
 	}
 }
-
-# 5138 - Ladoga
-5138 = {	# 5138 - Ladoga
-	
-	# Misc
-	culture = ilmenian
-	religion = slavic_pagan
-	
-	holding = city_holding
-	
-	#terrain = forest
-	
-	# History
-	989.9.15 = {
-		religion = orthodox
-		culture = russian
-	}
-}
-
-# 5139 - Lyuban
-5139 = {	# 5139 - Lyuban
-	
-	# Misc
-	culture = ilmenian
-	religion = slavic_pagan
-	
+5138 = {	#Ladoga
 	holding = none
-	
-	#terrain = forest
-	
-	# History
-	989.9.15 = {
-		religion = orthodox
-		culture = russian
+	935.1.1 = {
+		holding = castle_holding
 	}
 }
-
-# 5140 - Soltsy
-5140 = {	# 5140 - Soltsy
-	
-	# Misc
-	culture = ilmenian
-	religion = slavic_pagan
-	
+5139 = {	#Lyuban
 	holding = none
-	
-	#terrain = forest
-	
-	# History
-	989.9.15 = {
-		religion = orthodox
-		culture = russian
-	}
 }
-
-# 5141 - Luga
-5141 = {	# 5141 - Luga
-	
-	# Misc
-	culture = ilmenian
-	religion = slavic_pagan
-	
+5140 = {	#Soltsy
 	holding = none
-	
-	#terrain = forest
-	
-	# History
-	989.9.15 = {
-		religion = orthodox
-		culture = russian
-	}
 }
-
-# 5142 - Pushkin
-5142 = {	# 5142 - Pushkin
-	
-	# Misc
-	culture = ilmenian
-	religion = slavic_pagan
-	
+5141 = {	#Luga
 	holding = none
-	
-	#terrain = forest
-	
-	# History
-	989.9.15 = {
-		religion = orthodox
-		culture = russian
-	}
 }
-
-# 5143 - Rusa
-5143 = {	# 5143 - Rusa
-	
-	# Misc
-	culture = ilmenian
-	religion = slavic_pagan
-	
-	#holding = castle_holding
-	
-	#terrain = forest
-	
-	# History
-	989.9.15 = {
-		religion = orthodox
-		culture = russian
-	}
-}
-
-# 5144 - Dedovichi
-5144 = {	# 5144 - Dedovichi
-	
-	# Misc
-	culture = ilmenian
-	religion = slavic_pagan
-	
+5142 = {	#Pushkin
 	holding = none
-	
-	#terrain = forest
-	
-	# History
+}
+
+###c_rusa
+5143 = {	#Rusa
+	culture = ilmenian
+	religion = slavic_pagan
+	holding = tribal_holding
+	935.1.1 = {
+		holding = castle_holding
+	}
 	989.9.15 = {
 		religion = orthodox
-		culture = russian
 	}
+}
+5144 = {	#Dedovichi
+	holding = none
 	1000.1.1 = {
 		holding = city_holding
 	}
 }
-
-# 5145 - Loknya
-5145 = {	# 5145 - Loknya
-	
-	# Misc
-	culture = ilmenian
-	religion = slavic_pagan
-	
+5145 = {	#Loknya
 	holding = none
-	
-	#terrain = forest
-	
-	# History
-	989.9.15 = {
-		religion = orthodox
-		culture = russian
-	}
 	1080.1.1 = {
 		holding = church_holding
 	}
 }
-
-# 5146 - Pskov
-5146 = {	# 5146 - Pskov
-	
-	# Misc
-	culture = ilmenian
-	religion = slavic_pagan
-	
-	#holding = castle_holding
-	
-	#terrain = forest
-	
-	# History
-	989.9.15 = {
-		religion = orthodox
-		culture = russian
-	}
-}
-
-# 5147 - Izborsk
-5147 = {	# 5147 - Izborsk
-	
-	# Misc
-	culture = ilmenian
-	religion = slavic_pagan
-	
-	holding = city_holding
-	
-	#terrain = forest
-	
-	# History
-	989.9.15 = {
-		religion = orthodox
-		culture = russian
-	}
-}
-
-# 5148 - Ostrov
-5148 = {	# 5148 - Ostrov
-	
-	# Misc
-	culture = russian
-	religion = slavic_pagan
-	
+5177 = {	#Porkhov
 	holding = none
-	
-	#terrain = forest
-	
-	# History
-	989.9.15 = {
-		religion = orthodox
-		culture = russian
-	}
 }
 
-# 5149 - Gdov
-5149 = {	# 5149 - Gdov
-	
-	# Misc
-	culture = russian
-	religion = slavic_pagan
-	
-	holding = none
-	
-	#terrain = forest
-	
-	# History
-	989.9.15 = {
-		religion = orthodox
-		culture = russian
-	}
-}
-
-# 5150 - Sebezh
-5150 = {	# 5150 - Sebezh
-	
-	# Misc
+###c_pskov
+5146 = {	#Pskov
 	culture = ilmenian
 	religion = slavic_pagan
-	
-	#holding = castle_holding
-	
-	#terrain = forest
-	
-	# History
+	holding = tribal_holding
+	935.1.1 = {
+		holding = castle_holding
+	}
 	989.9.15 = {
 		religion = orthodox
-		culture = russian
 	}
 }
+5147 = {	#Izborsk
+	holding = none
+	935.1.1 = {
+		holding = city_holding
+	}
+}
+5148 = {	#Ostrov
+	holding = none
+}
+5149 = {	#Gdov
+	holding = none
+}
 
-# 5151 - Nevel
-5151 = {	# 5151 - Nevel
-	
-	# Misc
+###c_sebezh
+5150 = {	#Sebezh
 	culture = ilmenian
 	religion = slavic_pagan
-	
-	holding = none
-	
-	#terrain = forest
-	
-	# History
+	holding = tribal_holding
+	935.1.1 = {
+		holding = castle_holding
+	}
 	989.9.15 = {
 		religion = orthodox
-		culture = russian
 	}
 }
-
-# 5152 - Novorzhev
-5152 = {	# 5152 - Novorzhev
-	
-	# Misc
-	culture = ilmenian
-	religion = slavic_pagan
-	
+5151 = {	#Nevel
 	holding = none
-	
-	#terrain = forest
-	
-	# History
-	989.9.15 = {
-		religion = orthodox
-		culture = russian
-	}
+}
+5152 = {	#Novorzhev
+	holding = none
 }
 
-# 5153 - Tikhvin
-5153 = {	# 5153 - Tikhvin
-	
-	# Misc
-	culture = vepsian
+###c_vodi
+169 = {		#NYEN
+	culture = estonian
 	religion = finnish_pagan
-	
-	#holding = castle_holding
-	
-	#terrain = forest
-	
-	# History
-	1150.1.1 = {
-		religion = orthodox
-		culture = russian
+	holding = tribal_holding
+	935.1.1 = {
+		holding = castle_holding
 	}
-}
-
-# 5154 - Kirishi
-5154 = {	# 5154 - Kirishi
-	
-	# Misc
-	culture = vepsian
-	religion = finnish_pagan
-	
-	holding = none
-	
-	#terrain = forest
-	
-	# History
-	1050.1.1 = {
-		religion = orthodox
-		culture = russian
-	}
-}
-
-# 5155 - Borovichi
-5155 = {	# 5155 - Borovichi
-	
-	# Misc
-	culture = vepsian
-	religion = finnish_pagan
-	
-	holding = none
-	
-	#terrain = forest
-	
-	# History
 	1150.1.1 = {
 		religion = orthodox
 	}
 }
-
-# 5156 - Beloozero
-5156 = {	# 5156 - Beloozero
-	
-	# Misc
-	culture = vepsian
-	religion = finnish_pagan
-	
-	#holding = castle_holding
-	
-	#terrain = forest
-	
-	# History
-	1050.1.1 = {
-		religion = orthodox
-		culture = russian
-	}
-}
-
-# 5157 - Cherepovets
-5157 = {	# 5157 - Cherepovets
-	
-	# Misc
-	culture = vepsian
-	religion = finnish_pagan
-	
+170 = {		#NOTEBORG
 	holding = none
-	
-	#terrain = forest
-	
-	# History
-	1050.1.1 = {
-		religion = orthodox
-		culture = russian
-	}
 }
-
-# 5158 - Ves Yogonska
-5158 = {	# 5158 - Ves Yogonska
-	
-	# Misc
-	culture = vepsian
-	religion = finnish_pagan
-	
+168 = {		#KOPORYE
 	holding = none
-	
-	#terrain = forest
-	
-	# History
-	1050.1.1 = {
-		religion = orthodox
-		culture = russian
-	}
+}
+167 = {		#YAMA
+	holding = none
 }
 
-# 5159 - Vyangi
-5159 = {	# 5159 - Vyangi
-	
-	# Misc
+##d_vepsia ###################################
+###c_beloozero
+5156 = {	#Beloozero
 	culture = vepsian
 	religion = finnish_pagan
-	
-	#holding = castle_holding
-	
-	#terrain = forest
-	
-	# History
+	holding = tribal_holding
+	1050.1.1 = {
+		religion = orthodox
+		culture = ilmenian
+	}
+}
+5157 = {	#Cherepovets
+	holding = none
+}
+5158 = {	#Ves Yogonska
+	holding = none
+}
+
+###c_tikhvin
+5153 = {	#Tikhvin
+	culture = vepsian
+	religion = finnish_pagan
+	holding = tribal_holding
 	1150.1.1 = {
 		religion = orthodox
 	}
 }
+5154 = {	#Kirishi
+	holding = none
+}
+5155 = {	#Borovichi
+	holding = none
+}
+5254 = {	#Svolensk
+	holding = none
+}
 
-# 5160 - Podporozhye
-5160 = {	# 5160 - Podporozhye
-	
-	# Misc
+5255 = {	#Pikalyovo
+	holding = none
+	#holding = castle_holding
+}
+
+###c_vyangi
+5159 = {	#Vyangi
 	culture = vepsian
 	religion = finnish_pagan
-	
-	holding = none
-	
-	#terrain = forest
-	
-	# History
+	holding = tribal_holding
 	1150.1.1 = {
 		religion = orthodox
 	}
 }
+5160 = {	#Podporozhye
+	holding = none
+}
 
-# 5161 - Luki
-5161 = {	# 5161 - Luki
-	
-	# Misc
+##d_luki ###################################
+###c_luki
+5161 = {	#Luki
 	culture = ilmenian
 	religion = slavic_pagan
-	
-	#holding = castle_holding
-	
-	#terrain = forest
-	
-	# History
+	holding = tribal_holding
 	989.9.15 = {
 		religion = orthodox
 	}
 }
-
-# 5162 - Kholm
-5162 = {	# 5162 - Kholm
-	
-	# Misc
-	culture = ilmenian
-	religion = slavic_pagan
-	
+5162 = {	#Kholm
 	holding = none
-	
-	#terrain = hills
-	
-	# History
-	989.9.15 = {
-		religion = orthodox
-	}
 	1144.1.1 = {
 		holding = city_holding
 	}
 }
-
-# 5163 - Seltsa u Nishi
-5163 = {	# 5163 - Seltsa u Nishi
-	
-	# Misc
-	culture = ilmenian
-	religion = slavic_pagan
-	
+5163 = {	#Seltsa u Nishi
 	holding = none
-	
-	#terrain = forest
-	
-	# History
-	989.9.15 = {
-		religion = orthodox
-	}
 }
 
-# 5164 - Torzhok
-5164 = {	# 5164 - Torzhok
-	
-	# Misc
+###c_valdai
+5164 = {	#Torzhok
 	culture = vepsian
 	religion = finnish_pagan
-	
-	#holding = castle_holding
-	
-	#terrain = forest
-	
-	# History
+	holding = tribal_holding
 	1100.1.1 = {
 		religion = orthodox
 	}
 }
+5165 = {	#Klichen
+	holding = none
+}
+5166 = {	#Valday
+	holding = none
+}
+5167 = {	#Vyshny Volochyok
+	holding = none
+}
 
-# 5165 - Klichen
-5165 = {	# 5165 - Klichen
-	
-	# Misc
+###c_bezichi
+5168 = {	#Bezichi
 	culture = vepsian
 	religion = finnish_pagan
-	
-	holding = none
-	
-	#terrain = hills
-	
-	# History
+	holding = tribal_holding
 	1100.1.1 = {
 		religion = orthodox
 	}
 }
-
-# 5166 - Valday
-5166 = {	# 5166 - Valday
-	
-	# Misc
-	culture = vepsian
-	religion = finnish_pagan
-	
+5169 = {	#Zhelezny Ustyug
 	holding = none
-	
-	#terrain = hills
-	
-	# History
-	1100.1.1 = {
-		religion = orthodox
-	}
+	#1050.1.1 = {
+	#	holding = city_holding
+	#}
 }
-
-# 5167 - Vyshny Volochyok
-5167 = {	# 5167 - Vyshny Volochyok
-	
-	# Misc
-	culture = vepsian
-	religion = finnish_pagan
-	
-	holding = none
-	
-	#terrain = hills
-	
-	# History
-	1100.1.1 = {
-		religion = orthodox
-	}
-}
-
-# 5168 - Bezichi
-5168 = {	# 5168 - Bezichi
-	
-	# Misc
-	culture = vepsian
-	religion = finnish_pagan
-	
-	#holding = castle_holding
-	
-	#terrain = forest
-	
-	# History
-	1100.1.1 = {
-		religion = orthodox
-	}
-}
-
-# 5169 - Zhelezny Ustyug
-5169 = {	# 5169 - Zhelezny Ustyug
-	
-	# Misc
-	culture = vepsian
-	religion = finnish_pagan
-	
-	holding = none
-	
-	#terrain = forest
-	
-	# History
-	1100.1.1 = {
-		religion = orthodox
-	}
-	1050.1.1 = {
-		holding = city_holding
-	}
-}
-
-# 5177 - Porkhov
-5177 = {	# 5177 - Porkhov
-	
-	# Misc
-	culture = russian
-	religion = slavic_pagan
-	
-	holding = none
-	
-	#terrain = forest
-	
-	# History
-	989.9.15 = {
-		religion = orthodox
-	}
-}
-
-# 5254 - Svolensk
-5254 = {	# 5254 - Svolensk
-	
-	# Misc
-	culture = vepsian
-	religion = finnish_pagan
-	
-	holding = none
-	
-	#terrain = forest
-	
-	# History
-	1050.1.1 = {
-		religion = orthodox
-		culture = russian
-	}
-}
-
-# 5255 - Pikalyovo
-5255 = {	# 5255 - Pikalyovo
-	
-	# Misc
-	culture = vepsian
-	religion = finnish_pagan
-	
-	#holding = castle_holding
-	
-	#terrain = forest
-	
-	# History
-	1150.1.1 = {
-		religion = orthodox
-	}
-}
-

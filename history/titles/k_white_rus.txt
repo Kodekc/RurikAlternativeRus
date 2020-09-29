@@ -7,6 +7,15 @@ k_white_rus = {
 	}
 }
 
+
+d_grodno = {
+	###Not created
+	860.1.2 = {
+		succession_laws = { veche_elective_succession_law }
+	}
+}
+
+
 c_grodno = {
 	#rulers of Grodno or Novgorodok
 	750.1.1 = {
@@ -521,12 +530,14 @@ c_novogrudok = {
 
 }
 
+
 d_pinsk = {
 	###Not created
 	860.1.2 = {
 		succession_laws = { veche_elective_succession_law }
 	}
 }
+
 
 c_pinsk = {
 	867.1.1 = { change_development_level = 2 }
@@ -555,6 +566,7 @@ c_pinsk = {
 	988.3.12 = {
 		holder = 608		#Vladimir the Great
 		liege = d_turov
+		government = feudal_government
 	}
 	1064.3.5 = {
 		holder = 302207		#Fictional Dregovichi
@@ -562,12 +574,6 @@ c_pinsk = {
 
 }
 
-d_grodno = {
-	###Not created
-	860.1.2 = {
-		succession_laws = { veche_elective_succession_law }
-	}
-}
 
 c_slutsk = {
 	#Pre Kievan Rus' / Dregovichi tribes
@@ -593,6 +599,7 @@ c_slutsk = {
 	988.3.12 = {
 		holder = 608		#Vladimir the Great
 		liege = d_turov
+		government = feudal_government
 	}
 	1060.7.14 = {
 		holder = 302208		#Fictional Izslutska
@@ -625,6 +632,7 @@ c_kletsk = {
 	988.3.12 = {
 		holder = 608		#Vladimir the Great
 		liege = d_turov
+		government = feudal_government
 	}
 	1064.3.5 = {
 		holder = 302207		#Fictional Dregovichi
@@ -651,6 +659,7 @@ c_babruysk = {
 	988.3.12 = {
 		holder = 608		#Vladimir the Great
 		liege = d_turov
+		government = feudal_government
 	}
 	1060.7.14 = {
 		holder = 302208		#Fictional Izslutska
@@ -662,11 +671,20 @@ c_babruysk = {
 d_minsk = {
 	###Pre-Kievan Rus
 	825.12.3 = {
-		succession_laws = { veche_elective_succession_law }
+		holder = 302209		#Fictional Krivichi
 		government = tribal_government
+	}
+	864.2.23 = {
+		holder = 302212		#Fictional Krivichi
+		succession_laws = { veche_elective_succession_law }
 	}
 	935.1.1 = {
 		government = feudal_government	#Ahistorical, just for ease of bookmarks.
+	}
+	
+	###Vladimir the great invades Minsk area
+	978.6.15 = {
+		holder = 0
 	}
 	
 	#Split of the possessions of Polotsk
@@ -700,14 +718,21 @@ c_minsk = {
 	
 	###Pre-Kievan Rus
 	825.12.3 = {
-		holder = 302215		#Fictional Krivichi
+		holder = 302209		#Fictional Krivichi
+		liege = d_minsk
 		government = tribal_government
+	}
+	864.2.23 = {
+		holder = 302212		#Fictional Krivichi
 	}
 	
 	###Kievan Rus', invasion by Vladimir the Great
 	978.6.15 = {
 		holder = 608		#Vladimir the Great
 		liege = d_polotsk
+	}
+	985.1.1 = {
+		government = feudal_government	#Orthodox conversion
 	}
 	987.1.2 = {
 		holder = 616		#Iziaslav I Vladimirovich
@@ -757,7 +782,7 @@ c_orsha = {
 	###Pre-Kievan Rus
 	825.12.3 = {
 		holder = 302209		#Fictional Krivichi
-		liege = d_polotsk
+		liege = d_minsk
 		government = tribal_government
 	}
 	864.2.23 = {
@@ -768,6 +793,9 @@ c_orsha = {
 	978.6.15 = {
 		holder = 608		#Vladimir the Great
 		liege = d_polotsk
+	}
+	985.1.1 = {
+		government = feudal_government	#Orthodox conversion
 	}
 	987.1.2 = {
 		holder = 616		#Iziaslav I Vladimirovich
@@ -816,16 +844,15 @@ c_orsha = {
 d_polotsk = {
 	800.1.2 = {
 		holder = 0
-		succession_laws = { veche_elective_succession_law }
 		government = tribal_government
+		succession_laws = { veche_elective_succession_law }
 	}
-	862.1.4 = {
-		holder = 302212
-	}
+	
 	#Kievan Rus creation
 	987.1.2 = {
 		holder = 616		#Iziaslav I Vladimirovich
 		liege = k_ruthenia
+		government = feudal_government	#Orthodox conversion
 	}
 	1001.1.2 = {
 		holder = 125000		#Vseslav I Iziaslavich
@@ -885,7 +912,7 @@ c_polotsk = {
 	###Pre-Kievan Rus
 	863.1.1 = {
 		holder = 302196		#Polochans
-		liege = d_polotsk
+		liege = 0
 		government = tribal_government
 	}
 	910.6.8 = {
@@ -902,6 +929,9 @@ c_polotsk = {
 	978.6.15 = {
 		holder = 608		#Vladimir the Great
 		liege = d_polotsk
+	}
+	985.1.1 = {
+		government = feudal_government	#Orthodox conversion
 	}
 	987.1.2 = {
 		holder = 616		#Iziaslav I Vladimirovich
@@ -961,7 +991,7 @@ c_lukoml = {
 	###Pre-Kievan Rus
 	825.12.3 = {
 		holder = 302209		#Fictional Krivichi
-		liege = d_polotsk
+		liege = d_minsk
 		government = tribal_government
 	}
 	864.2.23 = {
@@ -972,6 +1002,9 @@ c_lukoml = {
 	978.6.15 = {
 		holder = 608		#Vladimir the Great
 		liege = d_polotsk
+	}
+	985.1.1 = {
+		government = feudal_government	#Orthodox conversion
 	}
 	987.1.2 = {
 		holder = 616		#Iziaslav I Vladimirovich
@@ -1035,7 +1068,7 @@ c_vitebsk = {
 	###Pre-Kievan Rus
 	825.12.3 = {
 		holder = 302209		#Fictional Krivichi
-		liege = d_polotsk
+		liege = d_minsk
 		government = tribal_government
 	}
 	864.2.23 = {
@@ -1046,6 +1079,9 @@ c_vitebsk = {
 	978.6.15 = {
 		holder = 608		#Vladimir the Great
 		liege = d_polotsk
+	}
+	985.1.1 = {
+		government = feudal_government	#Orthodox conversion
 	}
 	987.1.2 = {
 		holder = 616		#Iziaslav I Vladimirovich
@@ -1100,10 +1136,10 @@ c_vitebsk = {
 
 
 d_smolensk = {
-	#Death of Yaroslav the Wise, creation of Smolensk Principality
-	825.12.3 = {
+	860.1.8 = {
 		succession_laws = { veche_elective_succession_law }
 	}
+	#Death of Yaroslav the Wise, creation of Smolensk Principality
 	1054.2.20 = {
 		holder = 9132	#Viacheslav I Yaroslavich
 		liege = k_ruthenia
@@ -1171,7 +1207,7 @@ c_smolensk = {
 	###Pre-Kievan Rus
 	833.8.11 = {
 		holder = 302245		#Fictional Krivichi
-		liege = d_polotsk
+		liege = d_minsk
 		government = tribal_government
 	}
 	861.3.20 = {
@@ -1194,6 +1230,9 @@ c_smolensk = {
 	}
 	980.1.2 = {
 		holder = 608	#Vladimir the Great
+	}
+	988.1.2 = {
+		government = feudal_government
 	}
 	1015.7.15 = {
 		holder = 610	#Sviatopolk the Accursed
@@ -1271,7 +1310,7 @@ c_gnezdovo = {
 	###Pre-Kievan Rus
 	833.8.11 = {
 		holder = 302245		#Fictional Krivichi
-		liege = d_polotsk
+		liege = d_minsk
 		government = tribal_government
 	}
 	861.3.20 = {
@@ -1294,6 +1333,9 @@ c_gnezdovo = {
 	}
 	980.1.2 = {
 		holder = 608	#Vladimir the Great
+	}
+	988.1.2 = {
+		government = feudal_government
 	}
 	1015.7.15 = {
 		holder = 610	#Sviatopolk the Accursed
@@ -1388,6 +1430,9 @@ c_roslavl = {
 	}
 	980.1.2 = {
 		holder = 608	#Vladimir the Great
+	}
+	988.1.2 = {
+		government = feudal_government
 	}
 	1015.7.15 = {
 		holder = 610	#Sviatopolk the Accursed
@@ -1556,7 +1601,7 @@ c_toropets = {
 	###Pre-Kievan Rus
 	833.8.11 = {
 		holder = 302245		#Fictional Krivichi
-		liege = d_polotsk
+		liege = d_minsk
 		government = tribal_government
 	}
 	861.3.20 = {
@@ -1585,6 +1630,7 @@ c_toropets = {
 	1054.2.20 = {
 		holder = 9132	#Viacheslav I Yaroslavich
 		liege = d_smolensk
+		government = feudal_government
 	}
 	1057.1.2 = {
 		holder = 638	#Igor Yaroslavich
@@ -1626,3 +1672,4 @@ c_toropets = {
 		holder = 222589	#Mstislav Mstislavich the Bold/Daring
 	}
 }
+

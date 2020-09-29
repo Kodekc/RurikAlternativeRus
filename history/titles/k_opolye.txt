@@ -10,11 +10,12 @@ k_opolye = {
 d_opolye = {
 	867.1.1 = { change_development_level = 3 }
 	1066.1.1 = { change_development_level = 7 }
-	
+	860.1.8 = {
+		succession_laws = { veche_elective_succession_law }
+	}
 	#Beginning (?) of (early) Rostov Principality
 	866.1.1 = {
 		government = tribal_government
-		succession_laws = { veche_elective_succession_law }
 	}
 	935.1.1 = {
 		government = feudal_government	#Ahistorical, just for ease of bookmarks.
@@ -172,6 +173,9 @@ c_vladimir = {
 	}
 	912.1.1 = {
 		holder = 600	#Igor I the Old
+	}
+	935.1.1 = {
+		government = feudal_government	#Ahistorical, just for ease of bookmarks.
 	}
 	945.1.1 = {
 		holder = 601	#Olga of Kiev
@@ -423,6 +427,9 @@ c_moskva = {
 	912.1.1 = {
 		holder = 600	#Igor I the Old
 	}
+	935.1.1 = {
+		government = feudal_government	#Ahistorical, just for ease of bookmarks.
+	}
 	945.1.1 = {
 		holder = 601	#Olga of Kiev
 	}
@@ -491,9 +498,9 @@ c_moskva = {
 
 d_ryazan = {
 	#1078 Ryazan Principality started existing after splitting from Chernigov principality. However it wasn't independent yet, so we're not adding it, since a d_ can't be liege of another d_
-	862.1.2 = {
+	860.1.8 = {
 		succession_laws = { veche_elective_succession_law }
-	}
+	}	
 	#1097 Ryazan became independent
 	1097.1.2 = {
 		holder = 662		#Yaroslav Sviatoslavich / Konstantin / Constantine of Murom
@@ -756,12 +763,14 @@ c_murom = {
 	}
 }
 
+
 d_nizhny_novgorod = {
 	###Not created
 	860.1.2 = {
 		succession_laws = { veche_elective_succession_law }
 	}
 }
+
 
 c_nizhny_novgorod = {
 	###Pre Kievan Rus
@@ -1010,3 +1019,4 @@ c_manturovo = {
 		holder = 222670		#Vsevolod III the Big Nest
 	}
 }
+

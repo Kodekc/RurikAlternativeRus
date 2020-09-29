@@ -9,7 +9,7 @@ k_galicia-volhynia = {
 
 d_volhynia = {
 	###Kievan Rus' & creation of principality of Volhynia
-	862.1.2 = {
+	860.1.8 = {
 		succession_laws = { veche_elective_succession_law }
 	}
 	981.1.2 = {
@@ -183,7 +183,9 @@ d_volhynia = {
 	1325.1.2 = {
 		holder = 472100
 	}
+
 }
+
 
 d_halych = {
 	###Not created
@@ -192,12 +194,14 @@ d_halych = {
 	}
 }
 
+
 d_cherven_cities = {
 	###Not created
 	860.1.2 = {
 		succession_laws = { veche_elective_succession_law }
 	}
 }
+
 
 c_volodymyr = {
 	867.1.1 = { change_development_level = 2 }
@@ -609,6 +613,7 @@ c_berestye = {
 	985.1.2 = {
 		holder = 608	#Vladimir the Great
 		liege = d_kiev
+		government = feudal_government
 	}
 	1015.7.15 = {
 		holder = 612	#Yaroslav the Wise
@@ -690,6 +695,7 @@ c_dorohychyn = {
 	985.1.2 = {
 		holder = 608	#Vladimir the Great
 		liege = d_kiev
+		government = feudal_government
 	}
 	1015.7.15 = {
 		holder = 612	#Yaroslav the Wise

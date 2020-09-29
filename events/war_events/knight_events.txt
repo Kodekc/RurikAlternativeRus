@@ -27,6 +27,32 @@ knights.0001 = {
 					has_perk = stalwart_leader_perk
 					is_ai = yes
 				}
+				
+				# Wounded knights hang back
+				modifier = {
+					factor = 1.1
+					has_trait_rank = {
+						trait = wounded
+						rank = 1
+					}
+				}
+				modifier = {
+					factor = 1.2
+					has_trait_rank = {
+						trait = wounded
+						rank = 2
+					}
+				}
+				modifier = {
+					factor = 1.3
+					OR = {
+						has_trait_rank = {
+							trait = wounded
+							rank = 3
+						}
+						has_trait = maimed
+					}
+				}
 			}
 			15 = { # Berserkers rip people's heads off
 				trigger = {

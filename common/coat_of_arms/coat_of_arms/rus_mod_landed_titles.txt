@@ -5,3 +5,21 @@ k_novgorod = {
 		texture = "rus_mod_falcon.dds"
 	}
 }
+
+d_novgorod = {
+	pattern = "pattern_horizontal_split_01.dds"
+	color1 = rgb { 30 130 220 }
+	color2 = "blue"
+	colored_emblem = {
+		texture = "rus_mod_rook.dds"
+		color1 = rgb { 170 40 30 }
+		color2 = rgb { 200 220 30 }
+	}
+	colored_emblem = {
+		texture = "rus_mod_bears.dds"
+		color1 = rgb { 0 0 30 }
+	}
+	colored_emblem = {
+		texture = "rus_mod_fish.dds"
+		color1 = rgb { 75 90 100 }
+}

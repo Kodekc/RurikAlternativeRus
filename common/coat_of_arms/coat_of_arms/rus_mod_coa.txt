@@ -1,17 +1,9 @@
 705 = { # Rurikid
 	pattern = "pattern_solid.dds"
 	color1 = "blue"
-	colored_emblem = {
+	textured_emblem = {
 		texture = "rus_mod_rurikid.dds"
-		color1 = "yellow"
-		color2 = "yellow"
-	}	
-	colored_emblem = {
-		texture = "ce_runic_circle_frame.dds"
-		color1 = "blue"
-		color2 = "yellow"
-		instance = { scale = { 1.2 1.2 } }
-	}	
+	}
 }
 
 2001014 = { # dynn_Rani

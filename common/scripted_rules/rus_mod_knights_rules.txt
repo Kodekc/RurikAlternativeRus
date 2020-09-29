@@ -1,9 +1,19 @@
 ﻿# Determines if a character may be appointed as a knight. Checked during automatic knight assignment
 # Root is the potential knight
 can_be_knight = {
-	can_be_knight_trigger = { ARMY_OWNER = root.court_owner }
-	OR = {
-		has_trait = brave
-		prowess > 6
+	trigger_if = {
+		limit = { 
+			OR = {
+				is_landed = no
+				has_trait = brave
+				prowess > 6
+				root = root.court_owner 
+			}
+			NOT = { exists = liege } 
+		}
+		can_be_knight_trigger = { ARMY_OWNER = root.court_owner }
+	} 
+	trigger_else = {
+		can_be_knight_trigger = { ARMY_OWNER = liege }
 	}
 }

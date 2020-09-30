@@ -2,7 +2,6 @@
  # Cultural
  german:0 "Германск"
  russian:0 "Русинск"
- ilmenian_collective_noun:0 "Ильмены"
  pommeranian:0 "Поморянск"
  pommeranian_collective_noun:0 "Поморяне"
  # Сharacter names
@@ -27,3 +26,7 @@
  b_vinnytsia:0 "Винница"
  # Map items (Sea)
  sea_baltic:0 "Варяжское море"
+ # Fix localization (Check when update)
+ game_landed_title_struct:0 "#TOOLTIP:LANDED_TITLE,$DESC_KEY$ $KEY_LOC|L$#!#!"
+ french:0 "Французск"
+ 

@@ -38,6 +38,11 @@
  radimichian_collective_noun:0 "拉迪米奇"
  dregovichian:0 "德列戈维奇斯克"
  dregovichian_collective_noun:0 "德雷戈维奇"
+ rujanian:0 "卢扬斯克"
+ rujanian_collective_noun:0 "卢亚尼"
+ # Cultural titles
+ cn_rugia:0 "卢吉亚"
+ cn_rugia_adj:0 "卢吉斯克"
  # Cultural innovations
  innovation_rook:0 "洛迪亚"
  innovation_rook_desc:0 "洛迪亚-是一种斯拉夫人的全流帆船，用于民用和军事用途。"

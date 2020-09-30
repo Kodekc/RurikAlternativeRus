@@ -29,4 +29,5 @@
  # Fix localization (Check when update)
  game_landed_title_struct:0 "#TOOLTIP:LANDED_TITLE,$DESC_KEY$ $KEY_LOC|L$#!#!"
  french:0 "Французск"
+ dynn_MojmI_rid:0 "Моймирович"
  

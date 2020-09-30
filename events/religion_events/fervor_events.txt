@@ -1584,6 +1584,7 @@ fervor.2001 = {
 				}
 				if = {
 					limit = {
+						NOT = { this = scope:virtuous_theocrat }					  
 						OR = {
 							any_vassal = {
 								this = scope:virtuous_theocrat

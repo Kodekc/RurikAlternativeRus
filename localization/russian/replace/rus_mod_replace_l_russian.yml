@@ -9,8 +9,6 @@
  SignjO_tr:0 "Синеус"
  bookmark_adventurers_rurik_rurikid_alt_helgi:0 "Олег"
  # Titles
- TITLE_TIERED_NAME:0 "$TIER|U$ $NAME$"
- TITLE_CLAN_TIERED_WITH_UNDERLYING_NAME:0 "$NAME$ $TIER|U$ #F ($TIER|U$ $BASE_NAME$) #!"
  e_russia:0 "Великая Русь"
  e_russia_adj:0 "Великороск"
  e_russia_pre:0 "Великороск"
@@ -21,7 +19,7 @@
  k_mordvinia:0 "Мордовия"
  k_mordvinia_adj:0 "Мордовск"
  c_volodymyr:0 "Владимир-Волынский"
- c_novgorod:0 "Великий Новгород"
+ d_novgorod:0 "Великий Новгород"
  b_volodymyr:0 "Владимир-Волынский"
  b_vinnytsia:0 "Винница"
  d_halych:0 "Галиция"
@@ -29,7 +27,6 @@
  # Map items (Sea)
  sea_baltic:0 "Варяжское море"
  # Fix localization (Check when update)
- game_landed_title_struct:0 "#TOOLTIP:LANDED_TITLE,$DESC_KEY$ $KEY_LOC|L$#!#!"
  french:0 "Французск"
  dynn_MojmI_rid:0 "Моймирович"
  

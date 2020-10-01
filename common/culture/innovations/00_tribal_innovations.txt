@@ -22,14 +22,14 @@
 @nobility_02 = "gfx/interface/icons/culture_innovations/innovation_nobility_02.dds"
 @nobility_03 = "gfx/interface/icons/culture_innovations/innovation_nobility_03.dds"
 @nobility_04 = "gfx/interface/icons/culture_innovations/innovation_nobility_04.dds"
-@misc_inventions = "gfx/interface/icons/culture_innovations/innovation_misc_inventions.dds"
+@misc_inventions = "gfx/interface/icons/culture_innovations/rus_mod_innovation_drakkar.dds"
 
 @camel = "gfx/interface/icons/culture_innovations/innovation_camel.dds"
 @elephant = "gfx/interface/icons/culture_innovations/innovation_elephant.dds"
 @special_maa_01 = "gfx/interface/icons/culture_innovations/innovation_special_maa_01.dds"
 @special_maa_02 = "gfx/interface/icons/culture_innovations/innovation_special_maa_02.dds"
 
-@rook = "gfx/interface/icons/culture_innovations/innovation_rook.dds"
+@rook = "gfx/interface/icons/culture_innovations/rus_mod_innovation_rook.dds"
 
 #culture_group_military
 innovation_motte = {

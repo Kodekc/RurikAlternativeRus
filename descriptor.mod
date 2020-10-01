@@ -7,5 +7,5 @@ tags={
 	"Gameplay"
 }
 name="Rurik: Alternative Rus"
-supported_version="1.1.1"
+supported_version="1.1.2"
 remote_file_id="2218891628"

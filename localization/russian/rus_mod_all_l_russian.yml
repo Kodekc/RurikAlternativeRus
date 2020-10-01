@@ -132,9 +132,6 @@
  setting_rus_mod_historical_context_off:0 "Без событий"
  setting_rus_mod_historical_context_on_desc:0 "Во время игры будут происходить события, связанные с Рюриком."
  setting_rus_mod_historical_context_off_desc:0 "Во время игры НЕ БУДУТ происходить события, связанные с Рюриком."
- # Religion - Doctrines
- doctrine_polyamory_name:0 "Полиамория"
- doctrine_polyamory_desc:0 "Одна из форм согласованной немоногамии, имеющая этические взгляды на любовь, допускающая возможность существования любовных отношений у одного человека с несколькими людьми одновременно, с согласия и одобрения всех участников этих отношений."
  # Character interactions (Shieldmaiden)
  appoint_shieldmaiden_interaction:0 "Предложить статус воительницы"
  relieve_shieldmaiden_interaction:0 "Лишить статуса воительницы"

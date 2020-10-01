@@ -132,9 +132,6 @@
  setting_rus_mod_historical_context_off:0 "没有事件"
  setting_rus_mod_historical_context_on_desc:0 "在游戏期间，将有与留里克相关的事件"
  setting_rus_mod_historical_context_off_desc:0 "在游戏中，不会有与留里克有关的事件"
- # Religion - Doctrines
- doctrine_polyamory_name:0 "多妻制"
- doctrine_polyamory_desc:0 "一种有组织的非一夫一妻制形式，对爱有道德观，允许在一个人和几个人之间同时存在爱的关系，并得到所有参与关系的参与者的同意和认可。"
  # Character interactions (Shieldmaiden)
  appoint_shieldmaiden_interaction:0 "授予盾女身份"
  relieve_shieldmaiden_interaction:0 "剥夺盾女身份"

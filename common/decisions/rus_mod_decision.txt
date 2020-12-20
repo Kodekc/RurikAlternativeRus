@@ -42,9 +42,12 @@
 		prestige = 150
 	}
 
-	ai_will_do = {
-		base = 100	
+	ai_potential = {
+		is_at_war = no
+		stress >= 75
 	}
-	
-	ai_priority = 100
+
+	ai_will_do = {
+		base = 100
+	}
 }

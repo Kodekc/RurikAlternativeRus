@@ -211,8 +211,9 @@
 			Grigoriy Iakov Igor Iliya Ingvar Ivan Iziaslav Kirill Konstantin Koz_ma Lev Matfei Mikhail Mitrofan Mstislav
 			Nikita Oleg Pavel Putiata Radoslav Rodislav Rogvolod Roman Rostislav Rurik Ruslan Simeon Stanislav Stepan Sudislav
 			Svetozar Sviatopolk Sviatoslav Terentiy Trifon Vasiliy Vasilko Viacheslav Vladimir Vladislav Voislav Volodar Vseslav
-			Vsevolod Vyshata Vysheslav Yaropolk Yaroslav Yefimiy Yelisey Yemelyan Yeremey Yevstafiy Yuriy
-			Aristarkh
+			Vsevolod Vyshata Vysheslav Yaropolk Yaroslav Yefimiy Yelisey Yemelyan Yeremey Yevstafiy Yuriy Aristarkh Velimudr Lyubomil 
+			Bratimir Vedomir Godislav Gorisvet Gostislav Hostimir Dalebor Danislav Daromir Daromysl Dobrovit Zvenimir Ostromysl 
+			Pervoslav Peresvet Pereslav Radimil Chestimir
 		}
 		female_names = {
 			Agafya Agrafena Alexandra Anastasia Anna Boleslava Darya Dobrava Dobronega Dobroslava Yefimia Yefrosinia Yekaterina

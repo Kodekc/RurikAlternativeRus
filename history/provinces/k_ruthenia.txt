@@ -460,7 +460,7 @@
 ##d_karachev ###################################
 ###c_karachev
 5209 = {	#Karachev
-	culture = volhynian
+	culture = vyatichian
 	religion = slavic_pagan
 	holding = tribal_holding
 	989.9.15 = {
@@ -482,7 +482,7 @@
 
 ###c_kozelsk
 5212 = {	#Kozelsk
-	culture = volhynian
+	culture = vyatichian
 	religion = slavic_pagan
 	holding = tribal_holding
 	989.9.15 = {
@@ -504,7 +504,7 @@
 
 ###c_sevsk
 5206 = {	#Sevsk
-	culture = volhynian
+	culture = vyatichian
 	religion = slavic_pagan
 	holding = tribal_holding
 	989.9.15 = {

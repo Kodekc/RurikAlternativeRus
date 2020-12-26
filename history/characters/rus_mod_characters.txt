@@ -3,7 +3,7 @@
 	name = "Askold" # Ruler of Kiev
 	dynasty = 7516
 	religion = "slavic_pagan"
-	culture = russian
+	culture = polansian
 	martial = 9
 	diplomacy = 8
 	stewardship = 6
@@ -44,7 +44,7 @@
 	name = "Anna"
 	female = yes
 	religion = slavic_pagan
-	culture = russian
+	culture = polansian
 	847.1.1 = {
 		birth = yes
 	}

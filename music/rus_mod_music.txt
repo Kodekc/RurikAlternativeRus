@@ -20,3 +20,10 @@ rus_mod_mood_danheim_tyrfing = {
 	mood = yes
 	can_be_interrupted = yes
 }
+
+rus_mod_mood_danheim_tyrfing = {
+	music = "file:/sound/rus_mod_sound/Danheim_Framganga.ogg"
+	weight = 15
+	mood = yes
+	can_be_interrupted = yes
+}

@@ -9,7 +9,7 @@
  # Сharacter names
  T_O_rvar:0 "Трувор"
  SignjO_tr:0 "Синеус"
- Hedwig:0 "Гедвига"
+ Hedwig:0 "Хедвига"
  bookmark_adventurers_rurik_rurikid_alt_helgi:0 "Олег"
  # Titles
  e_russia:0 "Великая Русь"
@@ -32,5 +32,5 @@
  # Fix localization (Check when update)
  dynn_MojmI_rid:0 "Моймирович"
  dynn_Salian:0 "Салье"
- dynn_Babenberger:0 "Бабенберг"
+ dynn_Babenberger:0 "фон Бабенберг"
  dynn_MunsO_:0 "Мунсё"

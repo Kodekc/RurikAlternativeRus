@@ -28,31 +28,6 @@ can_be_knight = {
 	can_be_knight_trigger = { ARMY_OWNER = root.court_owner }
 	OR = {
 		has_trait = brave
-		prowess > 6
+		prowess >= 5
 	}
-}
-
-# AI Matrilinear marriages
-ai_wants_matrilineal_marriage = {
-    OR = {
-        scope:secondary_actor = {
-            is_female = yes
-            OR = {
-                 is_ruler = yes
-                 is_heir_of = root
-            }
-        }
-        AND = {
-            scope:secondary_actor = {
-                is_female = yes
-            }
-            OR = {
-                has_realm_law = female_only_law
-                has_realm_law = female_preference_law
-                faith = {
-                    has_doctrine_parameter = female_dominated_law
-                }
-            }
-        }
-    }
 }

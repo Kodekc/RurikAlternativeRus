@@ -1,0 +1,162 @@
+﻿#Rurik: Alternative Rus (Autor: pthfndr - Better AI Education)
+
+namespace = education_maintenance
+
+# Changes the education focus of any AI who has a martial focus and shouldnt.
+# This is a big problem at the start of the game where practically every female with the
+# bossy trait has a martial focus. It's totally ahistorical and even nonsensical that
+# someone who isn't even allowed to fight in battles wouild have a martial upbringing.
+# Now this applies to men as well, if the religion is femaled dominated, I just use women
+# as an example because I'm pretty sure 99.9% of religions in this are male dominated at
+# the start.
+
+education_maintenance.01 = {  
+	hidden = yes
+	scope = character
+
+	trigger = {
+		is_ai = yes
+		is_adult = no
+		age >= 6
+		martial_education_valid = no 
+		has_focus = education_martial
+	}
+
+	immediate = {
+		random_list = {
+			1 = {  # Change to diplomacy
+				set_focus = education_diplomacy
+
+				modifier = {
+					add = 1
+					has_trait  = calm
+					has_trait = diligent
+					has_trait = fickle
+					has_trait = ambitious
+				}
+
+				modifier = {
+					add = 2
+					has_trait = forgiving
+					has_trait = honest
+					has_trait = trusting
+					has_trait = compassionate
+					has_trait = cynical
+				}
+
+				modifier = {
+					add = 3
+					has_trait = generous
+				}
+
+				modifier = {
+					add = 10
+					has_trait = curious
+					has_trait = charming
+				}
+			}
+
+			1 = { # Change to stewardship
+				set_focus = education_stewardship
+
+				modifier = {
+					add = 1
+					has_trait = diligent
+					has_trait = ambitious
+				}
+
+				modifier = {
+					add = 2
+					has_trait = just
+					has_trait = temperate
+				}
+
+				modifier = {
+					add = 3
+					has_trait = stubborn
+				}
+				
+				modifier = {
+					add = 10
+					has_trait = bossy
+					has_trait = pensive
+				}
+			}
+
+			1 = { # Change to intrigue
+				set_focus = education_intrigue
+
+				modifier = {
+					add = 1
+					has_trait = diligent
+					has_trait = ambitious
+					has_trait = calm
+				}
+
+				modifier = {
+					add = 2
+					has_trait = lustful
+					has_trait = vengeful
+					has_trait = cynical
+					has_trait = callous
+					has_trait = sadistic
+				}
+
+				modifier = {
+					add = 3
+					has_trait = arbitrary
+					has_trait = paranoid
+				}
+
+				modifier = {
+					add = 4
+					has_trait = deceitful
+				}
+				
+				modifier = {
+					add = 10
+					has_trait = charming
+					has_trait = rowdy
+				}
+
+			}
+			
+			1 = { # Change to learning
+				set_focus = education_learning
+
+				modifier = {
+					add = 1
+					has_trait = diligent
+					has_trait = ambitious
+					has_trait = forgiving
+				}
+
+				modifier = {
+					add = 2
+					has_trait = chaste
+					has_trait = temperate
+					has_trait = shy
+					has_trait = patient
+				}
+
+				modifier = {
+					add = 10 
+					has_trait = curious
+					has_trait = pensive
+				}
+			}		
+		}
+
+		if = {
+			limit = {
+				good_guardian_for_ai = no
+			}
+			every_living_character = {
+				limit = {
+					has_relation_ward = root
+				}
+				remove_relation_ward = root
+			}
+		}
+	}	
+}

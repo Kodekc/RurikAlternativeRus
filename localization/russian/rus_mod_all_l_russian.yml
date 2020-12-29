@@ -154,7 +154,9 @@
  setting_rus_mod_historical_context_off_desc:0 "Во время игры НЕ БУДУТ происходить события, связанные с Рюриком."
  # Character interactions (Shieldmaiden)
  appoint_shieldmaiden_interaction:0 "Предложить статус воительницы"
+ appoint_shieldmaiden_desc:0 "[recipient.GetTitledFirstName] получит свой щит и станет бесстрашной воительницей"
  relieve_shieldmaiden_interaction:0 "Лишить статуса воительницы"
+ relieve_shieldmaiden_desc:0 "[recipient.GetTitledFirstName] будет лишена щита и покинет ряды воительниц с позором"
  appointed_shieldmaiden_opinion:0 "Наделена статусом воительницы"
  relieved_shieldmaiden_opinion:0 "Лишена статуса воительницы"
  msg_appointed_shieldmaiden_interaction_title:0 "Признанная воительница"

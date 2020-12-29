@@ -154,7 +154,9 @@
  setting_rus_mod_historical_context_off_desc:0 "During the game NOT there will be events bound to Rurik"
  # Character interactions (Shieldmaiden)
  appoint_shieldmaiden_interaction:0 "Offer shieldmaiden status"
+ appoint_shieldmaiden_desc:0 "[recipient.GetTitledFirstName] get her shield and become a fearless shieldmaiden"
  relieve_shieldmaiden_interaction:0 "Deprive shieldmaiden status"
+ relieve_shieldmaiden_desc:0 "[recipient.GetTitledFirstName] will be deprived of the shield and leave the ranks of the shieldmaiden in disgrace"
  appointed_shieldmaiden_opinion:0 "Recognized as Shieldmaiden"
  relieved_shieldmaiden_opinion:0 "Recinded recognition as Shieldmaiden"
  msg_appointed_shieldmaiden_interaction_title:0 "Shieldmaiden Recognized"

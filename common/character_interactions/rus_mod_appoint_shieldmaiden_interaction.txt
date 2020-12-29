@@ -1,6 +1,10 @@
 ﻿appoint_shieldmaiden_interaction = {
     category = interaction_category_vassal
-
+    greeting = positive
+	desc = appoint_shieldmaiden_desc
+	
+	notification_text = OFFER_SHIELDMAIDEN_APPOINTMENT_NOTIFICATION
+	
     # maybe AIs a bit later
 
     is_shown = {
@@ -15,7 +19,8 @@
             is_adult = yes
 
             OR = { 
-                has_trait = brave
+                has_trait = ambitious
+				has_trait = brave
                 has_trait = blademaster_1
                 has_trait = blademaster_2
                 has_trait = blademaster_3
@@ -26,6 +31,7 @@
                 has_trait = varangian
                 has_trait = berserker
                 has_trait = strong
+				has_trait = athletic					
                 has_trait = education_martial_prowess_1
                 has_trait = education_martial_prowess_2
                 has_trait = education_martial_prowess_3
@@ -93,10 +99,7 @@
             }
         }
     }
-
-    greeting = positive
-    notification_text = OFFER_SHIELDMAIDEN_APPOINTMENT_NOTIFICATION
-
+														   
     ai_min_reply_days = 2
 	ai_max_reply_days = 7
 
@@ -368,6 +371,19 @@
                 add_opinion = {
                     target = scope:actor
                     modifier = appointed_shieldmaiden_opinion
+                }
+            }
+			if = {
+				limit = {
+					has_opinion_modifier = {
+						target = scope:actor
+						modifier = relieved_shieldmaiden_opinion
+					}
+				}
+
+				remove_opinion = {
+                    target = scope:actor
+                    modifier = relieved_shieldmaiden_opinion
                 }
             }
         }

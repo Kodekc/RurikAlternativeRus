@@ -1,0 +1,23 @@
+﻿can_be_combatant_based_on_gender_trigger = {
+	custom_description = {
+		text = "can_be_combatant_based_on_gender"
+		object = this
+		subject = $ARMY_OWNER$
+		OR = {
+			$ARMY_OWNER$ = { faith = { has_doctrine_parameter = combatant_can_be_either_gender } }
+			AND = {
+				$ARMY_OWNER$ = { faith = { has_doctrine_parameter = combatant_must_be_male } }
+				OR = {
+					is_male = yes
+					AND = {
+						has_trait = rus_mod_shieldmaiden
+					}
+				}
+			}
+			AND = {
+				$ARMY_OWNER$ = { faith = { has_doctrine_parameter = combatant_must_be_female } }
+				is_female = yes
+			}
+		}
+	}
+}

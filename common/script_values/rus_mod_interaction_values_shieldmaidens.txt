@@ -1,5 +1,5 @@
 ﻿appoint_shieldmaiden_cost = {
-	value = 100
+	value = 50
 	multiply = {
 		value = scope:actor.primary_title.tier
 		subtract = 1

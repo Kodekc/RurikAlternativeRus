@@ -1,6 +1,8 @@
 ﻿relieve_shieldmaiden_interaction = {
     category = interaction_category_vassal
-
+    greeting = negative
+	desc = relieve_shieldmaiden_desc
+	
     is_shown = {
         scope:recipient = {
             NOT = { 
@@ -26,27 +28,32 @@
         }
     }
 
-    greeting = negative
-    # TODO: make more conditions for acceptance
-    ai_accept = {
-        base = 1
-    }
-
     on_accept = {
         scope:recipient = {
             if = {
                 remove_trait = rus_mod_shieldmaiden
-
-                remove_opinion = {
-                    target = scope:actor
-                    modifier = appointed_shieldmaiden_opinion
-                }
 
                 add_opinion = {
                     target = scope:actor
                     modifier = relieved_shieldmaiden_opinion
                 }
             }
+            if = {
+				limit = {
+					has_opinion_modifier = {
+						target = scope:actor
+						modifier = appointed_shieldmaiden_opinion
+					}
+				}
+
+				remove_opinion = {
+                    target = scope:actor
+                    modifier = appointed_shieldmaiden_opinion
+                }
+			}
         }
     }
+
+    # TODO: temporarily set to auto_accept while getting numbers down
+    auto_accept = yes				  					 
 }

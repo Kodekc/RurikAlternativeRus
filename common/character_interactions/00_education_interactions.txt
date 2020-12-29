@@ -875,8 +875,7 @@ offer_ward_interaction = {
 			}
 		}
 	}
-	
-	
+
 	on_accept = {
 		scope:secondary_actor = {
 			save_scope_as = ward
@@ -889,15 +888,13 @@ offer_ward_interaction = {
 		
 		#University?
 		if = {
-			OR = {
-				limit = {
+			limit = {
+				OR = {
 					scope:guardian.court_owner = {
 						any_realm_province = {
 							has_university_building_trigger = yes
 						}
 					}
-				}
-				limit = {
 					scope:ward.host = {
 						any_realm_province = {
 							has_university_building_trigger = yes
@@ -911,6 +908,7 @@ offer_ward_interaction = {
 					years = 17
 				}
 			}
+		}
 
 		scope:actor = {
 			if = {
@@ -1652,8 +1650,7 @@ offer_guardianship_interaction = {
 			}
 		}
 	}
-	
-	
+
 	on_accept = {
 		scope:secondary_actor = {
 			save_scope_as = guardian
@@ -1672,15 +1669,13 @@ offer_guardianship_interaction = {
 		
 			#University?
 			if = {
-				OR = {
-					limit = {
+				limit = {
+					OR = {
 						scope:guardian.court_owner = {
 							any_realm_province = {
 								has_university_building_trigger = yes
 							}
 						}
-					}
-					limit = {
 						scope:ward.host = {
 							any_realm_province = {
 								has_university_building_trigger = yes
@@ -1695,6 +1690,7 @@ offer_guardianship_interaction = {
 					}
 				}
 			}
+		
 			save_scope_value_as = { #To give right tooltip in char_interaction.0080
 				name = offer_guardianship_interaction
 				value = yes

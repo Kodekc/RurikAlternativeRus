@@ -1,10 +1,14 @@
 ﻿#Rurik: Alternative Rus (Autor: Kodeks)
 
 yearly_playable_pulse = {
-	limit = {
-		current_date >= 878.1.1
-		current_date <= 880.1.1
-	}
+	effect = {
+		if = {
+			limit = {
+				current_date >= 878.1.1
+				current_date < 880.1.1
+			}
+		}
+	}	
 	events = {
 		rurik_life_and_death.0001
 	}

@@ -349,7 +349,7 @@ educate_child_interaction = {
 			scope:ward = {
 				add_character_flag = {
 					flag = studying_at_university
-					years = 11
+					years = 17
 				}
 			}
 		}
@@ -706,7 +706,7 @@ offer_ward_interaction = {
 					save_scope_as = recipient
 				}
 			}
-		}		
+		}
 	}
 
 	populate_actor_list = {
@@ -886,6 +886,31 @@ offer_ward_interaction = {
 		}
 
 		offer_ward_interaction_effect = yes
+		
+		#University?
+		if = {
+			OR = {
+				limit = {
+					scope:guardian.court_owner = {
+						any_realm_province = {
+							has_university_building_trigger = yes
+						}
+					}
+				}
+				limit = {
+					scope:ward.host = {
+						any_realm_province = {
+							has_university_building_trigger = yes
+						}
+					}
+				}
+			}
+			scope:ward = {
+				add_character_flag = {
+					flag = studying_at_university
+					years = 17
+				}
+			}
 
 		scope:actor = {
 			if = {
@@ -1645,6 +1670,31 @@ offer_guardianship_interaction = {
 			}
 			offer_guardianship_interaction = yes
 		
+			#University?
+			if = {
+				OR = {
+					limit = {
+						scope:guardian.court_owner = {
+							any_realm_province = {
+								has_university_building_trigger = yes
+							}
+						}
+					}
+					limit = {
+						scope:ward.host = {
+							any_realm_province = {
+								has_university_building_trigger = yes
+							}
+						}
+					}
+				}
+				scope:ward = {
+					add_character_flag = {
+						flag = studying_at_university
+						years = 17
+					}
+				}
+			}
 			save_scope_value_as = { #To give right tooltip in char_interaction.0080
 				name = offer_guardianship_interaction
 				value = yes

@@ -47,7 +47,6 @@ witch = {
 		opinion_modifier = witchcraft_intolerant
 		ignore_opinion_value_if_same_trait = yes
 	}
-
 }
 
 rus_mod_virgin = {
@@ -123,5 +122,5 @@ rus_mod_shieldmaiden = {
 	
 	ai_energy = 10
 	ai_boldness = 10
-	
+
 }

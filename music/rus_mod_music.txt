@@ -27,3 +27,17 @@ rus_mod_mood_danheim_tyrfing = {
 	mood = yes
 	can_be_interrupted = yes
 }
+
+rus_mod_mood_danheim_tyrfing = {
+	music = "file:/sound/rus_mod_sound/Adrian_Von_Ziegler_Myth.ogg"
+	weight = 15
+	mood = yes
+	can_be_interrupted = yes
+}
+
+rus_mod_mood_danheim_tyrfing = {
+	music = "file:/sound/rus_mod_sound/Adrian_Von_Ziegler_Freedom.ogg"
+	weight = 15
+	mood = yes
+	can_be_interrupted = yes
+}

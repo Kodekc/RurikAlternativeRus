@@ -1,30 +1,31 @@
 ﻿title_succession_laws = {
 	veche_elective_succession_law = {
 		can_have = {
-			has_government = tribal_government
-			highest_held_title_tier >= tier_duchy
-			NOR = {
-				culture = culture:russian
-				has_culture_group = culture_group:east_slavic_group
+				has_government = tribal_government
+				highest_held_title_tier >= tier_duchy
+				has_religion = religion:slavic_religion
 			}
-		}
-		can_pass = {
-			can_change_title_law_trigger = yes
-			has_culture_group = culture_group:east_slavic_group
-		}
-		can_title_have = {
-			can_title_have_law_general_trigger = yes
-		}
-		succession = {
-			order_of_succession = election
-			election_type = veche_elective
-		}
-		flag = elective_succession_law
-		title_allegiance_opinion = 5
-		revoke_cost = {
-			prestige = change_title_succession_law_prestige_cost
-		}
-		pass_cost = {
+			can_pass = {
+				can_change_title_law_trigger = yes
+				OR = {
+					has_culture_group = culture_group:east_slavic_group
+					has_culture_group = culture_group:south_slavic_group
+					has_culture_group = culture_group:west_slavic_group
+				}
+			}
+			can_title_have = {
+				can_title_have_law_general_trigger = yes
+			}
+			succession = {
+				order_of_succession = election
+				election_type = veche_elective
+			}
+			flag = elective_succession_law
+			title_allegiance_opinion = 5
+			revoke_cost = {
+				prestige = change_title_succession_law_prestige_cost
+			}
+			pass_cost = {
 			prestige = change_title_succession_law_prestige_cost
 		}
 	}

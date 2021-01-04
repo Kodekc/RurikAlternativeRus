@@ -27,6 +27,8 @@
  b_vinnytsia:0 "Винница"
  d_halych:0 "Галиция"
  c_halych:0 "Галиция"
+ d_languedoc:0 "Готия"
+ d_languedoc_adj:0 "Готийск"
  # Map items (Sea)
  sea_baltic:0 "Варяжское море"
  # Fix localization (Check when update)

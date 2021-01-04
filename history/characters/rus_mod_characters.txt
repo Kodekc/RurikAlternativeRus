@@ -81,6 +81,9 @@
 		effect = {
 			add_gold = 500
 			add_prestige = -250
+			set_relation_friend = character:40606 #Oleg the Seer
+		}
+	}
 		}
 	}
 	879.1.1 = {
@@ -158,6 +161,7 @@
 40699 = {
  	name = "Efanda" #Intended wife of Rurik
 	dna = 40699_princess_efanda
+	dynasty = 2021001
 	female = yes
 	diplomacy = 6
 	martial = 5
@@ -181,7 +185,8 @@
 
 40700 = {
  	name = "Gostomysl" #Intended father of Oleg and Efanda
- 	religion = slavic_pagan
+ 	dynasty = 2021001
+	religion = slavic_pagan
 	culture = ilmenian
 	trait = chaste
 	790.1.3 = {

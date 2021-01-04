@@ -2,3 +2,8 @@
 	name = "dynn_Rani"
 	culture = "rujanian"
 }
+
+2021001 = {
+	name = "dynn_Ilmersky"
+	culture = "ilmenian"
+}

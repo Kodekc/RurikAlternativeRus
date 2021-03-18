@@ -2,19 +2,18 @@
  # Cultural
  german:0 "Германск"
  german_collective_noun:1 "Германцы"
- russian:0 "Русьск"
+ russian:0 "Русинск"
  russian_collective_noun:1 "Русы"
  pommeranian:0 "Поморянск"
- pommeranian_collective_noun:0 "Поморяне"
+ pommeranian_collective_noun:0 "Поморянцы"
  # Сharacter names
  T_O_rvar:0 "Трувор"
  SignjO_tr:0 "Синеус"
- Hedwig:0 "Хедвига"
  bookmark_adventurers_rurik_rurikid_alt_helgi:0 "Олег"
  # Titles
  e_russia:0 "Великая Русь"
- e_russia_adj:0 "Великоруськ"
- e_russia_pre:0 "Великоруськ"
+ e_russia_adj:0 "Великорусск"
+ e_russia_pre:0 "Великорусск"
  k_ruthenia:0 "Киевская Русь"
  k_ruthenia_adj:0 "Киевск"
  k_novgorod:0 "Северная Русь"
@@ -26,7 +25,6 @@
  b_volodymyr:0 "Владимир-Волынский"
  b_vinnytsia:0 "Винница"
  d_halych:0 "Галиция"
- c_halych:0 "Галиция"
  d_languedoc:0 "Готия"
  d_languedoc_adj:0 "Готийск"
  # Map items (Sea)

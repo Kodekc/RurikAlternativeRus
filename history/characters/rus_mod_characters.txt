@@ -84,8 +84,6 @@
 			set_relation_friend = character:40606 #Oleg the Seer
 		}
 	}
-		}
-	}
 	879.1.1 = {
 		death = yes
 	}

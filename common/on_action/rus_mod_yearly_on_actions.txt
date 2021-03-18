@@ -1,5 +1,4 @@
 ﻿#Rurik: Alternative Rus (Autor: Kodeks)
-
 yearly_playable_pulse = {
 	effect = {
 		if = {
@@ -11,12 +10,5 @@ yearly_playable_pulse = {
 	}	
 	events = {
 		rurik_life_and_death.0001
-	}
-}
-
-random_yearly_everyone_pulse = {
-
-	events = {
-		education_maintenance.01
 	}
 }

@@ -15,6 +15,8 @@
 @weapons_and_armor_01 = "gfx/interface/icons/culture_innovations/innovation_weapons_and_armor_01.dds"
 @weapons_and_armor_02 = "gfx/interface/icons/culture_innovations/innovation_weapons_and_armor_02.dds"
 @knight = "gfx/interface/icons/culture_innovations/innovation_knight.dds"
+@hird = "gfx/interface/icons/culture_innovations/innovation_hird.dds"
+@longboats = "gfx/interface/icons/culture_innovations/innovation_longboats.dds"																		   
 @majesty_01 = "gfx/interface/icons/culture_innovations/innovation_majesty_01.dds"
 @majesty_02 = "gfx/interface/icons/culture_innovations/innovation_majesty_02.dds"
 @majesty_03 = "gfx/interface/icons/culture_innovations/innovation_majesty_03.dds"
@@ -22,7 +24,7 @@
 @nobility_02 = "gfx/interface/icons/culture_innovations/innovation_nobility_02.dds"
 @nobility_03 = "gfx/interface/icons/culture_innovations/innovation_nobility_03.dds"
 @nobility_04 = "gfx/interface/icons/culture_innovations/innovation_nobility_04.dds"
-@misc_inventions = "gfx/interface/icons/culture_innovations/rus_mod_innovation_drakkar.dds"
+@misc_inventions = "gfx/interface/icons/culture_innovations/innovation_misc_inventions.dds"
 
 @camel = "gfx/interface/icons/culture_innovations/innovation_camel.dds"
 @elephant = "gfx/interface/icons/culture_innovations/innovation_elephant.dds"
@@ -232,8 +234,8 @@ innovation_visigothic_codes = {
 			#Pyrenaic Visigoths & influenced-cultures only
 			this = culture:occitan
 			this = culture:basque
+			this = culture:aragonese			   
 			this = culture:catalan
-			this = culture:aragonese
 			this = culture:visigothic
 			this = culture:andalusian
 			this = culture:galician
@@ -256,7 +258,7 @@ innovation_longboats = {
 	group = culture_group_regional
 	culture_era = culture_era_tribal
 	region = world_europe_north
-	icon = @misc_inventions
+	icon = @longboats
 	
 	potential = {
 		OR = {

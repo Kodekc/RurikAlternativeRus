@@ -5,6 +5,14 @@ rus_mod_mood_temple_of_odin = {
 	weight = 15
 	mood = yes
 	can_be_interrupted = yes
+	is_prioritized_mood = yes
+
+	is_valid = {
+		OR = {
+			culture_group = culture_group:north_germanic_group
+			religion = religion:germanic_religion
+		}
+	}
 }
 
 rus_mod_mood_danheim_gjallarhorn = {
@@ -12,6 +20,14 @@ rus_mod_mood_danheim_gjallarhorn = {
 	weight = 15
 	mood = yes
 	can_be_interrupted = yes
+	is_prioritized_mood = yes
+
+	is_valid = {
+		OR = {
+			culture_group = culture_group:north_germanic_group
+			religion = religion:germanic_religion
+		}
+	}
 }
 
 rus_mod_mood_danheim_tyrfing = {
@@ -19,6 +35,14 @@ rus_mod_mood_danheim_tyrfing = {
 	weight = 15
 	mood = yes
 	can_be_interrupted = yes
+	is_prioritized_mood = yes
+
+	is_valid = {
+		OR = {
+			culture_group = culture_group:north_germanic_group
+			religion = religion:germanic_religion
+		}
+	}
 }
 
 rus_mod_mood_danheim_tyrfing = {
@@ -26,6 +50,14 @@ rus_mod_mood_danheim_tyrfing = {
 	weight = 15
 	mood = yes
 	can_be_interrupted = yes
+	is_prioritized_mood = yes
+
+	is_valid = {
+		OR = {
+			culture_group = culture_group:north_germanic_group
+			religion = religion:germanic_religion
+		}
+	}
 }
 
 rus_mod_mood_danheim_tyrfing = {
@@ -33,6 +65,14 @@ rus_mod_mood_danheim_tyrfing = {
 	weight = 15
 	mood = yes
 	can_be_interrupted = yes
+	is_prioritized_mood = yes
+
+	is_valid = {
+		OR = {
+			culture_group = culture_group:north_germanic_group
+			religion = religion:germanic_religion
+		}
+	}
 }
 
 rus_mod_mood_danheim_tyrfing = {
@@ -40,4 +80,12 @@ rus_mod_mood_danheim_tyrfing = {
 	weight = 15
 	mood = yes
 	can_be_interrupted = yes
+	is_prioritized_mood = yes
+
+	is_valid = {
+		OR = {
+			culture_group = culture_group:north_germanic_group
+			religion = religion:germanic_religion
+		}
+	}
 }

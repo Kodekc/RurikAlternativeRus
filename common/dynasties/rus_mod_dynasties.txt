@@ -1,8 +1,4 @@
-﻿2001014 = {
-	name = "dynn_Rani"
-	culture = "rujanian"
-}
-
+﻿#Rurik: Alternative Rus (Autor: Kodeks)
 2021001 = {
 	name = "dynn_Ilmersky"
 	culture = "ilmenian"

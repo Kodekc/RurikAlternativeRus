@@ -356,6 +356,7 @@
 	trait = wrathful
 	trait = just
 	trait = brave
+	sexuality = heterosexual
 	850.1.1 = {
 		birth = yes
 	}
@@ -437,7 +438,7 @@
 #		death = yes
 #	}
 #}
-
+#
 #6872 = {
 #	name = "Sif"
 #	female = yes
@@ -489,45 +490,88 @@
 	stewardship = 5
 	intrigue = 7
 	learning = 4
+	health = 8
 	trait = lustful
 	trait = ambitious
 	trait = intellect_good_1
 	trait = greedy
 	trait = viking
+	trait = adventurer
 	trait = education_martial_4
+	sexuality = heterosexual
 	815.1.1 = {
 		birth = yes
+		effect = {
+			add_character_flag = has_scripted_appearance
+		}	
 	}
 	865.1.1 = {
 		effect = {
 			set_relation_friend = character:163108 #Björn Ironside, they went raiding together and Haesteinn could be his foster dad?
-			add_gold = 500	 
+			add_gold = 500
 			add_prestige = 2000 # Rich and prestigious from raiding
 			add_prestige_experience = 5000 # So that we have enough prestige to use an invasion CB
 
 			# Personal retinue of Hæsteinn who basically followed him around because they thought he was awesome.
-			# Can be used for multiple wars, but will disband upon his death.
-			spawn_army = {
-				name = event_troop_default_name
-				levies = 1400
-				men_at_arms = {
-					type = armored_footmen
-					stacks = 1
+			## Can be used for multiple wars, but will disband upon his death.
+			## If we have FP1, give him a mixed force including DLC MaA.
+			if = {
+				limit = { has_fp1_dlc_trigger = yes }
+				spawn_army = {
+					name = event_troop_default_name
+					levies = 1200
+					men_at_arms = {
+						type = huscarl
+						stacks = 2
+					}
+					men_at_arms = {
+						type = varangian_veterans
+						stacks = 1
+					}
+					location = 2152
+					origin = 2152
+					inheritable = no
 				}
-				location = 2152
-				origin = 2152
-				inheritable = no
+				spawn_army = {
+					name = event_troop_default_name
+					levies = 1200
+					men_at_arms = {
+						type = huscarl
+						stacks = 2
+					}
+					men_at_arms = {
+						type = varangian_veterans
+						stacks = 1
+					}
+					location = 2152
+					origin = 2152
+					inheritable = no
+				}
 			}
-			spawn_army = {
-				name = event_troop_default_name
-				levies = 1400
-				men_at_arms = {
-					type = armored_footmen
-					stacks = 1
+			## Otherwise, give him huscarls.
+			else = {
+				spawn_army = {
+					name = event_troop_default_name
+					levies = 1200
+					men_at_arms = {
+						type = huscarl
+						stacks = 3
+					}
+					location = 2152
+					origin = 2152
+					inheritable = no
 				}
-				location = 2152
-				origin = 2152
-				inheritable = no
+				spawn_army = {
+					name = event_troop_default_name
+					levies = 1200
+					men_at_arms = {
+						type = huscarl
+						stacks = 3
+					}
+					location = 2152
+					origin = 2152
+					inheritable = no
+				}
 			}
 		}
 	}
@@ -582,6 +626,7 @@
 #40697 = {
 # 	name = "Umila" #Fictional mother of Rurik
 # 	female = yes
+#	dynasty = norse_roden #Fictional dynasty for Rurik's family, to have them in a single dynasty, but keep Rurik as the founder of the Rurikid dynasty.
 # 	religion = "norse_pagan"
 #	culture = norse
 #	803.1.1 = {
@@ -591,11 +636,10 @@
 #		death = yes
 #	}
 #}
-
-
+#
 #302221 = { #Brother of Rurik Rurikd
 #	name = "SignjO_tr"	#Sineus
-#	dynasty = 705
+#	dynasty = norse_roden
 #	religion = norse_pagan
 #	culture = norse
 #	trait = deceitful
@@ -610,10 +654,10 @@
 #		death = yes
 #	}
 #}
-
+#
 #302222 = { #Brother of Rurik Rurikd
 #	name = "T_O_rvar"		#Truvor
-#	dynasty = 705
+#	dynasty = norse_roden
 #	religion = norse_pagan
 #	trait = just
 #	trait = compassionate
@@ -630,8 +674,7 @@
 #		death = yes
 #	}
 #}
-
-
+#
 #40605 = {
 #	name = "Rurik" # Rurik, legendary founder of Rus. Probably known as Hrörekr by his Norse contemporaries.
 #	dna = 40605_rurik_rurikid
@@ -649,9 +692,13 @@
 #	trait = intellect_good_1
 #	trait = education_martial_4
 #	trait = brave
+#	sexuality = heterosexual
 #	mother = 40697
 #	830.1.1 = {
 #		birth = yes
+#		effect = {
+#			add_character_flag = has_scripted_appearance
+#		}	
 #	}
 #	866.1.1 = {
 #		add_spouse = 6863
@@ -659,6 +706,41 @@
 #		effect = {
 #			give_nickname = nick_troublemaker
 #			add_gold = 500
+#		}
+#
+#		# Give Viking adventurer some adventuring troops.
+#		effect = {
+#			if = {
+#				limit = { has_fp1_dlc_trigger = yes }
+#				spawn_army = {
+#					name = event_troop_default_name
+#					levies = 600
+#					men_at_arms = {
+#						type = huscarl
+#						stacks = 2
+#					}
+#					men_at_arms = {
+#						type = varangian_veterans
+#						stacks = 2
+#					}
+#					location = 2157
+#					origin = 2157
+#					inheritable = no
+#				}
+#			}
+#			else = {
+#				spawn_army = {
+#					name = event_troop_default_name
+#					levies = 600
+#					men_at_arms = {
+#						type = huscarl
+#						stacks = 4
+#					}
+#					location = 2157
+#					origin = 2157
+#					inheritable = no
+#				}
+#			}
 #		}
 #	}
 #	879.1.2 = {
@@ -1860,7 +1942,7 @@
 	955.1.1 = {
 		birth = "955.1.1"
 	}
-	995.1.2 = {
+	995.1.10 = {
 		add_spouse = 102501
 	}
 	1018.1.8 = {
@@ -2403,13 +2485,16 @@
 	father = 5994
 	mother = 5995
 	1009.1.1 = {
-		birth = "1009.1.1"
+		birth = yes
 	}
 	1040.1.1 = {
 		add_spouse = 102505
 	}
+	1060.1.1 = {
+		remove_spouse = 102505 # Added for simplicity - Was actually married until death
+	}
 	1064.1.1 = {
-		death = "1064.1.1"
+		death = yes
 	}
 }
 
@@ -2891,10 +2976,10 @@
 		}
 	}
 	872.1.1 = {
-		add_spouse = 166044
+		add_concubine = 166044
 	}
 	893.1.1 = {
-		add_spouse = 161305
+		add_concubine = 161305
 	}
 	
 	933.1.1 = {
@@ -3452,6 +3537,9 @@
 	
 	826.1.1 = {
 		birth = yes
+		effect = {
+			add_character_flag = has_scripted_appearance
+		}	
 	}
 	838.1.1 = {
 		add_spouse = 6839
@@ -3598,6 +3686,7 @@
 	trait = viking
 	trait = zealous
 	trait = education_stewardship_3
+	sexuality = heterosexual
 	
 	father = 163109 #Ragnarr Lodbrok
 	mother = 6836 #Auslaug
@@ -3605,6 +3694,9 @@
 	840.1.1 = {
 		birth = yes
 		give_nickname = nick_snake_in_the_eye
+		effect = {
+			add_character_flag = has_scripted_appearance
+		}	
 	}
 
 	856.1.1 = {
@@ -3708,11 +3800,15 @@
 	trait = one_legged
 	trait = viking
 	trait = education_martial_4
+	sexuality = heterosexual
 	father = 163109 #Ragnarr Lodbrok
 	mother = 6836 #Auslaug
 	
 	820.2.7 = {
 		birth = yes
+		effect = {
+			add_character_flag = has_scripted_appearance
+		}	
 	}
 	836.1.1 = {
 		add_spouse = 306011 #Fictional
@@ -3857,11 +3953,15 @@
 	trait = callous
 	trait = viking
 	trait = education_martial_3
+	sexuality = heterosexual
 	father = 163109 #Ragnarr Lodbrok
 	mother = 6836 #Auslaug
 	828.1.1 = {
 		give_nickname = nick_whiteshirt
 		birth = yes
+		effect = {
+			add_character_flag = has_scripted_appearance
+		}	
 	}
 	843.1.1 = {
 		add_spouse = 306009 #Fictional wife
@@ -4023,18 +4123,38 @@
 #	867.1.1 = {
 #		effect = {
 #			add_gold = 500
-#			## TODO_CD: Check if these soldiers are for war or raiding, if raiding delete if war move to war histories.
-#			#spawn_unit = {
-#			#	province = 547
-#			#	owner = ROOT
-#			#	#leader = ROOT
-#			#	troops = {
-#			#		light_infantry = { 722 722 }
-#			#		heavy_infantry = { 156 156 }
-#			#		archers = { 200 200 }
-#			#	}
-#			#	attrition = 1.0
-#			#}
+#			# Give Viking adventurer some adventuring troops.
+#			if = {
+#				limit = { has_fp1_dlc_trigger = yes }
+#				spawn_army = {
+#					name = event_troop_default_name
+#					levies = 600
+#					men_at_arms = {
+#						type = huscarl
+#						stacks = 2
+#					}
+#					men_at_arms = {
+#						type = varangian_veterans
+#						stacks = 2
+#					}
+#					location = 2157
+#					origin = 2157
+#					inheritable = no
+#				}
+#			}
+#			else = {
+#				spawn_army = {
+#					name = event_troop_default_name
+#					levies = 600
+#					men_at_arms = {
+#						type = huscarl
+#						stacks = 4
+#					}
+#					location = 2157
+#					origin = 2157
+#					inheritable = no
+#				}
+#			}
 #		}
 #	}
 #	882.1.1 = {
@@ -5366,9 +5486,7 @@
 		birth = "850.1.1"
 	}
 	860.1.1 = {
-			
 		faith = "catholic"
-   
 	}
 	875.1.1 = {
 		death = "875.1.1"
@@ -5386,9 +5504,7 @@
 		birth = "851.1.1"
 	}
 	860.1.1 = {
-			
 		faith = "catholic"
-   
 	}
 	867.1.1 = {
 		give_nickname = nick_the_red
@@ -5409,9 +5525,7 @@
 		birth = "852.1.1"
 	}
 	860.1.1 = {
-			
 		faith = "catholic"
-   
 	}
 	870.1.1 = {
 		death = "870.1.1"
@@ -5738,9 +5852,7 @@
 	}
 	860.1.1 = {
 		give_nickname = nick_the_deep_minded
-			
 		faith = "catholic"
-   
 	}
 	900.1.1 = {
 		death = yes
@@ -7045,6 +7157,20 @@
 	culture = "norse"
 	832.1.1 = {
 		birth = yes
+	}
+	867.1.1 = {
+		# Give them a small army to keep Wessex's grubby English mitts off of an area they wouldn't touch till the late 12th century.
+		spawn_army = {
+			name = event_troop_default_name
+			levies = 400
+			men_at_arms = {
+				type = huscarl
+				stacks = 2
+			}
+			location = 2157
+			origin = 2157
+			inheritable = no
+		}
 	}
 	887.1.1 = {
 		death = yes

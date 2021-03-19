@@ -8,9 +8,10 @@
 	diplomacy = 8
 	stewardship = 6
 	trait = cynical
-	trait = trusting
+	trait = greedy
 	trait = gregarious
 	trait = education_diplomacy_4
+	trait = intellect_good_3
 	845.1.1 = {
 		give_nickname = nick_dir
 		birth = yes
@@ -21,21 +22,24 @@
 	867.1.1 = {
 		effect = {
 			add_gold = 500
-			## TODO_CD: Check if these soldiers are for war or raiding, if raiding delete if war move to war histories.
-			#spawn_unit = {
-			#	province = 547
-			#	owner = ROOT
-			#	#leader = ROOT
-			#	troops = {
-			#		light_infantry = { 722 722 }
-			#		heavy_infantry = { 156 156 }
-			#		archers = { 200 200 }
-			#	}
-			#	attrition = 1.0
-			#}
 		}
 	}
 	882.1.1 = {
+		death = yes
+	}
+}
+
+6871 = {
+	name = "Bratimir"
+	dynasty = 7516
+	religion = slavic_pagan
+	culture = polansian
+	father = 6811
+	mother = 6872
+	864.1.1 = {
+		birth = yes
+	}
+	890.1.1 = {
 		death = yes
 	}
 }
@@ -70,6 +74,7 @@
 	trait = brave
 	trait = intellect_good_1
 	trait = education_martial_4
+	sexuality = heterosexual
 	father = 40698
 	mother = 40697
 	829.1.1 = {
@@ -91,7 +96,6 @@
 
 40606 = {
 	name = "Oleg"		#Oleg the Seer
-	dna = 40606_oleg_seer
 	dynasty = 705
 	religion = slavic_pagan
 	culture = ilmenian
@@ -132,7 +136,7 @@
  	name = "Umila" #Intended mother of Rurik
  	female = yes
  	religion = slavic_pagan
-	culture = rujanian
+	culture = russian
 	803.1.1 = {
 		birth = yes
 	}
@@ -144,7 +148,7 @@
 40698 = {
  	name = "Godslav" #Intended father of Rurik
  	religion = slavic_pagan
-	culture = rujanian
+	culture = russian
 	801.1.1 = {
 		birth = yes
 	}
@@ -199,7 +203,7 @@
 	name = "SignjO_tr"	#Sineus
 	dynasty = 705
 	religion = slavic_pagan
-	culture = rujanian
+	culture = russian
 	trait = deceitful
 	trait = gregarious
 	trait = ambitious
@@ -218,7 +222,7 @@
 	name = "T_O_rvar"		#Truvor
 	dynasty = 705
 	religion = slavic_pagan
-	culture = rujanian
+	culture = russian
 	trait = just
 	trait = compassionate
 	trait = ambitious

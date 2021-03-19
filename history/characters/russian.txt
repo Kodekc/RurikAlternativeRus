@@ -83,7 +83,7 @@
 	father = 602
 	mother = 603
 	960.1.2 = {
-		birth = "960.1.2"
+		birth = yes
 	}
 	977.1.2 = {
 		add_spouse = 609
@@ -96,6 +96,7 @@
 		add_spouse = 41100
 	}
 	1015.7.15 = {
+		give_nickname = nick_the_great						
 		death = "1015.7.15"
 	}
 }
@@ -9639,15 +9640,15 @@
 	trait = education_martial_1
 	father = 604
 	979.1.2 = {
-		birth = "979.1.2"
+		birth = yes
 	}
 	1016.1.2 = {
 		add_pressed_claim = d_kiev
-	add_pressed_claim = c_kiev
-	add_pressed_claim = c_korsun
+		add_pressed_claim = c_kiev
+		add_pressed_claim = c_korsun
 	}
 	1019.1.2 = {
-		death = "1019.1.2"
+		death = yes
 	}
 }
 
@@ -9665,7 +9666,7 @@
 	father = 608
 	mother = 609
 	983.1.2 = {
-		birth = "983.1.2"
+		birth = yes
 	}
 	1015.1.2 = {
 		add_pressed_claim = d_kiev
@@ -9674,7 +9675,8 @@
 		add_spouse = 100511
 	}
 	1054.2.20 = {
-		death = "1054.2.20"
+		give_nickname = nick_the_wise
+		death = yes
 	}
 }
 
@@ -13335,46 +13337,6 @@
 		death = yes
 	}
 }
-#
-302267 = {
-	name = "Iakov"
-	religion = "orthodox"
-	culture = russian
-	dynasty = 2001051	#Opolyesky
-	996.12.13 = {
-		birth = yes
-	}
-	1043.5.24 = {
-		death = yes
-	}
-}
-302268 = {
-	name = "Simeon"
-	religion = "orthodox"
-	culture = russian
-	dynasty = 2001051	#Opolyesky
-	father = 302267
-	1025.6.21 = {
-		birth = yes
-	}
-	1072.7.3 = {
-		death = yes
-	}
-}
-302269 = {
-	name = "Alexei"
-	religion = "orthodox"
-	culture = russian
-	dynasty = 2001051	#Opolyesky
-	father = 302268
-	1051.4.19 = {
-		birth = yes
-	}
-	1108.6.30 = {
-		death = yes
-	}
-}
-#
 302417 = {
 	name = "Briachislav"
 	religion = orthodox

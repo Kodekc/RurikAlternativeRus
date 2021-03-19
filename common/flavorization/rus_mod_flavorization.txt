@@ -374,13 +374,14 @@ byzantine_kingdom_patricia = {
 ### Scandinavian titulature ###
 
 # Barony
-scandinavian_headman = {
+scandinavian_lendrman = {
 	type = character
 	special = holder
 	tier = barony
 	priority = 29
 	governments = { feudal_government tribal_government }
 	culture_groups = { north_germanic_group }
+	religions = { germanic_religion }
 }
 scandinavian_village = {
 	type = title
@@ -391,39 +392,33 @@ scandinavian_village = {
 }
 
 # Сounty
-scandinavian_syssel = {
-	type = title
-	tier = county
-	priority = 30
-	governments = { tribal_government }
-	culture_groups = { north_germanic_group }
-}
-scandinavian_sysselmann = {
+scandinavian_hersir = {
 	type = character
 	gender = male
 	special = holder
 	tier = county
 	priority = 39
-	governments = { tribal_government }
+	governments = { feudal_government tribal_government }
 	culture_groups = { north_germanic_group }
+	religions = { germanic_religion }
 }
-scandinavian_leader = {
+scandinavian_maiden_leader = {
 	type = character
 	gender = female
 	special = holder
 	tier = county
 	priority = 39
-	governments = { tribal_government }
+	governments = { feudal_government tribal_government }
 	culture_groups = { north_germanic_group }
+	religions = { germanic_religion }
 }
-scandinavian_independent_jarl = {
+scandinavian_independent_jarl_county = {
 	type = character
-	gender = male
 	special = holder
 	tier = county
 	priority = 40
 	only_independent = yes
-	governments = { tribal_government }
+	governments = { feudal_government tribal_government }
 	culture_groups = { north_germanic_group }
 }
 # Duchy
@@ -433,24 +428,37 @@ scandinavian_jarldom = {
 	priority = 90
 	governments = { tribal_government }
 	culture_groups = { north_germanic_group }
+	religions = { germanic_religion }
 }
-scandinavian_male_jarl = {
+scandinavian_haupting_male = {
 	type = character
 	gender = male
 	special = holder
 	tier = duchy
-	priority = 90
+	priority = 89
 	governments = { feudal_government tribal_government }
 	culture_groups = { north_germanic_group }
+	religions = { germanic_religion }
 }
-scandinavian_female_jarl = {
+scandinavian_haupting_female = {
 	type = character
 	gender = female
 	special = holder
 	tier = duchy
-	priority = 90
+	priority = 89
 	governments = { feudal_government tribal_government }
 	culture_groups = { north_germanic_group }
+	religions = { germanic_religion }
+}
+scandinavian_independent_jarl_duchy = {
+	type = character
+	special = holder
+	tier = county
+	priority = 90
+	only_independent = yes
+	governments = { feudal_government tribal_government }
+	culture_groups = { north_germanic_group }
+	religions = { germanic_religion }
 }
 
 # Kingdom

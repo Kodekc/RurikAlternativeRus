@@ -67,7 +67,11 @@
  cn_rugia_adj:0 "Ругийск"
  # Cultural innovations
  innovation_rook:0 "Ладьи"
- innovation_rook_desc:0 "Ладья — славянское полноводное парусно-гребное морское и речное судно, предназначенное для гражданских и военных целей."
+ innovation_rook_desc:0 "Легко и бесшумно скользит по волнам ладья, словно диковинная сказочная птица, с крыльями-парусами, кажется, оторвется от гребня волны, взмахнет парусом и полетит в дали необъятные, в города, где ещё не знают о славянах."
+ # Doctrines
+ doctrine_polyamory_name:0 "Полиамория"
+ doctrine_polyamory_desc:0 "Отбросив предрасудки и представления о том, что один человек может удовлетворить все чувства и желания другого, мы готовы образовать союз между несколькими участниками. На словах такой союз выглядит идеальным, но всегда таит опасность в виде конкуренции между супругами."
+ doctrine_polyamory_accepted_desc:0 "Несовместимо с любой [doctrine|E], которая делает прелюбодеяние [shunned|E] или [criminal|E]. Любовь друг к другу должна быть такой же безусловной, как любовь к нам [ROOT.Faith.FertilityGodNamePossessive]."
  # Russian titulature
  unoccupied_free_land:0 "Вольные земли"
  russian_barony_pogost:0 "Погост"
@@ -117,7 +121,7 @@
  scandinavian_haupting_male:0 "Хёвдинг"
  scandinavian_haupting_female:0 "Воительница"
  scandinavian_jarldom:0 "Ярлство"
- scandinavian_independent_jarl_duchy:0 "Риг-Ярл"
+ scandinavian_independent_jarl_duchy:0 "Конунг"
  scandinavian_kongedom:0 "Конунгство"
  scandinavian_kingdom_konge:0 "Конунг"
  scandinavian_kingdom_drottning:0 "Дроттнинг"

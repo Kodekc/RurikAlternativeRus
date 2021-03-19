@@ -453,7 +453,7 @@ scandinavian_haupting_female = {
 scandinavian_independent_jarl_duchy = {
 	type = character
 	special = holder
-	tier = county
+	tier = duchy
 	priority = 90
 	only_independent = yes
 	governments = { feudal_government tribal_government }
@@ -464,8 +464,8 @@ scandinavian_independent_jarl_duchy = {
 # Kingdom
 scandinavian_kongedom = {
 	type = title
-	tier = duchy
-	priority = 90
+	tier = kingdom
+	priority = 100
 	governments = { tribal_government }
 	culture_groups = { north_germanic_group }
 }

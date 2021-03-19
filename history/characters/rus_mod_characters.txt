@@ -162,7 +162,6 @@
 
 40699 = {
  	name = "Efanda" #Intended wife of Rurik
-	dna = 40699_princess_efanda
 	dynasty = 2021001
 	female = yes
 	diplomacy = 6

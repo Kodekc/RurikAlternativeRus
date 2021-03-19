@@ -10,7 +10,7 @@
 	doctrine = doctrine_no_head
 	doctrine = doctrine_gender_male_dominated
 	doctrine = doctrine_pluralism_pluralistic
-	doctrine = doctrine_theocracy_temporal
+	doctrine = doctrine_theocracy_lay_clergy
 
 	#Marriage
 	doctrine = doctrine_concubines
@@ -33,8 +33,8 @@
 	doctrine = doctrine_clerical_succession_temporal_appointment
 
 	traits = {
-		virtues = { brave honest vengeful }
-		sins = { craven deceitful forgiving }
+		virtues = { brave generous arrogant poet one_eyed }
+		sins = { craven deceitful humble }
 	}
 
 	reserved_male_names = {
@@ -47,7 +47,7 @@
 	}
 
 	custom_faith_icons = {
-		custom_faith_1 custom_faith_2 custom_faith_3 custom_faith_4 custom_faith_5 custom_faith_6 custom_faith_7 custom_faith_8 custom_faith_9 custom_faith_10 dualism_custom_1 zoroastrian_custom_1 zoroastrian_custom_2 buddhism_custom_1 buddhism_custom_2 buddhism_custom_3 buddhism_custom_4 taoism_custom_1 yazidi_custom_1 sunni_custom_2 sunni_custom_3 sunni_custom_4 ibadi_custom muhakkima_1 muhakkima_2 muhakkima_4 muhakkima_5 muhakkima_6 judaism_custom_1
+		custom_faith_1 custom_faith_2 custom_faith_3 custom_faith_4 custom_faith_5 custom_faith_6 custom_faith_7 custom_faith_8 custom_faith_9 custom_faith_10 dualism_custom_1 zoroastrian_custom_1 zoroastrian_custom_2 buddhism_custom_1 buddhism_custom_2 buddhism_custom_3 buddhism_custom_4 taoism_custom_1 yazidi_custom_1 sunni_custom_2 sunni_custom_3 sunni_custom_4 ibadi_custom muhakkima_1 muhakkima_2 muhakkima_4 muhakkima_5 muhakkima_6 judaism_custom_1 custom_faith_fp1_fenrir custom_faith_fp1_irminsul custom_faith_fp1_jormungandr custom_faith_fp1_odins_ravens custom_faith_fp1_runestone_moon custom_faith_fp1_thors_hammer custom_faith_fp1_valknut custom_faith_fp1_yggdrasil
 	}
 
 	holy_order_names = {
@@ -57,7 +57,7 @@
 		{ name = "holy_order_chosen_of_freyja" }
 	}
 
-	holy_order_maa = { huscarl }
+	holy_order_maa = { jomsviking_pirates }
 
 	localization = {
 		#HighGodName
@@ -207,16 +207,26 @@
 			reformed_icon = germanic_reformed
 
 			holy_site = uppsala
-			holy_site = lejre
+			holy_site = jorvik
 			holy_site = paderborn
-			holy_site = zeeland
+			holy_site = konugardr
 			holy_site = ranaheim
 
 			doctrine = unreformed_faith_doctrine
 
-			doctrine = tenet_warmonger
-			doctrine = tenet_human_sacrifice
-			doctrine = tenet_ancestor_worship
+			doctrine = tenet_pursuit_of_power
+			# Gruesome Festivals, else Human Sacrifice.
+			doctrine_selection_pair = {
+				requires_dlc_flag = the_northern_lords
+				doctrine = tenet_gruesome_festivals
+				fallback_doctrine = tenet_human_sacrifice
+			}
+			# Bhakti, else Ancestor Worship.
+			doctrine_selection_pair = {
+				requires_dlc_flag = the_northern_lords
+				doctrine = tenet_bhakti
+				fallback_doctrine = tenet_ancestor_worship
+			}
 		}
 		#norse_reformed = {
 		#	color = { 0.6 0.6 0.6 }

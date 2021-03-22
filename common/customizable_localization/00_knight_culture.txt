@@ -68,9 +68,6 @@
 	}
 	text = {
 		trigger = {
-			has_culture_group = culture_group:north_germanic_group
-		}
-		trigger = {
 			OR = {
 				faith = { religion_tag = germanic_religion }
 				has_culture_group = culture_group:north_germanic_group
@@ -149,9 +146,6 @@ KnightCulturePlural = {
 		localization_key = knight_vityaz_plural
 	}
 	text = {
-		trigger = {
-			has_culture_group = culture_group:north_germanic_group
-		}
 		trigger = {
 			OR = {
 				faith = { religion_tag = germanic_religion }
@@ -233,9 +227,6 @@ KnightCultureNoTooltip = {
 	}
 	text = {
 		trigger = {
-			has_culture_group = culture_group:north_germanic_group
-		}
-		trigger = {
 			OR = {
 				faith = { religion_tag = germanic_religion }
 				has_culture_group = culture_group:north_germanic_group
@@ -315,9 +306,6 @@ KnightCulturePluralNoTooltip = {
 		localization_key = knight_vityaz_no_tooltip_plural
 	}
 	text = {
-		trigger = {
-			has_culture_group = culture_group:north_germanic_group
-		}
 		trigger = {
 			OR = {
 				faith = { religion_tag = germanic_religion }
@@ -399,9 +387,6 @@ KnightCultureNoTooltipLowercase = {
 	}
 	text = {
 		trigger = {
-			has_culture_group = culture_group:north_germanic_group
-		}
-		trigger = {
 			OR = {
 				faith = { religion_tag = germanic_religion }
 				has_culture_group = culture_group:north_germanic_group
@@ -481,9 +466,6 @@ KnightCulturePluralNoTooltipLowercase = {
 		localization_key = knight_vityaz_no_tooltip_lowercase_plural
 	}
 	text = {
-		trigger = {
-			has_culture_group = culture_group:north_germanic_group
-		}
 		trigger = {
 			OR = {
 				faith = { religion_tag = germanic_religion }
@@ -565,9 +547,6 @@ KnightCulturePluralPossessiveNoTooltipLowercase = {
 	}
 	text = {
 		trigger = {
-			has_culture_group = culture_group:north_germanic_group
-		}
-		trigger = {
 			OR = {
 				faith = { religion_tag = germanic_religion }
 				has_culture_group = culture_group:north_germanic_group
@@ -647,9 +626,6 @@ KnightCultureAdjectiveNoTooltipLowercase = {
 		localization_key = knight_vityaz_no_tooltip_lowercase_adjective
 	}
 	text = {
-		trigger = {
-			has_culture_group = culture_group:north_germanic_group
-		}
 		trigger = {
 			OR = {
 				faith = { religion_tag = germanic_religion }

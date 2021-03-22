@@ -5,12 +5,3 @@
 		texture = "rus_mod_rurikid.dds"
 	}
 }
-
-2001014 = { # dynn_Rani
-	pattern = "pattern_solid.dds"
-	color1 = "white"
-	colored_emblem = {
-		texture = "rus_mod_belobog.dds"
-		color1 = "red"
-	}
-}

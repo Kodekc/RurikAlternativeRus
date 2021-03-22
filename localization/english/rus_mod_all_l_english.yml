@@ -1,27 +1,30 @@
 ﻿l_english:
  # English is not my first language so please help me correct any translation errors. Rurik: Alternative Rus (Mod autor: Kodeks)
- # Knight Culture
- knight_huscarl_no_tooltip:0 "Huscarl"
- knight_huscarl_no_tooltip_plural:0 "Huscarls"
- knight_vityaz_no_tooltip:0 "Vityaz"
- knight_vityaz_no_tooltip_plural:0 "Vityazs" 
- knight_huscarl_no_tooltip_lowercase:0 "huscarl"
- knight_huscarl_no_tooltip_lowercase_plural:0 "huscarls"
- knight_huscarl_no_tooltip_lowercase_plural_possessive:0 "huscarls'"
- knight_huscarl_no_tooltip_lowercase_adjective:0 "huscarl"
- knight_huscarl_no_tooltip_lowercase_plural_adjective:0 "Military" 
- knight_vityaz_no_tooltip_lowercase:0 "vityaz"
- knight_vityaz_no_tooltip_lowercase_plural:0 "vityazs"
- knight_vityaz_no_tooltip_lowercase_plural_possessive:0 "vityazs'"
- knight_vityaz_no_tooltip_lowercase_adjective:0 "vityaz"
- knight_vityaz_no_tooltip_lowercase_plural_adjective:0 "Military"  
- knight_huscarl:0 "[Concept( 'knight', '$knight_huscarl_no_tooltip$' )|E]"
- knight_huscarl_plural:0 "[Concept( 'knight', '$knight_huscarl_no_tooltip_plural$' )|E]"
+ # Knight Culture (Slavic)
  knight_vityaz:0 "[Concept( 'knight', '$knight_vityaz_no_tooltip$' )|E]"
  knight_vityaz_plural:0 "[Concept( 'knight', '$knight_vityaz_no_tooltip_plural$' )|E]"
+ knight_vityaz_plural:0 "Vityazs"
+ knight_vityaz_no_tooltip:0 "Vityaz"
+ knight_vityaz_no_tooltip_plural:0 "Vityazs"
+ knight_vityaz_no_tooltip_lowercase:0 "vityaz"
+ knight_vityaz_no_tooltip_lowercase_plural:0 "vityazs"
+ knight_vityaz_no_tooltip_lowercase_plural_possessive:0 "vityazs"
+ knight_vityaz_no_tooltip_lowercase_adjective:0 "vityaz"
+ knight_vityaz_no_tooltip_lowercase_plural_adjective:0 "military"
+ # Knight Culture (Germanic)
+ knight_steersman:0 "[Concept( 'knight', '$knight_steersman_no_tooltip$' )|E]"
+ knight_steersman_plural:0 "[Concept( 'knight', '$knight_steersman_no_tooltip_plural$' )|E]"
+ knight_steersman_plural:0 "Steersman's"
+ knight_steersman_no_tooltip:0 "Steersman"
+ knight_steersman_no_tooltip_plural:0 "Steersman's"
+ knight_steersman_no_tooltip_lowercase:0 "steersman"
+ knight_steersman_no_tooltip_lowercase_plural:0 "steersman's"
+ knight_steersman_no_tooltip_lowercase_plural_possessive:0 "steersman's"
+ knight_steersman_no_tooltip_lowercase_adjective:0 "steersman"
+ knight_steersman_no_tooltip_lowercase_plural_adjective:0 "military"
  # Nicknames
  nick_dir:0 "Dir"
- # Character names
+ # Character names (Slavic)
  Godslav:0 "Godslav"
  Efanda:0 "Efanda"
  Askold:0 "Askold"

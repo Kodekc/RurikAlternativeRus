@@ -118,6 +118,7 @@
  # Scandinavian titulature
  scandinavian_lendrman:0 "Лендрман"
  scandinavian_village:0 "Поселение"
+ scandinavian_fylke:0 "Фюльке"
  scandinavian_hersir:0 "Херсир"
  scandinavian_maiden_leader:0 "Предводительница"
  scandinavian_independent_jarl_county:0 "Ярл"

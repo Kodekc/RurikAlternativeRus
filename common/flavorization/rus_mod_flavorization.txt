@@ -392,6 +392,13 @@ scandinavian_village = {
 }
 
 # Сounty
+scandinavian_fylke = {
+	type = title
+	tier = county
+	priority = 30
+	governments = { feudal_government tribal_government }
+	culture_groups = { north_germanic_group }
+}
 scandinavian_hersir = {
 	type = character
 	gender = male

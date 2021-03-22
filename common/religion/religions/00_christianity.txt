@@ -709,7 +709,8 @@
 			holy_site = antioch
 
 			#Main Group
-			doctrine = doctrine_pluralism_fundamentalist							   
+			doctrine = doctrine_pluralism_fundamentalist
+
 			#Clerical Functions
 			doctrine = doctrine_clerical_function_recruitment
 
@@ -747,12 +748,13 @@
 
 			holy_order_names = {
 				{ name = "holy_order_order_of_saint_addai" }
+			}
 
 			localization = { # Utilizes the 'West Christian' Saints, shared by Catholics and Orthodox
 				# Patriarchs instead of Popes
 				ReligiousHeadName = nestorian_religious_head_title
 				ReligiousHeadTitleName = nestorian_religious_head_title_name				
-			}
+			}	
 		}
 
 		messalian = {

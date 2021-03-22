@@ -16,7 +16,7 @@
 @weapons_and_armor_02 = "gfx/interface/icons/culture_innovations/innovation_weapons_and_armor_02.dds"
 @knight = "gfx/interface/icons/culture_innovations/innovation_knight.dds"
 @hird = "gfx/interface/icons/culture_innovations/innovation_hird.dds"
-@longboats = "gfx/interface/icons/culture_innovations/innovation_longboats.dds"																		   
+@longboats = "gfx/interface/icons/culture_innovations/innovation_longboats.dds"
 @majesty_01 = "gfx/interface/icons/culture_innovations/innovation_majesty_01.dds"
 @majesty_02 = "gfx/interface/icons/culture_innovations/innovation_majesty_02.dds"
 @majesty_03 = "gfx/interface/icons/culture_innovations/innovation_majesty_03.dds"
@@ -25,12 +25,10 @@
 @nobility_03 = "gfx/interface/icons/culture_innovations/innovation_nobility_03.dds"
 @nobility_04 = "gfx/interface/icons/culture_innovations/innovation_nobility_04.dds"
 @misc_inventions = "gfx/interface/icons/culture_innovations/innovation_misc_inventions.dds"
-
 @camel = "gfx/interface/icons/culture_innovations/innovation_camel.dds"
 @elephant = "gfx/interface/icons/culture_innovations/innovation_elephant.dds"
 @special_maa_01 = "gfx/interface/icons/culture_innovations/innovation_special_maa_01.dds"
 @special_maa_02 = "gfx/interface/icons/culture_innovations/innovation_special_maa_02.dds"
-
 @rook = "gfx/interface/icons/culture_innovations/rus_mod_innovation_rook.dds"
 
 #culture_group_military
@@ -234,7 +232,7 @@ innovation_visigothic_codes = {
 			#Pyrenaic Visigoths & influenced-cultures only
 			this = culture:occitan
 			this = culture:basque
-			this = culture:aragonese			   
+			this = culture:aragonese
 			this = culture:catalan
 			this = culture:visigothic
 			this = culture:andalusian
@@ -372,7 +370,7 @@ innovation_african_canoes = {
 	flag = tribal_era_regional
 }
 
-#############################################
+################# Mod Alternative Rus #################
 
 innovation_rook = {
 	group = culture_group_regional
@@ -381,20 +379,8 @@ innovation_rook = {
 	icon = @rook
 	
 	potential = {
-		OR = {
-			# East Slavic
-			this = culture:ilmenian
-			this = culture:russian
-			this = culture:severian
-			this = culture:volhynian
-			this = culture:krivichsian
-			this = culture:polansian
-			this = culture:tiverian
-			this = culture:vyatichian
-			this = culture:radimichian
-			this = culture:dregovichian
-
-		}
+		culture_group = culture_group:east_slavic_group
+		NOT = { has_cultural_era_or_later = culture_era_early_medieval }
 	}
 	
 	modifier = {

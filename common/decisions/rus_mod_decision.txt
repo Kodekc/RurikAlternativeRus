@@ -42,11 +42,81 @@
 	}
 
 	ai_potential = {
+		always = yes
 		is_at_war = no
-		stress >= 75
 	}
 
 	ai_will_do = {
 		base = 100
 	}
+}
+
+### Rework hiring a doctor ###
+
+hire_physician_decision = {
+	picture = "gfx/interface/illustrations/decisions/decision_recruitment.dds"
+	major = yes
+	ai_check_interval = 6
+
+	desc = hire_physician_decision_desc
+	selection_tooltip = hire_physician_decision_tooltip
+	
+	is_shown = {
+		is_ruler = yes
+		#num_of_relation_court_physician = 0
+		court_physician_available_trigger = no
+	}
+
+	cooldown = { days = 180 }
+
+	is_valid_showing_failures_only = {
+		is_imprisoned = no
+	}
+
+	effect = {
+		hidden_effect = {
+			add_character_flag = {
+				flag = health_3001_hire_physician_decision_text
+				days = 20
+			}
+		}
+
+		trigger_event = {
+			id = health.3001
+			days = 14
+		}
+		custom_tooltip = hire_physician_decision_effect_tooltip
+
+	}
+	
+	ai_potential = {
+		always = yes
+	}
+
+	ai_will_do = {
+		base = 60
+		modifier = {
+			add = 10
+			has_trait = compassionate
+		}
+		modifier = {
+			add = 10
+			has_trait = paranoid
+		}
+		modifier = {
+			add = 20
+			has_trait = diligent
+		}
+		modifier = {
+			add = -10
+			has_trait = fickle
+		}
+		modifier = {
+			add = -10
+			has_trait = callous
+		}
+		modifier = {
+			add = -20
+			has_trait = lazy
+		}
 }

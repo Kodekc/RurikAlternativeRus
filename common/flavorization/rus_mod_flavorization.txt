@@ -21,19 +21,23 @@
 #	gender = male
 #	special = holder
 #	tier = kingdom
-	#	governments = { feudal_government clan_government }
+#	governments = { feudal_government clan_government }
 #	religions = { islam_religion }
 #}
 
 #############################################
-### East Slavic titulature ###
+### General titulature ###
 
-# Barony
 unoccupied_free_land = {
 	type = title
 	tier = barony
 	priority = 5
 }
+
+#############################################
+### East Slavic titulature ###
+
+# Barony
 russian_barony_pogost = {
 	type = title
 	tier = barony
@@ -505,4 +509,72 @@ scandinavian_kingdom_prince = {
 	culture_groups = { north_germanic_group }
 	priority = 35
 	top_liege = no
+}
+
+#############################################
+### Polish titulature ###
+
+# Barony
+polish_slahtich = {
+	type = character
+	gender = male
+	special = holder
+	tier = barony
+	priority = 29
+	governments = { tribal_government feudal_government }
+	culture_groups = { west_slavic_group }
+}
+polish_slahtinka = {
+	type = character
+	gender = female
+	special = holder
+	tier = barony
+	priority = 29
+	governments = { tribal_government feudal_government }
+	culture_groups = { west_slavic_group }
+}
+# Сounty
+polish_knyaz = {
+	type = character
+	gender = male
+	special = holder
+	tier = county
+	priority = 40
+	governments = { tribal_government feudal_government }
+	culture_groups = { west_slavic_group }
+}
+polish_knyaginya = {
+	type = character
+	gender = female
+	special = holder
+	tier = county
+	priority = 40
+	governments = { tribal_government feudal_government }
+	culture_groups = { west_slavic_group }
+}
+# Duchy
+polish_knyaz_duchy = {
+	type = character
+	gender = male
+	special = holder
+	tier = duchy
+	priority = 90
+	governments = { tribal_government feudal_government }
+	culture_groups = { west_slavic_group }
+}
+polish_knyaginya_duchy = {
+	type = character
+	gender = female
+	special = holder
+	tier = duchy
+	priority = 90
+	governments = { tribal_government feudal_government }
+	culture_groups = { west_slavic_group }
+}
+polish_knyazhestvo = {
+	type = title
+	tier = duchy
+	priority = 90
+	governments = { tribal_government feudal_government }
+	culture_groups = { west_slavic_group }
 }

@@ -24,6 +24,7 @@
  knight_steersman_no_tooltip_lowercase_plural_adjective:0 "military"
  # Nicknames
  nick_dir:0 "Dir"
+ nick_noisy:0 "the Noisy"
  # Character names (Slavic)
  Godslav:0 "Godslav"
  Efanda:0 "Efanda"
@@ -48,6 +49,10 @@
  Pereslav:0 "Pereslav"
  Radimil:0 "Radimil"
  Chestimir:0 "Chestimir"
+ # Character names (Norse)
+ Ascrida:0 "Ascrida"
+ Ragnhilda:0 "Ragnhilda"
+ Groa:0 "Groa"
  # Dynasties
  dynn_Ilmersky:0 "Ilmersky"
  # Cultural
@@ -94,9 +99,9 @@
  russian_knyaz:0 "Knyaz"
  russian_knyaginya:0 "Knyaginya"
  russian_knyazhestvo:0 "Knyazhestvo"
- russian_kingdom_knyaz:0 "Velikiy knyaz"
- russian_kingdom_knyaginya:0 "Velikaya knyaginya"
- russian_kingdom_knyazhestvo:0 "Velikoe knyazhestvo"
+ russian_kingdom_knyaz:0 "Great knyaz"
+ russian_kingdom_knyaginya:0 "Great knyaginya"
+ russian_kingdom_knyazhestvo:0 "Grand knyazhestvo"
  russian_tsar:0 "Tsar"
  russian_tsaritsa:0 "Tsaritsa"
  russian_tsardom:0 "Tsardom"
@@ -125,11 +130,19 @@
  scandinavian_haupting_male:0 "Hövding"
  scandinavian_haupting_female:0 "Shieldmaiden"
  scandinavian_jarldom:0 "Jarldom of"
- scandinavian_independent_jarl_duchy:0 "Konge"
+ scandinavian_independent_jarl_duchy:0 "Riksjarl"
  scandinavian_kongedom:0 "Kongedom of"
  scandinavian_kingdom_konge:0 "Konge"
  scandinavian_kingdom_drottning:0 "Drottning"
  scandinavian_kingdom_prince:0 "Drohtin"
+ # Polish titulature
+ polish_slahtich:0 "Slahtich"
+ polish_slahtinka:0 "Slahtinka"
+ polish_knyaz:0 "Knyaz"
+ polish_knyaginya:0 "Knyaginya"
+ polish_knyaz_duchy:0 "Great knyaz"
+ polish_knyaginya_duchy:0 "Great knyaginya"
+ polish_knyazhestvo:0 "Grand knyazhestvo"
  # Veche elective
  veche_elective_succession_law:0 "Slavic elections"
  veche_elective_succession_law_subname:0 "Veche meetings"

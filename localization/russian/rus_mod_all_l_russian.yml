@@ -24,6 +24,7 @@
  knight_steersman_no_tooltip_lowercase_plural_adjective:0 "воинская"
  # Nicknames
  nick_dir:0 "Дир"
+ nick_noisy:0 "Грохот"
  # Character names (Slavic)
  Godslav:0 "Годслав"
  Efanda:0 "Ефанда"
@@ -48,6 +49,10 @@
  Pereslav:0 "Переслав"
  Radimil:0 "Радимил"
  Chestimir:0 "Честимир"
+ # Character names (Norse)
+ Ascrida:0 "Аскрида"
+ Ragnhilda:0 "Рагнхильда"
+ Groa:0 "Гроа"
  # Dynasties
  dynn_Ilmersky:0 "Ильмерский"
  # Cultural
@@ -125,11 +130,19 @@
  scandinavian_haupting_male:0 "Хёвдинг"
  scandinavian_haupting_female:0 "Воительница"
  scandinavian_jarldom:0 "Ярлство"
- scandinavian_independent_jarl_duchy:0 "Конунг"
+ scandinavian_independent_jarl_duchy:0 "Верховный ярл"
  scandinavian_kongedom:0 "Конунгство"
  scandinavian_kingdom_konge:0 "Конунг"
  scandinavian_kingdom_drottning:0 "Дроттнинг"
  scandinavian_kingdom_prince:0 "Дроттинн"
+ # Polish titulature
+ polish_slahtich:0 "Шляхтич"
+ polish_slahtinka:0 "Шляхтянка"
+ polish_knyaz:0 "Князь"
+ polish_knyaginya:0 "Княгиня"
+ polish_knyaz_duchy:0 "Великий князь"
+ polish_knyaginya_duchy:0 "Великая княгиня"
+ polish_knyazhestvo:0 "Великое княжество"
  # Veche elective
  veche_elective_succession_law:0 "Славянские выборы"
  veche_elective_succession_law_subname:0 "Вечевые собрания"

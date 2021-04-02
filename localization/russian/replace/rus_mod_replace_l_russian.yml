@@ -5,10 +5,11 @@
  russian:0 "Русинск"
  russian_collective_noun:1 "Русы"
  pommeranian:0 "Поморянск"
- pommeranian_collective_noun:0 "Поморянцы"
+ pommeranian_collective_noun:0 "Поморяне"
  # Сharacter names
  T_O_rvar:0 "Трувор"
  SignjO_tr:0 "Синеус"
+ Tore:0 "Тор"
  bookmark_adventurers_rurik_rurikid_alt_helgi:0 "Олег"
  # Titles
  e_russia:0 "Великая Русь"
@@ -34,3 +35,4 @@
  dynn_Salian:0 "Салье"
  dynn_Babenberger:0 "фон Бабенберг"
  dynn_MunsO_:0 "Мунсё"
+ dynn_TrO_nde:0 "Трёнде"

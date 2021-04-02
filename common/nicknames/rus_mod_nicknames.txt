@@ -3,4 +3,5 @@
 #############################################
 
 # Exclusively Historical Nicknames
-nick_dir = {} #antinorman rus mod
+nick_dir = {}
+nick_noisy = {}

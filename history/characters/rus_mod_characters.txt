@@ -264,3 +264,221 @@
 		death = 903.4.13
 	}
 }
+
+400000 = {
+	name = "Eystein"
+	dynasty = 1043303
+	religion = norse_pagan
+	culture = norse
+	800.10.25 = {
+		birth = 800.10.25
+	}
+	828.1.1 = {
+		add_spouse = 400001
+	}
+	835.1.1 = {
+		give_nickname = nick_noisy
+	}
+	846.5.10 = {
+		death = 846.5.10
+	}
+}
+
+400001 = {
+	name = "Ascrida"
+	female = yes
+	religion = norse_pagan
+	culture = norse
+	812.11.2 = {
+		birth = 812.11.2
+	}
+	853.6.12 = {
+		death = 853.6.12
+	}
+}
+
+400002 = {
+	name = "Sigurd"
+	dynasty = 1043303
+	religion = norse_pagan
+	culture = norse
+	father = 400000
+	mother = 400001
+	832.1.4 = {
+		birth = 832.1.4
+	}
+	892.8.20 = {
+		death = 892.8.20
+	}
+}
+
+6862 = {
+	name = "Svanhild"
+	dynasty = 1043303
+	female = yes
+	religion = "norse_pagan"
+	culture = norse
+	father = 400000
+	mother = 400001
+	850.1.1 = {
+		birth = yes
+	}
+	910.1.1 = {
+		death = yes
+	}
+}
+
+186004 = {
+	name = "RO_gnvaldr"
+	dynasty = 1043303
+	religion = "norse_pagan"
+	culture = "norse"
+	father = 400000
+	mother = 400001
+	830.1.1 = {
+		birth = "830.1.1"
+	}
+	848.1.1 = {
+		add_spouse = 400003
+	}		
+	856.1.1 = {
+		add_spouse = 186005
+	}
+	894.3.10 = {
+			death = "894.1.1"
+			}
+}
+
+400003 = {
+	name = "Groa"
+	female = yes
+	religion = norse_pagan
+	culture = norse
+	828.7.17 = {
+		birth = 828.7.17
+	}
+	865.5.5 = {
+		death = 865.5.5
+	}
+}
+
+186005 = {
+	name = "Ragnhilda"
+	female = yes
+	religion = "norse_pagan"
+	culture = "norse"
+	830.5.18 = {
+			birth = "830.5.18"
+			}
+	894.10.12 = {
+			death = "894.10.12"
+			}
+}
+
+186006 = {
+	name = "Hrolfr"
+	dynasty = 1043303
+	religion = "norse_pagan"
+	culture = "norse"
+	father = 186004
+	mother = 400003
+	trait = physique_good_1
+	854.1.1 = {
+			birth = "854.1.1"
+			}
+	932.1.1 = {
+			death = "932.1.1"
+			}
+}
+
+186007 = {
+	name = "Tore"
+	dynasty = 1043303
+	religion = "norse_pagan"
+	culture = "norse"
+	father = 186004
+	mother = 186005
+	860.1.1 = {
+			birth = "860.1.1"
+			}
+	936.1.1 = {
+			death = "936.1.1"
+			}
+}
+
+186008 = {
+	name = "Hallad"
+	religion = "norse_pagan"
+	culture = "norse"
+	father = 186004
+	mother = 400003
+	864.1.1 = {
+			birth = "864.1.1"
+			}
+	895.1.1 = {
+			death = "895.1.1"
+			}
+}
+
+186009 = {
+	name = "Einarr"
+	religion = "norse_pagan"
+	culture = "norse"
+	father = 186004
+	mother = 400003
+	863.1.1 = {
+			birth = "863.1.1"
+			}
+	880.1.1 = {
+			death = "880.1.1"
+			}
+}
+
+186010 = {
+	name = "Rollaug"
+	religion = "norse_pagan"
+	culture = "norse"
+	father = 186004
+	trait = bastard
+	865.1.1 = {
+			birth = "865.1.1"
+			}
+	880.1.1 = {
+			death = "880.1.1"
+			}
+}
+
+242 = {
+	name = "Ragnvald"
+	martial = 7
+	diplomacy = 6
+	intrigue = 8
+	stewardship = 7
+	learning = 5
+	religion = norse_pagan
+	culture = norse
+	trait = lustful
+	trait = arrogant
+	trait = strong
+	trait = brave
+	trait = education_martial_4
+	846.6.6 = {
+		birth = yes
+	}
+	866.1.1 = {
+		trait = viking
+	}
+	867.1.1 = {
+		employer = 186004
+	}
+	911.1.1 = {
+		religion = catholic
+	}
+	930.1.1 = {
+		trait = lunatic_1
+		religion = norse_pagan
+	}
+	932.1.1 = {
+		death = yes
+	}
+}

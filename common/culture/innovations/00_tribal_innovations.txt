@@ -260,12 +260,11 @@ innovation_longboats = {
 	
 	potential = {
 		OR = {
-			# North Germanic
 			this = culture:danish
 			this = culture:norse
 			this = culture:norwegian
 			this = culture:swedish
-
+			this = culture:estonian		
 		}
 	}
 	
@@ -354,7 +353,6 @@ innovation_african_canoes = {
 			this = culture:sorko
 			this = culture:yoruba
 			this = culture:mossi
-
 		}
 	}
 	

@@ -1,42 +1,42 @@
-﻿242 = {
-	name = "Hrolfr" # Hrolf Gange - founder of Normandy
-	dynasty = 752
-	martial = 7
-	diplomacy = 6
-	intrigue = 8
-	stewardship = 7
-	learning = 5
-	religion = norse_pagan
-	culture = norse
-	trait = lustful
-	trait = arrogant
-	trait = strong
-	trait = brave
-	trait = education_martial_4
-	846.6.6 = {
-		birth = yes
-	}
-	866.1.1 = {
-		trait = viking
-	}
-	867.1.1 = {
-		employer = 186004
-	}
-	886.1.1 = {
-		add_spouse = 241
-	}
-	911.1.1 = {
-		religion = catholic
-	}
-	930.1.1 = {
-		trait = lunatic_1
-		religion = norse_pagan
-	}
-	932.1.1 = {
-		death = yes
-	}
-}
-
+﻿#242 = {
+#	name = "Hrolfr" # Hrolf Gange - founder of Normandy
+#	dynasty = 752
+#	martial = 7
+#	diplomacy = 6
+#	intrigue = 8
+#	stewardship = 7
+#	learning = 5
+#	religion = norse_pagan
+#	culture = norse
+#	trait = lustful
+#	trait = arrogant
+#	trait = strong
+#	trait = brave
+#	trait = education_martial_4
+#	846.6.6 = {
+#		birth = yes
+#	}
+#	866.1.1 = {
+#		trait = viking
+#	}
+#	867.1.1 = {
+#		employer = 186004
+#	}
+#	886.1.1 = {
+#		add_spouse = 241
+#	}
+#	911.1.1 = {
+#		religion = catholic
+#	}
+#	930.1.1 = {
+#		trait = lunatic_1
+#		religion = norse_pagan
+#	}
+#	932.1.1 = {
+#		death = yes
+#	}
+#}
+#
 600 = {
 	name = "Yngvar" # AKA Igor, son of Rurik
 	dynasty = 705
@@ -329,19 +329,19 @@
 	}
 }
 
-6862 = {
-	name = "RO_gnhildr"
-	female = yes
-	religion = "norse_pagan"
-	culture = norse
-	850.1.1 = {
-		birth = yes
-	}
-	910.1.1 = {
-		death = yes
-	}
-}
-
+#6862 = {
+#	name = "RO_gnhildr"
+#	female = yes
+#	religion = "norse_pagan"
+#	culture = norse
+#	850.1.1 = {
+#		birth = yes
+#	}
+#	910.1.1 = {
+#		death = yes
+#	}
+#}
+#
 6863 = {
 	name = "Ingrid"
 	dynasty = 502 #Munsö # af Munsö
@@ -4769,104 +4769,104 @@
 }
 
 #Trøndelag
-186004 = {
-	name = "RO_gnvaldr"
-	dynasty = 1043303
-	religion = "norse_pagan"
-	culture = "norse"
-	830.1.1 = {
-			birth = "830.1.1"
-			}
-	892.1.1 = {
-			death = "892.1.1"
-			}
-}
-
-186005 = {
-	name = "Hild"
-	female = yes
-	religion = "norse_pagan"
-	culture = "norse"
-	830.1.1 = {
-			birth = "830.1.1"
-			}
-	892.1.1 = {
-			death = "892.1.1"
-			}
-}
-
-186006 = {
-	name = "Hrolfr"
-	dynasty = 1043303
-	religion = "norse_pagan"
-	culture = "norse"
-	father = 186004
-	mother = 186005
-	860.1.1 = {
-			birth = "860.1.1"
-			}
-	932.1.1 = {
-			death = "932.1.1"
-			}
-}
-
-186007 = {
-	name = "Tore"
-	dynasty = 1043303
-	religion = "norse_pagan"
-	culture = "norse"
-	father = 186004
-	mother = 186005
-	862.1.1 = {
-			birth = "862.1.1"
-			}
-	932.1.1 = {
-			death = "892.1.1"
-			}
-}
-
-186008 = {
-	name = "Hallad"
-	religion = "norse_pagan"
-	culture = "norse"
-	father = 186004
-	trait = bastard
-	863.1.1 = {
-			birth = "863.1.1"
-			}
-	880.1.1 = {
-			death = "892.1.1"
-			}
-}
-
-186009 = {
-	name = "Einarr"
-	religion = "norse_pagan"
-	culture = "norse"
-	father = 186004
-	trait = bastard
-	864.1.1 = {
-			birth = "864.1.1"
-			}
-	880.1.1 = {
-			death = "892.1.1"
-			}
-}
-
-186010 = {
-	name = "Rollaug"
-	religion = "norse_pagan"
-	culture = "norse"
-	father = 186004
-	trait = bastard
-	865.1.1 = {
-			birth = "865.1.1"
-			}
-	880.1.1 = {
-			death = "892.1.1"
-			}
-}
-
+#186004 = {
+#	name = "RO_gnvaldr"
+#	dynasty = 1043303
+#	religion = "norse_pagan"
+#	culture = "norse"
+#	830.1.1 = {
+#			birth = "830.1.1"
+#			}
+#	892.1.1 = {
+#			death = "892.1.1"
+#			}
+#}
+#
+#186005 = {
+#	name = "Hild"
+#	female = yes
+#	religion = "norse_pagan"
+#	culture = "norse"
+#	830.1.1 = {
+#			birth = "830.1.1"
+#			}
+#	892.1.1 = {
+#			death = "892.1.1"
+#			}
+#}
+#
+#186006 = {
+#	name = "Hrolfr"
+#	dynasty = 1043303
+#	religion = "norse_pagan"
+#	culture = "norse"
+#	father = 186004
+#	mother = 186005
+#	860.1.1 = {
+#			birth = "860.1.1"
+#			}
+#	932.1.1 = {
+#			death = "932.1.1"
+#			}
+#}
+#
+#186007 = {
+#	name = "Tore"
+#	dynasty = 1043303
+#	religion = "norse_pagan"
+#	culture = "norse"
+#	father = 186004
+#	mother = 186005
+#	862.1.1 = {
+#			birth = "862.1.1"
+#			}
+#	932.1.1 = {
+#			death = "892.1.1"
+#			}
+#}
+#
+#186008 = {
+#	name = "Hallad"
+#	religion = "norse_pagan"
+#	culture = "norse"
+#	father = 186004
+#	trait = bastard
+#	863.1.1 = {
+#			birth = "863.1.1"
+#			}
+#	880.1.1 = {
+#			death = "892.1.1"
+#			}
+#}
+#
+#186009 = {
+#	name = "Einarr"
+#	religion = "norse_pagan"
+#	culture = "norse"
+#	father = 186004
+#	trait = bastard
+#	864.1.1 = {
+#			birth = "864.1.1"
+#			}
+#	880.1.1 = {
+#			death = "892.1.1"
+#			}
+#}
+#
+#186010 = {
+#	name = "Rollaug"
+#	religion = "norse_pagan"
+#	culture = "norse"
+#	father = 186004
+#	trait = bastard
+#	865.1.1 = {
+#			birth = "865.1.1"
+#			}
+#	880.1.1 = {
+#			death = "892.1.1"
+#			}
+#}
+#
 #Hålogaland
 186002 = {
 	name = "Grjotgard"

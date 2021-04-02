@@ -515,6 +515,23 @@ scandinavian_kingdom_prince = {
 ### Polish titulature ###
 
 # Barony
+polish_barony_village = {
+	type = title
+	tier = barony
+	priority = 7
+	governments = { tribal_government }
+	culture_groups = { west_slavic_group }
+	religions = { slavic_religion }
+}
+polish_elder = {
+	type = character
+	special = holder
+	tier = barony
+	priority = 29
+	governments = { tribal_government }
+	culture_groups = { west_slavic_group }
+	religions = { slavic_religion }
+}
 polish_slahtich = {
 	type = character
 	gender = male
@@ -523,6 +540,7 @@ polish_slahtich = {
 	priority = 29
 	governments = { tribal_government feudal_government }
 	culture_groups = { west_slavic_group }
+	religions = { christianity_religion }
 }
 polish_slahtinka = {
 	type = character
@@ -532,6 +550,7 @@ polish_slahtinka = {
 	priority = 29
 	governments = { tribal_government feudal_government }
 	culture_groups = { west_slavic_group }
+	religions = { christianity_religion }
 }
 # Сounty
 polish_knyaz = {

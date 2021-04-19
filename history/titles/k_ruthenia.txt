@@ -1,10 +1,7 @@
-
 k_ruthenia = {
 	867.1.1 = { change_development_level = 2 }
 	1066.1.1 = { change_development_level = 7 }
-	860.1.8 = {
-		succession_laws = { veche_elective_succession_law }
-	}
+
 	###Kievan Rus'
 	882.1.2 = {
 		holder = 40606	#Oleg/Helgi the Seer

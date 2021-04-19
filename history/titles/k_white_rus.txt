@@ -1,12 +1,7 @@
 k_white_rus = {
 	867.1.1 = { change_development_level = 2 }
 	1066.1.1 = { change_development_level = 5 }
-	
-	860.1.8 = {
-		succession_laws = { veche_elective_succession_law }
-	}
 }
-
 
 d_grodno = {
 	###Not created
@@ -14,7 +9,6 @@ d_grodno = {
 		succession_laws = { veche_elective_succession_law }
 	}
 }
-
 
 c_grodno = {
 	#rulers of Grodno or Novgorodok

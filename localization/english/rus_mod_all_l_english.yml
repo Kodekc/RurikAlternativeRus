@@ -76,6 +76,8 @@
  # Cultural innovations
  innovation_rook:0 "Rooks"
  innovation_rook_desc:0 "Rook - is a slavic full-flowing sailing-rowing sea and river vessel intended for civil and military purposes."
+ innovation_veche:0 "Veche"
+ innovation_veche_desc:0 "Veche - the supreme society of self-government and court of free people of the tribe with the formation of statehood, implementing the procedure for fair (popular) elections for the successor of the knyaz."
  # Doctrines
  doctrine_polyamory_name:0 "Polyamory"
  doctrine_polyamory_desc:0 "Rejecting prejudices and the idea that one person can satisfy all the feelings and desires of another, we are ready to form an alliance between several participants. In words, such a union looks ideal, but always fraught with danger in the form of competition between spouses."

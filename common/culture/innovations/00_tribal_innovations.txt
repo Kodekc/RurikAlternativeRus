@@ -30,6 +30,7 @@
 @special_maa_01 = "gfx/interface/icons/culture_innovations/innovation_special_maa_01.dds"
 @special_maa_02 = "gfx/interface/icons/culture_innovations/innovation_special_maa_02.dds"
 @rook = "gfx/interface/icons/culture_innovations/rus_mod_innovation_rook.dds"
+@veche = "gfx/interface/icons/culture_innovations/rus_mod_innovation_veche.dds"
 
 #culture_group_military
 innovation_motte = {
@@ -373,12 +374,13 @@ innovation_african_canoes = {
 innovation_rook = {
 	group = culture_group_regional
 	culture_era = culture_era_tribal
-	region = world_europe_east
 	icon = @rook
-	
+
 	potential = {
-		culture_group = culture_group:east_slavic_group
-		NOT = { has_cultural_era_or_later = culture_era_early_medieval }
+		OR = {
+			culture_group = culture_group:east_slavic_group
+			culture_group = culture_group:west_slavic_group
+		}
 	}
 	
 	modifier = {
@@ -388,6 +390,25 @@ innovation_rook = {
 
 	custom = unlocks_naval_raiding
 	custom = unlocks_sailable_major_rivers
+
+	flag = global_regional
+	flag = tribal_era_regional
+}
+
+innovation_veche = {
+	group = culture_group_regional
+	culture_era = culture_era_tribal
+	icon = @veche
+	
+	potential = {
+		OR = {
+			culture_group = culture_group:east_slavic_group
+			culture_group = culture_group:west_slavic_group
+			culture_group = culture_group:south_slavic_group
+		}
+	}
+	
+	unlock_law = veche_elective_succession_law
 
 	flag = global_regional
 	flag = tribal_era_regional

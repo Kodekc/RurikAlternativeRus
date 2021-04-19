@@ -11,7 +11,7 @@
 	trait = greedy
 	trait = gregarious
 	trait = education_diplomacy_4
-	trait = intellect_good_3
+	trait = intellect_good_1
 	845.1.1 = {
 		give_nickname = nick_dir
 		birth = yes
@@ -21,7 +21,7 @@
 	}
 	867.1.1 = {
 		effect = {
-			add_gold = 500
+			add_gold = 250
 		}
 	}
 	882.1.1 = {
@@ -68,7 +68,6 @@
 	stewardship = 8
 	intrigue = 6
 	learning = 3
-	trait = gregarious
 	trait = ambitious
 	trait = just
 	trait = brave
@@ -84,7 +83,7 @@
 		add_spouse = 40699
 
 		effect = {
-			add_gold = 500
+			add_gold = 250
 			add_prestige = -250
 			set_relation_friend = character:40606 #Oleg the Seer
 		}

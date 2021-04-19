@@ -5,11 +5,24 @@
 	culture = russian
 	religion = slavic_pagan
 	holding = tribal_holding
+	867.1.1 = {
+		buildings = {
+			war_camps_01
+		}
+	}
 	935.1.1 = {
 		holding = castle_holding
 	}
 	989.9.15 = {
 		religion = orthodox
+	}
+	1066.1.1 = {
+		buildings = {
+			ramparts_01
+			barracks_01
+			hunting_grounds_01
+			outposts_01
+		}
 	}
 }
 5138 = {	#Ladoga
@@ -132,8 +145,8 @@
 	religion = finnish_pagan
 	holding = tribal_holding
 	1050.1.1 = {
-		religion = orthodox
-		culture = ilmenian
+					 
+		culture = russian
 	}
 }
 5157 = {	#Cherepovets

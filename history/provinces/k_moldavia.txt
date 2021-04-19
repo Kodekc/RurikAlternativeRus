@@ -74,11 +74,13 @@
 	culture = tiverian
 	religion = slavic_pagan
 	holding = tribal_holding
+	special_building_slot = hotin_fort_01
 	935.1.1 = {
 		holding = castle_holding
 	}
 	1000.1.1 = {
 		religion = orthodox
+		special_building = hotin_fort_01
 	}
 }
 5041 = {	#Tetina
@@ -273,4 +275,3 @@
 5018 = {	#Chisinau
 	holding = none
 }
-

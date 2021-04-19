@@ -5,11 +5,28 @@
 	culture = polansian
 	religion = slavic_pagan
 	holding = tribal_holding
+	special_building_slot = golden_gate_of_kiev_01
+	867.1.1 = {
+		buildings = {
+			palisades_01
+		}
+	}
 	935.1.1 = {
 		holding = castle_holding
 	}
 	989.9.15 = {
 		religion = orthodox
+	}
+	1024.1.1 = {
+		special_building = golden_gate_of_kiev_01
+	}
+	1066.1.1 = {
+		buildings = {
+			castle_02
+			farm_estates_02
+			curtain_walls_01
+			regimental_grounds_01
+		}
 	}
 }
 5082 = {	#Vyshgorod
@@ -162,6 +179,13 @@
 	989.9.15 = {
 		religion = orthodox
 	}
+	1066.1.1 = {
+		buildings = {
+			hunting_grounds_01
+			peat_quarries_01
+			outposts_01
+		}
+	}
 }
 5102 = {	#Sarny
 	holding = none
@@ -231,6 +255,13 @@
 	}
 	989.9.15 = {
 		religion = orthodox
+	}
+	1066.1.1 = {
+		buildings = {
+			curtain_walls_01
+			barracks_01
+			military_camps_01
+		}
 	}
 }
 5178 = {	#Boryspil
@@ -333,6 +364,13 @@
 	}
 	989.9.15 = {
 		religion = orthodox
+	}
+	1066.1.1 = {
+		buildings = {
+			curtain_walls_01
+			peat_quarries_01
+			barracks_01
+		}
 	}
 }
 553 = {		#Lyubech
@@ -485,9 +523,6 @@
 	culture = vyatichian
 	religion = slavic_pagan
 	holding = tribal_holding
-	989.9.15 = {
-		religion = orthodox
-	}
 }
 5213 = {	#Vorotynsk
 	holding = none
@@ -507,9 +542,6 @@
 	culture = vyatichian
 	religion = slavic_pagan
 	holding = tribal_holding
-	989.9.15 = {
-		religion = orthodox
-	}
 }
 5207 = {	#Ust-livny
 	holding = none
@@ -524,9 +556,6 @@
 	culture = meshchera
 	religion = finnish_pagan
 	holding = tribal_holding
-	989.9.15 = {
-		religion = orthodox
-	}
 	1050.1.1 = {
 		culture = russian
 	}
@@ -543,9 +572,6 @@
 	culture = meshchera
 	religion = finnish_pagan
 	holding = tribal_holding
-	989.9.15 = {
-		religion = orthodox
-	}
 	1050.1.1 = {
 		culture = russian
 	}

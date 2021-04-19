@@ -175,6 +175,13 @@
 	989.9.15 = {
 		religion = orthodox
 	}
+	1066.1.1 = {
+		buildings = {
+			ramparts_01
+			hunting_grounds_01
+			military_camps_01
+		}
+	}
 }
 5130 = {	#Drysa
 	holding = none

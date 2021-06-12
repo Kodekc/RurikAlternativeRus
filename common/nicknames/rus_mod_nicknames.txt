@@ -3,5 +3,4 @@
 #############################################
 
 # Exclusively Historical Nicknames
-nick_dir = {}
 nick_noisy = {}

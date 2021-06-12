@@ -2,13 +2,16 @@
 ##d_novgorod ###################################
 ###c_novgorod
 5137 = {	#Novgorod
-	culture = russian
+	culture = ilmenian
 	religion = slavic_pagan
 	holding = tribal_holding
-	867.1.1 = {
+	865.1.1 = {
 		buildings = {
-			war_camps_01
+			palisades_01
 		}
+	}
+	865.1.12 = {
+		culture = russian
 	}
 	935.1.1 = {
 		holding = castle_holding
@@ -49,6 +52,9 @@
 	culture = ilmenian
 	religion = slavic_pagan
 	holding = tribal_holding
+	876.1.12 = {
+		culture = russian
+	}
 	935.1.1 = {
 		holding = castle_holding
 	}

@@ -23,7 +23,6 @@
  knight_steersman_no_tooltip_lowercase_adjective:0 "steersman"
  knight_steersman_no_tooltip_lowercase_plural_adjective:0 "military"
  # Nicknames
- nick_dir:0 "Dir"
  nick_noisy:0 "the Noisy"
  # Character names (Slavic)
  Godslav:0 "Godslav"
@@ -49,12 +48,23 @@
  Pereslav:0 "Pereslav"
  Radimil:0 "Radimil"
  Chestimir:0 "Chestimir"
+ Burivoy:0 "Burivoy"
+ Radimila:0 "Radimila"
+ Berislava:0 "Berislava"
+ Veselina:0 "Veselina"
+ Gostimira:0 "Gostimira"
+ Darina:0 "Darina"
+ Krizana:0 "Krizana"
+ Milana:0 "Milana"
  # Character names (Norse)
  Ascrida:0 "Ascrida"
  Ragnhilda:0 "Ragnhilda"
  Groa:0 "Groa"
  # Dynasties
  dynn_Ilmersky:0 "Ilmersky"
+ dynn_Urmansky:0 "Urmansky"
+ dynn_Dirovich:0 "Dirovich"
+ dynn_Rerek:0 "Rerekid"
  # Cultural
  krivichsian:0 "Krivichsk"
  krivichsian_collective_noun:0 "Krivichi"
@@ -68,11 +78,6 @@
  radimichian_collective_noun:0 "Radimichs"
  dregovichian:0 "Dregovichsk"
  dregovichian_collective_noun:0 "Dregoviches"
- rujanian:0 "Ruyansk"
- rujanian_collective_noun:0 "Rujani"
- # Cultural titles
- cn_rugia:0 "Rugia"
- cn_rugia_adj:0 "Rugiysk"
  # Cultural innovations
  innovation_rook:0 "Rooks"
  innovation_rook_desc:0 "Rook - is a slavic full-flowing sailing-rowing sea and river vessel intended for civil and military purposes."
@@ -82,6 +87,7 @@
  doctrine_polyamory_name:0 "Polyamory"
  doctrine_polyamory_desc:0 "Rejecting prejudices and the idea that one person can satisfy all the feelings and desires of another, we are ready to form an alliance between several participants. In words, such a union looks ideal, but always fraught with danger in the form of competition between spouses."
  doctrine_polyamory_accepted_desc:0 "Incompatible with any [doctrine|E] that makes adultery [shunned|E] or [criminal|E]. Our love for each other should be as unconditional as [ROOT.Faith.FertilityGodNamePossessive] love for us."
+ holy_order_white_vityazi:0 "White vityazs"
  # Russian titulature
  unoccupied_free_land:0 "Free land of"
  russian_barony_pogost:0 "Pogost of"
@@ -158,14 +164,15 @@
  # Traits
  trait_witch_female:0 "Witch"
  trait_witch_male:0 "Sorcerer"
- trait_rus_mod_virgin:0 "Sworn virgin"
- trait_rus_mod_virgin_desc:0 "A character voluntarily taken the oath of celibacy."
- trait_rus_mod_virgin_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] took an oath of celibacy."
  # Rurik event
  restore_ladoga_decision:0 "Complete the restoration of Ladoga"
- restore_ladoga_decision_desc:0 "I remember this small wooden fortress, which my squad and I erected in Ladoga, it has now become a stronghold and protection for the oppressed inhabitants. Tired of strife, taxes and injustice, people finally found the peace they deserved. This place is of strategic importance, after the fire and plundering of Ladoga, fur trade decreased throughout the region. It's time to finish what we started in the past and fortify these lands, we just need to bring some building materials there to build new watchtowers and repair the old harbor, of course, to me will need to pay the right people for the work. I'm sure this place will regain its old glory!"
+ restore_ladoga_decision_desc:0 "I remember this small settlement, in which we settled down with a retinue and tribesmen, when we arrived in these lands. Now this place has once again become a stronghold and protection for many oppressed inhabitants. Tired of civil strife, taxes and injustice, people finally found a well-deserved peace. This settlement is located on an important trade route and is of strategic importance, after the fire and plundering of Ladoga, the fur trade decreased on the great baltic-volga trade route. It's time to finish what we started in the past, build fortifications and protect these lands from future threats. I'm sure this place will regain its former glory!"
  restore_ladoga_decision_tooltip:0 "I have incomplete work from the past, that needs my attention"
  restore_ladoga_decision_confirm:0 "Strengthen the Ladoga village"
+ birth_of_new_russian_culture_decision:0 "Union local cultures"
+ birth_of_new_russian_culture_decision_confirm:0 "Proclaim unity"
+ birth_of_new_russian_culture_decision_tooltip:0 "Enough controversy! We are one people, ready to unite and give birth to a new culture "
+ birth_of_new_russian_culture_decision_desc:0 "The lands to which I am called to rule are attracting more and more people from different cultures, active trade contributes to the intertwining of languages and customs, people peacefully coexist here for many years. It is no longer possible to stand aside, the time has come for serious decisions, when I will unite everyone, and the Rus tribe will be at the head."
  rurik_life_and_death.0001.t:0 "The same one night awaits everyone"
  rurik_life_and_death.0001.desc:0 "A quiet whisper followed me all the time during the day, it called and beckoned me. The day ended and the sunset illuminated the sky, shimmering and playing with different colors. I felt that life was leaving with the sun leaving the horizon, glancing first at the door, and then at my palms, darkness enveloped my eyes, it seems my time had come and I’m not afraid to die..."
  rurik_life_and_death.0001.a:0 "Rurik takes his last breath"

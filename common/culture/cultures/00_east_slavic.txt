@@ -220,7 +220,7 @@
 			Yelizaveta Yevdokia Yevpraxia Feodora Feodosia Fevronia Gorislava Gradislava Gremislava Irina Xenia Liubava
 			Liudmila Malfrida Malusha Maria Marina Olena Olga Pereyaslava Praskovya Praxida Prebrana Predslava Premyslava
 			Pribislava Rogneda Rostislava Sbyslava Sofia Sviatoslava Tatyana Ulita Ulyana Varvara Vasilisa Veleslava Verkhoslava
-			Vseslava Viacheslava Yaroslava Zabava Zvenislava
+			Vseslava Viacheslava Yaroslava Zabava Zvenislava Vera Radimila Berislava Veselina Gostimira Darina Dobrohneva Zlata Krizana Lada Milana
 		}
 		dynasty_of_location_prefix = "dynnp_of"
 		
@@ -272,12 +272,13 @@
 			Briachislav Demid Dobrynia Fedot Gleb Igor Iliya Iziaslav Lev Mitrofan Mstislav
 			Nikita Putiata Radoslav Rodislav Rogvolod Rostislav Ruslan Stanislav Sudislav Svetozar Sviatopolk Sviatoslav Terentiy Trifon Viacheslav Vladimir Vladislav Voislav Volodar Vseslav
 			Vsevolod Vyshata Vysheslav Yaropolk Yaroslav Yefimiy Yelisey Yeremey Yevstafiy
+			Velimudr Lyubomil Bratimir Vedomir Godislav Gorisvet Gostislav Hostimir Dalebor Danislav Daromir Daromysl Dobrovit Zvenimir Ostromysl Pervoslav Peresvet Pereslav Radimil Chestimir
 		}
 		female_names = {
 			Boleslava Darya Dobrava Dobronega Dobroslava Yefimia Yefrosinia Fevronia Gorislava Gradislava Gremislava
 			Liubava Liudmila Malfrida Malusha Maria Marina Olena Olga Pereyaslava Praskovya Praxida Prebrana Predslava
 			Premyslava Pribislava Rogneda Rostislava Sbyslava Sviatoslava Tatyana Ulita Ulyana Varvara Vasilisa Veleslava Verkhoslava
-			Vseslava Viacheslava Yaroslava Zabava Zvenislava
+			Vseslava Viacheslava Yaroslava Zabava Zvenislava Vera Radimila Berislava Veselina Gostimira Darina Dobrohneva Zlata Krizana Lada Milana
 		}
 		dynasty_of_location_prefix = "dynnp_of"
 		
@@ -328,12 +329,13 @@
 			Briachislav Demid Dobrynia Fedot Gleb Igor Iliya Iziaslav Lev Mitrofan Mstislav
 			Nikita Putiata Radoslav Rodislav Rogvolod Rostislav Ruslan Stanislav Sudislav Svetozar Sviatopolk Sviatoslav Terentiy Trifon Viacheslav Vladimir Vladislav Voislav Volodar Vseslav
 			Vsevolod Vyshata Vysheslav Yaropolk Yaroslav Yefimiy Yelisey Yeremey Yevstafiy
+			Velimudr Lyubomil Bratimir Vedomir Godislav Gorisvet Gostislav Hostimir Dalebor Danislav Daromir Daromysl Dobrovit Zvenimir Ostromysl Pervoslav Peresvet Pereslav Radimil Chestimir
 		}
 		female_names = {
 			Boleslava Darya Dobrava Dobronega Dobroslava Yefimia Yefrosinia Fevronia Gorislava Gradislava Gremislava
 			Liubava Liudmila Malfrida Malusha Maria Marina Olena Olga Pereyaslava Praskovya Praxida Prebrana Predslava
 			Premyslava Pribislava Rogneda Rostislava Sbyslava Sviatoslava Tatyana Ulita Ulyana Varvara Vasilisa Veleslava Verkhoslava
-			Vseslava Viacheslava Yaroslava Zabava Zvenislava
+			Vseslava Viacheslava Yaroslava Zabava Zvenislava Vera Radimila Berislava Veselina Gostimira Darina Dobrohneva Zlata Krizana Lada Milana
 		}
 		dynasty_of_location_prefix = "dynnp_of"
 		
@@ -383,12 +385,13 @@
 			Briachislav Demid Dobrynia Fedot Gleb Igor Iliya Iziaslav Lev Mitrofan Mstislav
 			Nikita Putiata Radoslav Rodislav Rogvolod Rostislav Ruslan Stanislav Sudislav Svetozar Sviatopolk Sviatoslav Terentiy Trifon Viacheslav Vladimir Vladislav Voislav Volodar Vseslav
 			Vsevolod Vyshata Vysheslav Yaropolk Yaroslav Yefimiy Yelisey Yeremey Yevstafiy
+			Velimudr Lyubomil Bratimir Vedomir Godislav Gorisvet Gostislav Hostimir Dalebor Danislav Daromir Daromysl Dobrovit Zvenimir Ostromysl Pervoslav Peresvet Pereslav Radimil Chestimir
 		}
 		female_names = {
 			Boleslava Darya Dobrava Dobronega Dobroslava Yefimia Yefrosinia Fevronia Gorislava Gradislava Gremislava
 			Liubava Liudmila Malfrida Malusha Maria Marina Olena Olga Pereyaslava Praskovya Praxida Prebrana Predslava
 			Premyslava Pribislava Rogneda Rostislava Sbyslava Sviatoslava Tatyana Ulita Ulyana Varvara Vasilisa Veleslava Verkhoslava
-			Vseslava Viacheslava Yaroslava Zabava Zvenislava
+			Vseslava Viacheslava Yaroslava Zabava Zvenislava Vera Radimila Berislava Veselina Gostimira Darina Dobrohneva Zlata Krizana Lada Milana
 		}
 		dynasty_of_location_prefix = "dynnp_of"
 		
@@ -438,12 +441,13 @@
 			Briachislav Demid Dobrynia Fedot Gleb Igor Iliya Iziaslav Lev Mitrofan Mstislav
 			Nikita Putiata Radoslav Rodislav Rogvolod Rostislav Ruslan Stanislav Sudislav Svetozar Sviatopolk Sviatoslav Terentiy Trifon Viacheslav Vladimir Vladislav Voislav Volodar Vseslav
 			Vsevolod Vyshata Vysheslav Yaropolk Yaroslav Yefimiy Yelisey Yeremey Yevstafiy
+			Velimudr Lyubomil Bratimir Vedomir Godislav Gorisvet Gostislav Hostimir Dalebor Danislav Daromir Daromysl Dobrovit Zvenimir Ostromysl Pervoslav Peresvet Pereslav Radimil Chestimir
 		}
 		female_names = {
 			Boleslava Darya Dobrava Dobronega Dobroslava Yefimia Yefrosinia Fevronia Gorislava Gradislava Gremislava
 			Liubava Liudmila Malfrida Malusha Maria Marina Olena Olga Pereyaslava Praskovya Praxida Prebrana Predslava
 			Premyslava Pribislava Rogneda Rostislava Sbyslava Sviatoslava Tatyana Ulita Ulyana Varvara Vasilisa Veleslava Verkhoslava
-			Vseslava Viacheslava Yaroslava Zabava Zvenislava
+			Vseslava Viacheslava Yaroslava Zabava Zvenislava Vera Radimila Berislava Veselina Gostimira Darina Dobrohneva Zlata Krizana Lada Milana
 		}
 		dynasty_of_location_prefix = "dynnp_of"
 		
@@ -493,12 +497,13 @@
 			Briachislav Demid Dobrynia Fedot Gleb Igor Iliya Iziaslav Lev Mitrofan Mstislav
 			Nikita Putiata Radoslav Rodislav Rogvolod Rostislav Ruslan Stanislav Sudislav Svetozar Sviatopolk Sviatoslav Terentiy Trifon Viacheslav Vladimir Vladislav Voislav Volodar Vseslav
 			Vsevolod Vyshata Vysheslav Yaropolk Yaroslav Yefimiy Yelisey Yeremey Yevstafiy
+			Velimudr Lyubomil Bratimir Vedomir Godislav Gorisvet Gostislav Hostimir Dalebor Danislav Daromir Daromysl Dobrovit Zvenimir Ostromysl Pervoslav Peresvet Pereslav Radimil Chestimir
 		}
 		female_names = {
 			Boleslava Darya Dobrava Dobronega Dobroslava Yefimia Yefrosinia Fevronia Gorislava Gradislava Gremislava
 			Liubava Liudmila Malfrida Malusha Maria Marina Olena Olga Pereyaslava Praskovya Praxida Prebrana Predslava
 			Premyslava Pribislava Rogneda Rostislava Sbyslava Sviatoslava Tatyana Ulita Ulyana Varvara Vasilisa Veleslava Verkhoslava
-			Vseslava Viacheslava Yaroslava Zabava Zvenislava
+			Vseslava Viacheslava Yaroslava Zabava Zvenislava Vera Radimila Berislava Veselina Gostimira Darina Dobrohneva Zlata Krizana Lada Milana
 		}
 		dynasty_of_location_prefix = "dynnp_of"
 		
@@ -548,12 +553,13 @@
 			Briachislav Demid Dobrynia Fedot Gleb Igor Iliya Iziaslav Lev Mitrofan Mstislav
 			Nikita Putiata Radoslav Rodislav Rogvolod Rostislav Ruslan Stanislav Sudislav Svetozar Sviatopolk Sviatoslav Terentiy Trifon Viacheslav Vladimir Vladislav Voislav Volodar Vseslav
 			Vsevolod Vyshata Vysheslav Yaropolk Yaroslav Yefimiy Yelisey Yeremey Yevstafiy
+			Velimudr Lyubomil Bratimir Vedomir Godislav Gorisvet Gostislav Hostimir Dalebor Danislav Daromir Daromysl Dobrovit Zvenimir Ostromysl Pervoslav Peresvet Pereslav Radimil Chestimir
 		}
 		female_names = {
 			Boleslava Darya Dobrava Dobronega Dobroslava Yefimia Yefrosinia Fevronia Gorislava Gradislava Gremislava
 			Liubava Liudmila Malfrida Malusha Maria Marina Olena Olga Pereyaslava Praskovya Praxida Prebrana Predslava
 			Premyslava Pribislava Rogneda Rostislava Sbyslava Sviatoslava Tatyana Ulita Ulyana Varvara Vasilisa Veleslava Verkhoslava
-			Vseslava Viacheslava Yaroslava Zabava Zvenislava
+			Vseslava Viacheslava Yaroslava Zabava Zvenislava Vera Radimila Berislava Veselina Gostimira Darina Dobrohneva Zlata Krizana Lada Milana
 		}
 		dynasty_of_location_prefix = "dynnp_of"
 		
@@ -603,12 +609,13 @@
 			Briachislav Demid Dobrynia Fedot Gleb Igor Iliya Iziaslav Lev Mitrofan Mstislav
 			Nikita Putiata Radoslav Rodislav Rogvolod Rostislav Ruslan Stanislav Sudislav Svetozar Sviatopolk Sviatoslav Terentiy Trifon Viacheslav Vladimir Vladislav Voislav Volodar Vseslav
 			Vsevolod Vyshata Vysheslav Yaropolk Yaroslav Yefimiy Yelisey Yeremey Yevstafiy
+			Velimudr Lyubomil Bratimir Vedomir Godislav Gorisvet Gostislav Hostimir Dalebor Danislav Daromir Daromysl Dobrovit Zvenimir Ostromysl Pervoslav Peresvet Pereslav Radimil Chestimir
 		}
 		female_names = {
 			Boleslava Darya Dobrava Dobronega Dobroslava Yefimia Yefrosinia Fevronia Gorislava Gradislava Gremislava
 			Liubava Liudmila Malfrida Malusha Maria Marina Olena Olga Pereyaslava Praskovya Praxida Prebrana Predslava
 			Premyslava Pribislava Rogneda Rostislava Sbyslava Sviatoslava Tatyana Ulita Ulyana Varvara Vasilisa Veleslava Verkhoslava
-			Vseslava Viacheslava Yaroslava Zabava Zvenislava
+			Vseslava Viacheslava Yaroslava Zabava Zvenislava Vera Radimila Berislava Veselina Gostimira Darina Dobrohneva Zlata Krizana Lada Milana
 		}
 		dynasty_of_location_prefix = "dynnp_of"
 		
@@ -659,12 +666,13 @@
 			Briachislav Demid Dobrynia Fedot Gleb Igor Iliya Iziaslav Lev Mitrofan Mstislav
 			Nikita Putiata Radoslav Rodislav Rogvolod Rostislav Ruslan Stanislav Sudislav Svetozar Sviatopolk Sviatoslav Terentiy Trifon Viacheslav Vladimir Vladislav Voislav Volodar Vseslav
 			Vsevolod Vyshata Vysheslav Yaropolk Yaroslav Yefimiy Yelisey Yeremey Yevstafiy
+			Velimudr Lyubomil Bratimir Vedomir Godislav Gorisvet Gostislav Hostimir Dalebor Danislav Daromir Daromysl Dobrovit Zvenimir Ostromysl Pervoslav Peresvet Pereslav Radimil Chestimir
 		}
 		female_names = {
 			Boleslava Darya Dobrava Dobronega Dobroslava Yefimia Yefrosinia Fevronia Gorislava Gradislava Gremislava
 			Liubava Liudmila Malfrida Malusha Maria Marina Olena Olga Pereyaslava Praskovya Praxida Prebrana Predslava
 			Premyslava Pribislava Rogneda Rostislava Sbyslava Sviatoslava Tatyana Ulita Ulyana Varvara Vasilisa Veleslava Verkhoslava
-			Vseslava Viacheslava Yaroslava Zabava Zvenislava
+			Vseslava Viacheslava Yaroslava Zabava Zvenislava Vera Radimila Berislava Veselina Gostimira Darina Dobrohneva Zlata Krizana Lada Milana
 		}
 		dynasty_of_location_prefix = "dynnp_of"
 		
@@ -714,12 +722,13 @@
 			Briachislav Demid Dobrynia Fedot Gleb Igor Iliya Iziaslav Lev Mitrofan Mstislav
 			Nikita Putiata Radoslav Rodislav Rogvolod Rostislav Ruslan Stanislav Sudislav Svetozar Sviatopolk Sviatoslav Terentiy Trifon Viacheslav Vladimir Vladislav Voislav Volodar Vseslav
 			Vsevolod Vyshata Vysheslav Yaropolk Yaroslav Yefimiy Yelisey Yeremey Yevstafiy
+			Velimudr Lyubomil Bratimir Vedomir Godislav Gorisvet Gostislav Hostimir Dalebor Danislav Daromir Daromysl Dobrovit Zvenimir Ostromysl Pervoslav Peresvet Pereslav Radimil Chestimir
 		}
 		female_names = {
 			Boleslava Darya Dobrava Dobronega Dobroslava Yefimia Yefrosinia Fevronia Gorislava Gradislava Gremislava
 			Liubava Liudmila Malfrida Malusha Maria Marina Olena Olga Pereyaslava Praskovya Praxida Prebrana Predslava
 			Premyslava Pribislava Rogneda Rostislava Sbyslava Sviatoslava Tatyana Ulita Ulyana Varvara Vasilisa Veleslava Verkhoslava
-			Vseslava Viacheslava Yaroslava Zabava Zvenislava
+			Vseslava Viacheslava Yaroslava Zabava Zvenislava Vera Radimila Berislava Veselina Gostimira Darina Dobrohneva Zlata Krizana Lada Milana
 		}
 		dynasty_of_location_prefix = "dynnp_of"
 		

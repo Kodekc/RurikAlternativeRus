@@ -3,3 +3,18 @@
 	name = "dynn_Ilmersky"
 	culture = "ilmenian"
 }
+
+2021002 = {
+	name = "dynn_Dirovich"
+	culture = "polansian"
+}
+
+2021003 = {
+	name = "dynn_Rerek"
+	culture = "polansian"
+}
+
+2021004 = {
+	name = "dynn_Urmansky"
+	culture = "pommeranian"
+}

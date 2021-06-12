@@ -1095,7 +1095,6 @@ colored_emblem_texture_lists = {
 			1000 = "rus_mod_mokosh.dds"
 			1000 = "rus_mod_rod.dds"
 			1000 = "rus_mod_rod_2.dds"
-			1000 = "rus_mod_rod.dds"
 			1000 = "rus_mod_star_lada.dds"
 			1000 = "rus_mod_stribog.dds"
 			1000 = "rus_mod_triglav.dds"

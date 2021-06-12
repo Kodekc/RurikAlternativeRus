@@ -43,6 +43,11 @@ k_ruthenia = {
 	}
 }
 
+b_bilhorod = {
+	860.1.1 = {
+		holder = 6871 # Dir	
+	}
+}
 
 d_kiev = {
 	###Pre-Kievan Rus'
@@ -52,7 +57,7 @@ d_kiev = {
 		succession_laws = { veche_elective_succession_law }
 	}
 	860.1.1 = {
-		holder = 6811 # Dyre	
+		holder = 6811 # Askold	
 	}
 	
 	###Kievan Rus'

@@ -1,7 +1,7 @@
 ﻿restore_ladoga_decision = {
 	picture = "gfx/interface/illustrations/decisions/decision_restore_ladoga.dds"
 	major = yes
-	ai_check_interval = 6
+	ai_goal = yes
 
 	desc = restore_ladoga_decision_desc
 	selection_tooltip = restore_ladoga_decision_tooltip
@@ -119,4 +119,60 @@ hire_physician_decision = {
 			add = -20
 			has_trait = lazy
 		}
+	}
+}
+
+### The birth of Rus ###
+birth_of_new_russian_culture_decision = {
+	picture = "gfx/interface/illustrations/decisions/decision_rus_culture.dds"
+	major = yes
+	ai_goal = yes
+
+	desc = birth_of_new_russian_culture_decision_desc
+	selection_tooltip = birth_of_new_russian_culture_decision_tooltip
+
+	is_shown = {
+		this = character:40605
+		has_title = title:d_novgorod
+		NOT = { culture = culture:russian }
+		NAND = {
+			is_ai = yes
+			OR = {
+				has_character_flag = converted_culture_this_lifetime
+				has_character_flag = converted_culture_this_lifetime_ai
+			}
+		}
+	}
+	
+	is_valid = {
+		prestige_level >= 1
+		is_independent_ruler = yes
+	}
+	
+	is_valid_showing_failures_only = {
+		is_at_war = no
+		is_imprisoned = no
+		is_ruler = yes
+		is_available_adult = yes
+	}
+
+	cost = {
+		prestige = convert_to_local_culture_base_cost
+	}
+
+	effect = {
+		convert_family_culture_and_notify_vassals_effect = {
+			CONVERTER = root
+			OLD_CULTURE = root.culture
+			NEW_CULTURE = culture:russian
+			}
+		}
+
+	ai_potential = {
+		is_landed = yes
+	}
+
+	ai_will_do = {
+		base = 100
+	}
 }

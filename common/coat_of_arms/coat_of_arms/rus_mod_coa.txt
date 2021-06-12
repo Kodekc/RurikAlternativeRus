@@ -1,7 +1,11 @@
+#Rurik: Alternative Rus (Autor: Kodeks)
 705 = { # Rurikid
 	pattern = "pattern_solid.dds"
 	color1 = "blue"
-	textured_emblem = {
+	color2 = "blue"
+	colored_emblem = {
 		texture = "rus_mod_rurikid.dds"
-	}
+		color1 = "yellow"
+		color2 = "yellow"			
+	}	
 }

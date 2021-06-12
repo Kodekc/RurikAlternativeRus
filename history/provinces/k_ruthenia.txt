@@ -36,9 +36,13 @@
 	}
 }
 5083 = {	#Bilhorod
-	holding = none
-	980.1.1 = {
+	867.1.1 = {
 		holding = castle_holding
+	}
+	980.1.1 = {
+		buildings = {
+			palisades_01
+		}
 	}
 }
 5084 = {	#Yuriev

@@ -97,7 +97,7 @@
 	}
 	1015.7.15 = {
 		give_nickname = nick_the_great						
-		death = "1015.7.15"
+		death = yes
 	}
 }
 	

@@ -2951,31 +2951,26 @@
 	father = 168323
 	mother = 168649
 	850.1.1 = {
-		give_nickname = nick_fairhair
+		give_nickname = nick_tanglehair
 		birth = "850.1.1"
 		effect = {
 			add_character_flag = has_scripted_appearance
 		}	
 	}
+	865.1.1 = {
+		effect = {
+			# Stuck with the cut hair.
+			add_character_modifier = harald_tanglehairs_vow_modifier
+		}
+	}			
 	867.1.1 = {
 		add_spouse = 6862
 		effect = {
 			add_prestige = 400
-			## TODO_CD: Check if these units are from raiding or a war. If raiding, delete. If war, set up in the war history instead of here.
-			#spawn_unit = {
-			#	province = 272 # Akershus
-			#	owner = ROOT
-			#	#leader = ROOT
-			#	troops = {
-			#		light_infantry = { 115 115 }
-			#		heavy_infantry = { 6 6 }
-			#		archers = { 34 34 }
-			#	}
-			#	attrition = 1.0
-			#}
 		}
 	}
 	872.1.1 = {
+		give_nickname = nick_fairhair					   
 		add_concubine = 166044
 	}
 	893.1.1 = {

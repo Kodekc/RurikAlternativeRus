@@ -33,23 +33,3 @@ can_traverse_river = {
 		}
 	}
 }
-
-# Determines if a character may be appointed as a knight. Checked during automatic knight assignment
-# Root is the potential knight
-can_be_knight = {
-	trigger_if = {
-		limit = { 
-			OR = {
-				is_landed = no
-				root = root.court_owner
-				has_trait = brave
-				prowess >= 5
-			}
-			NOT = { exists = liege } 
-		}
-		can_be_knight_trigger = { ARMY_OWNER = root.court_owner }
-	} 
-	trigger_else = {
-		can_be_knight_trigger = { ARMY_OWNER = liege }
-	}
-}
